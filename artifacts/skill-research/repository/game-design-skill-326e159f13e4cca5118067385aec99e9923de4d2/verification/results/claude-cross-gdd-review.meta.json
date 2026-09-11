@@ -1,0 +1,14 @@
+{
+  "platform": "claude",
+  "platform_version": "2.1.216 (Claude Code)",
+  "case": "cross-gdd-review",
+  "requested_model": "sonnet",
+  "case_path": "verification/cases/cross-gdd-review.md",
+  "working_directory": "C:\\Users\\GJM258\\JtheWLToolBox\\game-design-skill",
+  "returncode": 124,
+  "timed_out": true,
+  "timeout_seconds": 360,
+  "elapsed_seconds": 360.229,
+  "stdout": "verification/results/claude-cross-gdd-review.stdout",
+  "stderr": "verification/results/claude-cross-gdd-review.stderr"
+}

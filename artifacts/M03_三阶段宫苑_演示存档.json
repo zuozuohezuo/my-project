@@ -1,0 +1,442 @@
+{
+  "save_version": 3,
+  "config": {
+    "edicts_per_turn": 3,
+    "health_ap_thresholds": [
+      [
+        0,
+        10
+      ],
+      [
+        40,
+        20
+      ],
+      [
+        80,
+        30
+      ]
+    ],
+    "initial_health": 100,
+    "initial_year": 1500,
+    "initial_month": 1,
+    "initial_xun": 1,
+    "tax_cooldown_turns": 3,
+    "seed": 1500,
+    "turn_rules_version": 3
+  },
+  "state": {
+    "year": 1500,
+    "month": 1,
+    "xun": 1,
+    "turn_index": 0,
+    "scenario_profile": {
+      "scenario_name": "M03 · 三阶段试玩",
+      "emperor_name": "朱祐樘",
+      "era_name": "弘治",
+      "era_start_year": 1488
+    },
+    "emperor": {
+      "attributes": {
+        "logic": 50,
+        "emotional_intelligence": 50,
+        "memory": 50,
+        "insight": 50,
+        "creativity": 50,
+        "strength": 50,
+        "constitution": 50,
+        "agility": 50,
+        "perception": 50,
+        "appearance": 50,
+        "self_discipline": 50,
+        "emotional_resilience": 50,
+        "courage": 50
+      },
+      "skills": {
+        "administration": 0,
+        "military_strategy": 0,
+        "people_reading": 0,
+        "rhetoric": 0,
+        "calligraphy": 0,
+        "scholarship": 0
+      },
+      "traits": [],
+      "pressure": 0,
+      "body_conditions": [],
+      "modifiers": [],
+      "personality": {
+        "benevolence": 50,
+        "trust": 50,
+        "tradition": 50,
+        "luxury": 50,
+        "control": 50,
+        "humility": 50,
+        "partiality": 50,
+        "integrity": 50,
+        "sociability": 50
+      },
+      "objectives": []
+    },
+    "phase": "executing",
+    "health": 100,
+    "ap_capacity": 30,
+    "work_budget": 13,
+    "activity_cursor": 2,
+    "turn_stage": "private",
+    "stage_initial_work_budget": 20,
+    "stage_transfers": [
+      {
+        "turn": 0,
+        "amount": 7,
+        "work_before": 20,
+        "work_after": 13,
+        "affected_activity_ids": [
+          "activity-3"
+        ]
+      }
+    ],
+    "emergency_timing": {
+      "event-4": {
+        "attempts": [
+          {
+            "turn": 0,
+            "stage": "work",
+            "budget": 15,
+            "threshold": 8,
+            "floor": 0,
+            "seed": 1500,
+            "draw_index": null,
+            "initial_work_budget": 15,
+            "status": "delivered",
+            "reason": "工作阶段达到最初预算中点，在已提交时间段的安全点送达"
+          }
+        ]
+      }
+    },
+    "activities": [
+      {
+        "id": "activity-1",
+        "kind": "court",
+        "status": "completed",
+        "cost": 5,
+        "spent_ap": 5,
+        "stage": "completed",
+        "scene": {
+          "title": "奉天殿 · 早朝",
+          "text": "群臣列班，依次奏事。你可继续听取议题，也可下达诏令；诸事议毕后散朝。",
+          "choices": []
+        },
+        "summary": "早朝结束，固定投入5 AP，处理0项待办；政令另记诏令簿。",
+        "appointment_id": null,
+        "parameters": {}
+      },
+      {
+        "id": "activity-3",
+        "kind": "paperwork",
+        "status": "stopped",
+        "cost": 15,
+        "spent_ap": 8,
+        "stage": "stopped",
+        "scene": {
+          "queue": [
+            "work-demo-2"
+          ],
+          "title": "批阅章奏",
+          "text": "已投入 8／15 AP；每AP可推进约1工作量。当前待办：会核河工勘报。",
+          "choices": [],
+          "work_done": 8.0
+        },
+        "summary": "提前结束批阅章奏，保留已投入8 AP及实际进度；未完成整项活动。",
+        "appointment_id": null,
+        "parameters": {}
+      },
+      {
+        "id": "activity-5",
+        "kind": "garden",
+        "status": "in_progress",
+        "cost": 1,
+        "spent_ap": 1,
+        "stage": "explore",
+        "scene": {
+          "visits": [
+            "flowers"
+          ],
+          "opportunities": 1,
+          "title": "御花园 · 随步而行",
+          "text": "本次还有1次探索机会。各去处仅可访问一次；互动不另收AP。",
+          "choices": [
+            {
+              "id": "pond",
+              "label": "到池畔观鱼"
+            },
+            {
+              "id": "pavilion",
+              "label": "到亭中听风"
+            },
+            {
+              "id": "leave",
+              "label": "结束游赏"
+            }
+          ]
+        },
+        "summary": "",
+        "appointment_id": null,
+        "parameters": {}
+      }
+    ],
+    "completion_records": [
+      {
+        "id": "completion-2",
+        "turn": 0,
+        "activity_id": "activity-1",
+        "activity_kind": "court",
+        "summary": "早朝结束，固定投入5 AP，处理0项待办；政令另记诏令簿。",
+        "spent_ap": 5,
+        "settled": false
+      }
+    ],
+    "objective_record_starts": {},
+    "work_items": [
+      {
+        "id": "work-demo-1",
+        "title": "核阅地方仓储奏报",
+        "kind": "paperwork",
+        "complexity": 4,
+        "progress": 4.0,
+        "status": "completed"
+      },
+      {
+        "id": "work-demo-2",
+        "title": "会核河工勘报",
+        "kind": "paperwork",
+        "complexity": 7,
+        "progress": 4.0,
+        "status": "in_progress"
+      },
+      {
+        "id": "work-demo-3",
+        "title": "听取吏部用人陈述",
+        "kind": "audience",
+        "complexity": 5,
+        "progress": 0,
+        "status": "pending"
+      },
+      {
+        "id": "work-demo-4",
+        "title": "审阅宫苑修葺清册",
+        "kind": "palace",
+        "complexity": 4,
+        "progress": 0,
+        "status": "pending"
+      },
+      {
+        "id": "work-6",
+        "title": "花径修葺请托",
+        "kind": "palace",
+        "complexity": 2,
+        "progress": 0,
+        "status": "pending"
+      }
+    ],
+    "appointments": [],
+    "appointment_consequences": [],
+    "court_open": false,
+    "edict_limit": 3,
+    "edict_available": 3,
+    "edict_debt": 0,
+    "edicts_spent_this_turn": 0,
+    "month_plan": [],
+    "emergencies": [
+      {
+        "id": "event-4",
+        "title": "演示急报 · 边关请示",
+        "description": "工作阶段中间收到的示范急报。",
+        "trigger_turn": 0,
+        "status": "resolved",
+        "allowed_commands": [
+          "emergency_response"
+        ],
+        "replacement_activity_id": null,
+        "demo": true
+      }
+    ],
+    "active_emergency_id": null,
+    "pending_command": null,
+    "cooldowns": {},
+    "command_ledger": [],
+    "policy_settings": {},
+    "pending_effects": [
+      {
+        "turn": 0,
+        "kind": "activity_effect",
+        "activity_id": "activity-1",
+        "activity_kind": "court",
+        "status": "not_simulated"
+      }
+    ],
+    "logs": [
+      {
+        "turn": 0,
+        "label": "开局",
+        "message": "建立演示存档；世界数值模拟尚未启用。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 0,
+        "label": "旬开始",
+        "message": "按早朝、工作、私生活依次推进；未预排的时间进入相应阶段后再决定。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 0,
+        "label": "活动开始",
+        "message": "第1项：早朝，预留5 AP。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 0,
+        "label": "活动完成",
+        "message": "早朝结束，固定投入5 AP，处理0项待办；政令另记诏令簿。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 0,
+        "label": "阶段安排",
+        "message": "在工作阶段安排批阅章奏，预留15 AP。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 0,
+        "label": "活动开始",
+        "message": "第2项：批阅章奏，预留15 AP。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 0,
+        "label": "演示急报",
+        "message": "已手动登记：演示急报 · 边关请示，触发旬序号0。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 0,
+        "label": "计划暂停",
+        "message": "演示急报 · 边关请示；本旬尚未完成，等待处置。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 0,
+        "label": "急报已处理",
+        "message": "演示急报 · 边关请示；可继续本旬及后续月计划。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 0,
+        "label": "工作转为私生活",
+        "message": "将尚未使用的7 AP转入私生活；已投入的工作进度保留，不记作完整活动完成。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 0,
+        "label": "阶段安排",
+        "message": "在私生活阶段安排宫苑游赏，预留1 AP。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 0,
+        "label": "活动开始",
+        "message": "第3项：宫苑游赏，预留1 AP。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 0,
+        "label": "游赏见闻",
+        "message": "听得花径年久失修，已记入宫廷待办，须在后续工作中处理。",
+        "date": "1500年1月上旬"
+      }
+    ],
+    "world_snapshot": {
+      "scenario": "ming_1500_working_baseline",
+      "reference_year": 1500,
+      "simulation_enabled": false,
+      "regions": [
+        {
+          "id": "beizhili",
+          "name": "北直隶"
+        },
+        {
+          "id": "nanzhili",
+          "name": "南直隶"
+        },
+        {
+          "id": "shandong",
+          "name": "山东"
+        },
+        {
+          "id": "shanxi",
+          "name": "山西"
+        },
+        {
+          "id": "henan",
+          "name": "河南"
+        },
+        {
+          "id": "shaanxi",
+          "name": "陕西"
+        },
+        {
+          "id": "sichuan",
+          "name": "四川"
+        },
+        {
+          "id": "jiangxi",
+          "name": "江西"
+        },
+        {
+          "id": "huguang",
+          "name": "湖广"
+        },
+        {
+          "id": "zhejiang",
+          "name": "浙江"
+        },
+        {
+          "id": "fujian",
+          "name": "福建"
+        },
+        {
+          "id": "guangdong",
+          "name": "广东"
+        },
+        {
+          "id": "guangxi",
+          "name": "广西"
+        },
+        {
+          "id": "yunnan",
+          "name": "云南"
+        },
+        {
+          "id": "guizhou",
+          "name": "贵州"
+        }
+      ],
+      "metrics": {},
+      "notes": "人口、钱粮、民心尚未建模；历史资料独立于运行存档。"
+    },
+    "reports": [],
+    "random_state": {
+      "seed": 1500,
+      "draws": 0
+    },
+    "next_id": 7,
+    "notes": [
+      "健康→行动力阈值为0→10、40→20、80→30，属于可配置演示值。",
+      "每旬3份诏书、改税CD为3旬，属于可配置演示值。",
+      "按早朝、工作、私生活依次推进；活动可预排或进入阶段后选择，早朝每旬默认安排且可取消。",
+      "诏书透支先扣下一旬额度；若债务超过单旬额度，演示暂按逐旬扣还。",
+      "急报仅手动注入演示，不运行自然事件与地方自主决策。",
+      "政令、活动、劝谏惩罚均只记录待模拟效果，不改变健康、钱粮、民心等世界指标。",
+      "留空参数原样保留为委派意图，本版不运行官员补全与决策。",
+      "工作剩余时间可单向转为私生活；急报位置按工作中点或私生活非最后行动排定，并保存送达位置。"
+    ]
+  }
+}

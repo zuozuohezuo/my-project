@@ -1,0 +1,38 @@
+{
+  "name": "game-design-skill",
+  "version": "0.3.0",
+  "description": "Guide game concepts, systems, GDDs, balance, prototypes, playtests, UX, and design reviews with traceable sources.",
+  "author": {
+    "name": "JupiterTheWarlock",
+    "url": "https://github.com/JupiterTheWarlock"
+  },
+  "homepage": "https://github.com/JupiterTheWarlock/game-design-skill",
+  "repository": "https://github.com/JupiterTheWarlock/game-design-skill",
+  "license": "MIT",
+  "keywords": [
+    "game-design",
+    "gdd",
+    "systems-design",
+    "balance",
+    "prototyping",
+    "playtesting"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Game Design Skill",
+    "shortDescription": "Source-grounded game design guidance",
+    "longDescription": "Source-grounded workflows for concepts, pillars, systems, GDDs, balance, prototypes, playtests, UX, accessibility, scope, and design reviews.",
+    "developerName": "JupiterTheWarlock",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/JupiterTheWarlock/game-design-skill",
+    "defaultPrompt": [
+      "Develop the pillars and core loop for this game",
+      "Review this game design document",
+      "Analyze this game's systems and balance"
+    ]
+  }
+}

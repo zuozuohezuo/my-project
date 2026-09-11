@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-marketplace.json",
+  "name": "game-design-skill",
+  "description": "Independent game design plugins for Claude Code and Codex.",
+  "version": "0.3.1",
+  "owner": {
+    "name": "JupiterTheWarlock"
+  },
+  "plugins": [
+    {
+      "name": "game-design-skill",
+      "source": "./plugins/game-design-skill",
+      "description": "Guide game concepts, systems, GDDs, balance, prototypes, playtests, UX, and design reviews with traceable sources.",
+      "version": "0.3.0",
+      "author": {
+        "name": "JupiterTheWarlock"
+      },
+      "license": "MIT",
+      "category": "productivity",
+      "tags": [
+        "game-design",
+        "gdd",
+        "systems-design",
+        "balance",
+        "prototyping",
+        "playtesting",
+        "claude-code",
+        "codex"
+      ]
+    },
+    {
+      "name": "ai-native-game-design",
+      "source": "./plugins/ai-native-game-design",
+      "description": "Design and review runtime AI gameplay, AI NPCs and societies, memory, open narrative, adjudication, safety, prototypes, and playtests.",
+      "version": "0.2.0",
+      "author": {
+        "name": "JupiterTheWarlock"
+      },
+      "license": "MIT",
+      "category": "productivity",
+      "tags": [
+        "ai-native-gameplay",
+        "game-design",
+        "generative-ai",
+        "intelligent-npcs",
+        "ai-companions",
+        "multi-agent-societies",
+        "runtime-generation",
+        "playtesting",
+        "claude-code",
+        "codex"
+      ]
+    }
+  ]
+}

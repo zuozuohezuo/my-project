@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI-Native Game Design"
+  short_description: "Design and review runtime AI gameplay"
+  default_prompt: "Use $ai-native-game-design to design or review this AI-native gameplay concept."

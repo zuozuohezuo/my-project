@@ -1,0 +1,89 @@
+2026-07-23T04:52:07.632196Z  WARN codex_features: unknown feature key in config: rmcp_client
+2026-07-23T04:52:07.636239Z ERROR codex_models_manager::cache: failed to load models cache: missing field `supports_reasoning_summaries` at line 88 column 5
+2026-07-23T04:52:08.567214Z  WARN codex_core_skills::loader: ignoring interface.icon_small: icon path with '..' must resolve under plugin assets/
+2026-07-23T04:52:08.567237Z  WARN codex_core_skills::loader: ignoring interface.icon_large: icon path with '..' must resolve under plugin assets/
+2026-07-23T04:52:08.689285Z  WARN codex_core_plugins::manifest: ignoring interface.defaultPrompt[0]: prompt must be at most 128 characters path=C:\Users\GJM258\.codex\.tmp\plugins\plugins\ngs-analysis\.codex-plugin/plugin.json
+2026-07-23T04:52:08.694504Z  WARN codex_core_plugins::manifest: ignoring interface.defaultPrompt[0]: prompt must be at most 128 characters path=C:\Users\GJM258\.codex\.tmp\plugins\plugins\ngs-analysis\.codex-plugin/plugin.json
+2026-07-23T04:52:08.746918Z  WARN codex_core_plugins::loader: failed to load plugin: plugin is not installed plugin="agenthub-install-ralph@ls-agent-hub" path=C:\Users\GJM258\.codex\plugins\cache\ls-agent-hub\agenthub-install-ralph
+2026-07-23T04:52:10.609622Z  WARN codex_mcp::mcp::auth: failed to determine auth status for MCP server `context7`: failed to parse credentials file at C:\Users\GJM258\.codex\.credentials.json
+
+Caused by:
+    expected value at line 1 column 1
+2026-07-23T04:52:12.508810Z  WARN codex_mcp::mcp::auth: failed to determine auth status for MCP server `vercel`: failed to parse credentials file at C:\Users\GJM258\.codex\.credentials.json
+
+Caused by:
+    expected value at line 1 column 1
+2026-07-23T04:52:14.402654Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell
+2026-07-23T04:52:16.659800Z  WARN codex_rmcp_client::rmcp_client: failed to read tokens for server `context7`: failed to parse credentials file at C:\Users\GJM258\.codex\.credentials.json
+2026-07-23T04:52:16.666203Z  WARN codex_rmcp_client::rmcp_client: failed to read tokens for server `vercel`: failed to parse credentials file at C:\Users\GJM258\.codex\.credentials.json
+2026-07-23T04:52:17.372804Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when AuthRequired(AuthRequiredError { www_authenticate_header: "Bearer error=\"invalid_token\", error_description=\"No authorization provided\", resource_metadata=\"https://mcp.vercel.com/.well-known/oauth-protected-resource\"" })
+2026-07-23T04:52:19.767168Z  WARN codex_core_plugins::marketplace: skipping marketplace plugin with unsupported source path=C:\Users\GJM258\.codex\.tmp\marketplaces\claude-plugins-official\.claude-plugin\marketplace.json plugin="fullstory"
+2026-07-23T04:52:19.767818Z  WARN codex_core_plugins::marketplace: skipping marketplace plugin with unsupported source path=C:\Users\GJM258\.codex\.tmp\marketplaces\claude-plugins-official\.claude-plugin\marketplace.json plugin="jfrog"
+2026-07-23T04:52:19.790048Z  WARN codex_core_plugins::manifest: ignoring interface.defaultPrompt[0]: prompt must be at most 128 characters path=C:\Users\GJM258\.codex\.tmp\plugins\plugins\ngs-analysis\.codex-plugin/plugin.json
+2026-07-23T04:52:19.864375Z  WARN codex_core_skills::loader: ignoring interface.icon_small: icon path with '..' must resolve under plugin assets/
+2026-07-23T04:52:19.864417Z  WARN codex_core_skills::loader: ignoring interface.icon_large: icon path with '..' must resolve under plugin assets/
+2026-07-23T04:52:19.866395Z  WARN codex_core_skills::loader: ignoring interface.icon_small: icon path with '..' must resolve under plugin assets/
+2026-07-23T04:52:19.866440Z  WARN codex_core_skills::loader: ignoring interface.icon_large: icon path with '..' must resolve under plugin assets/
+2026-07-23T04:52:19.868365Z  WARN codex_core_skills::loader: ignoring interface.icon_small: icon path with '..' must resolve under plugin assets/
+2026-07-23T04:52:19.868407Z  WARN codex_core_skills::loader: ignoring interface.icon_large: icon path with '..' must resolve under plugin assets/
+2026-07-23T04:52:19.870794Z  WARN codex_core_skills::loader: ignoring interface.icon_small: icon path with '..' must resolve under plugin assets/
+2026-07-23T04:52:19.870839Z  WARN codex_core_skills::loader: ignoring interface.icon_large: icon path with '..' must resolve under plugin assets/
+2026-07-23T04:52:19.872662Z  WARN codex_core_skills::loader: ignoring interface.icon_small: icon path with '..' must resolve under plugin assets/
+2026-07-23T04:52:19.872706Z  WARN codex_core_skills::loader: ignoring interface.icon_large: icon path with '..' must resolve under plugin assets/
+2026-07-23T04:52:19.874326Z  WARN codex_core_skills::loader: ignoring interface.icon_small: icon path with '..' must resolve under plugin assets/
+2026-07-23T04:52:19.874443Z  WARN codex_core_skills::loader: ignoring interface.icon_large: icon path with '..' must resolve under plugin assets/
+2026-07-23T04:52:27.475838Z  WARN codex_core_plugins::marketplace: skipping marketplace plugin with unsupported source path=C:\Users\GJM258\.codex\.tmp\marketplaces\claude-plugins-official\.claude-plugin\marketplace.json plugin="fullstory"
+2026-07-23T04:52:27.476680Z  WARN codex_core_plugins::marketplace: skipping marketplace plugin with unsupported source path=C:\Users\GJM258\.codex\.tmp\marketplaces\claude-plugins-official\.claude-plugin\marketplace.json plugin="jfrog"
+2026-07-23T04:52:27.504884Z  WARN codex_core_plugins::manifest: ignoring interface.defaultPrompt[0]: prompt must be at most 128 characters path=C:\Users\GJM258\.codex\.tmp\plugins\plugins\ngs-analysis\.codex-plugin/plugin.json
+2026-07-23T04:52:27.542262Z ERROR codex_models_manager::manager: failed to renew cache TTL: missing field `supports_reasoning_summaries` at line 80 column 5
+2026-07-23T04:52:39.243080Z ERROR codex_core::tools::router: error=Exit code: 1
+Wall time: 0.6 seconds
+Output:
+Get-Content : 找不到路径“C:\Users\GJM258\.codex\plugins\cache\game-design-skill\0.2.0\skills\game-design-skill\SKILL.md”，因为该
+路径不存在。
+所在位置 行:2 字符: 1
++ Get-Content -Raw 'C:\Users\GJM258\.codex\plugins\cache\game-design-sk ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\GJM258...-skill\SKILL.md:String) [Get-Content], ItemNotFoundEx 
+   ception
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+ 
+
+2026-07-23T04:52:39.502673Z ERROR codex_core::tools::router: error=Exit code: 1
+Wall time: 0.9 seconds
+Output:
+
+2026-07-23T04:52:39.533487Z  WARN codex_core_plugins::marketplace: skipping marketplace plugin with unsupported source path=C:\Users\GJM258\.codex\.tmp\marketplaces\claude-plugins-official\.claude-plugin\marketplace.json plugin="fullstory"
+2026-07-23T04:52:39.534261Z  WARN codex_core_plugins::marketplace: skipping marketplace plugin with unsupported source path=C:\Users\GJM258\.codex\.tmp\marketplaces\claude-plugins-official\.claude-plugin\marketplace.json plugin="jfrog"
+2026-07-23T04:52:39.552929Z  WARN codex_core_plugins::manifest: ignoring interface.defaultPrompt[0]: prompt must be at most 128 characters path=C:\Users\GJM258\.codex\.tmp\plugins\plugins\ngs-analysis\.codex-plugin/plugin.json
+2026-07-23T04:52:39.575083Z ERROR codex_models_manager::manager: failed to renew cache TTL: missing field `supports_reasoning_summaries` at line 80 column 5
+2026-07-23T04:52:45.438444Z ERROR codex_core::tools::router: error=Exit code: 1
+Wall time: 0.5 seconds
+Output:
+
+2026-07-23T04:52:45.474505Z ERROR codex_core::tools::router: error=Exit code: 1
+Wall time: 0.4 seconds
+Output:
+
+2026-07-23T04:52:45.501364Z  WARN codex_core_plugins::marketplace: skipping marketplace plugin with unsupported source path=C:\Users\GJM258\.codex\.tmp\marketplaces\claude-plugins-official\.claude-plugin\marketplace.json plugin="fullstory"
+2026-07-23T04:52:45.501946Z  WARN codex_core_plugins::marketplace: skipping marketplace plugin with unsupported source path=C:\Users\GJM258\.codex\.tmp\marketplaces\claude-plugins-official\.claude-plugin\marketplace.json plugin="jfrog"
+2026-07-23T04:52:45.519961Z  WARN codex_core_plugins::manifest: ignoring interface.defaultPrompt[0]: prompt must be at most 128 characters path=C:\Users\GJM258\.codex\.tmp\plugins\plugins\ngs-analysis\.codex-plugin/plugin.json
+2026-07-23T04:52:45.540782Z ERROR codex_models_manager::manager: failed to renew cache TTL: missing field `supports_reasoning_summaries` at line 80 column 5
+2026-07-23T04:52:49.941221Z  WARN codex_core_plugins::marketplace: skipping marketplace plugin with unsupported source path=C:\Users\GJM258\.codex\.tmp\marketplaces\claude-plugins-official\.claude-plugin\marketplace.json plugin="fullstory"
+2026-07-23T04:52:49.942102Z  WARN codex_core_plugins::marketplace: skipping marketplace plugin with unsupported source path=C:\Users\GJM258\.codex\.tmp\marketplaces\claude-plugins-official\.claude-plugin\marketplace.json plugin="jfrog"
+2026-07-23T04:52:49.967464Z  WARN codex_core_plugins::manifest: ignoring interface.defaultPrompt[0]: prompt must be at most 128 characters path=C:\Users\GJM258\.codex\.tmp\plugins\plugins\ngs-analysis\.codex-plugin/plugin.json
+2026-07-23T04:52:49.997215Z ERROR codex_models_manager::manager: failed to renew cache TTL: missing field `supports_reasoning_summaries` at line 80 column 5
+2026-07-23T04:52:55.987546Z  WARN codex_core_plugins::marketplace: skipping marketplace plugin with unsupported source path=C:\Users\GJM258\.codex\.tmp\marketplaces\claude-plugins-official\.claude-plugin\marketplace.json plugin="fullstory"
+2026-07-23T04:52:55.988225Z  WARN codex_core_plugins::marketplace: skipping marketplace plugin with unsupported source path=C:\Users\GJM258\.codex\.tmp\marketplaces\claude-plugins-official\.claude-plugin\marketplace.json plugin="jfrog"
+2026-07-23T04:52:56.008414Z  WARN codex_core_plugins::manifest: ignoring interface.defaultPrompt[0]: prompt must be at most 128 characters path=C:\Users\GJM258\.codex\.tmp\plugins\plugins\ngs-analysis\.codex-plugin/plugin.json
+2026-07-23T04:52:56.036117Z ERROR codex_models_manager::manager: failed to renew cache TTL: missing field `supports_reasoning_summaries` at line 80 column 5
+2026-07-23T04:53:07.950746Z  WARN codex_core_plugins::marketplace: skipping marketplace plugin with unsupported source path=C:\Users\GJM258\.codex\.tmp\marketplaces\claude-plugins-official\.claude-plugin\marketplace.json plugin="fullstory"
+2026-07-23T04:53:07.951738Z  WARN codex_core_plugins::marketplace: skipping marketplace plugin with unsupported source path=C:\Users\GJM258\.codex\.tmp\marketplaces\claude-plugins-official\.claude-plugin\marketplace.json plugin="jfrog"
+2026-07-23T04:53:07.971398Z  WARN codex_core_plugins::manifest: ignoring interface.defaultPrompt[0]: prompt must be at most 128 characters path=C:\Users\GJM258\.codex\.tmp\plugins\plugins\ngs-analysis\.codex-plugin/plugin.json
+2026-07-23T04:53:08.002570Z ERROR codex_models_manager::manager: failed to renew cache TTL: missing field `supports_reasoning_summaries` at line 80 column 5
+2026-07-23T04:53:22.323853Z  WARN codex_core_plugins::marketplace: skipping marketplace plugin with unsupported source path=C:\Users\GJM258\.codex\.tmp\marketplaces\claude-plugins-official\.claude-plugin\marketplace.json plugin="fullstory"
+2026-07-23T04:53:22.324456Z  WARN codex_core_plugins::marketplace: skipping marketplace plugin with unsupported source path=C:\Users\GJM258\.codex\.tmp\marketplaces\claude-plugins-official\.claude-plugin\marketplace.json plugin="jfrog"
+2026-07-23T04:53:22.344168Z  WARN codex_core_plugins::manifest: ignoring interface.defaultPrompt[0]: prompt must be at most 128 characters path=C:\Users\GJM258\.codex\.tmp\plugins\plugins\ngs-analysis\.codex-plugin/plugin.json
+2026-07-23T04:53:22.366246Z ERROR codex_models_manager::manager: failed to renew cache TTL: missing field `supports_reasoning_summaries` at line 80 column 5
+2026-07-23T04:55:04.558507Z  WARN codex_mcp::rmcp_client: failed to initialize MCP client during shutdown: MCP startup failed: handshaking with MCP server failed: Send message error Transport [rmcp::transport::worker::WorkerTransport<rmcp::transport::streamable_http_client::StreamableHttpClientWorker<codex_rmcp_client::http_client_adapter::StreamableHttpClientAdapter>>] error: Auth required, when send initialize request
+2026-07-23T04:55:05.086614Z  WARN codex_analytics::client: failed to send events request: error sending request for url (https://chatgpt.com/backend-api/codex/analytics-events/events)

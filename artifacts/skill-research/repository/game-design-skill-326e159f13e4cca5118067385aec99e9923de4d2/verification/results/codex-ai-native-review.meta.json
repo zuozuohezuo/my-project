@@ -1,0 +1,16 @@
+{
+  "platform": "codex",
+  "platform_version": "codex-cli 0.142.0",
+  "case": "ai-native-review",
+  "requested_model": "gpt-5.4",
+  "case_path": "verification/cases/ai-native-review.md",
+  "working_directory": "C:\\Users\\GJM258\\JtheWLToolBox\\game-design-skill",
+  "validation_returncode": 0,
+  "process_returncode": 0,
+  "protocol_completed": true,
+  "timed_out": false,
+  "timeout_seconds": 420,
+  "elapsed_seconds": 196.377,
+  "stdout": "verification/results/codex-ai-native-review.stdout",
+  "stderr": "verification/results/codex-ai-native-review.stderr"
+}

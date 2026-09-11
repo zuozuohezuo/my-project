@@ -1,0 +1,331 @@
+{
+  "metadata": {
+    "schema_version": 1,
+    "scenario_year": 1500,
+    "scenario_era": "弘治十三年（临时开局基准）",
+    "generated_at": "2026-09-06T16:59:08.717511+00:00",
+    "historical_scope": "《明史》地理志跨明代沿革名录；下级行政记录尚未全部回溯到1500年",
+    "coordinate_reference_system": "WGS84 longitude, latitude",
+    "historical_boundaries_available": false,
+    "data_warning": "府州县为史料参考库；禁止把其数量、隶属与万历人口直接用作1500开局实值。",
+    "display_name_conversion": "OpenCC t2s",
+    "record_count": 15
+  },
+  "records": [
+    {
+      "id": "beizhili",
+      "name": "北直隶",
+      "official_name": "京师直隶",
+      "name_original": "京師",
+      "capital": "顺天府",
+      "longitude": 116.394201,
+      "latitude": 39.90172,
+      "modern_reference_city": "Beijing",
+      "source_ids": [
+        "mingshi_40",
+        "mingshi_siku_40",
+        "natural_earth_cities"
+      ],
+      "source_excerpt": "京師《禹貢》冀、兗、豫三州之域，元直隸中書省。洪武元年四月分屬河南、山東兩行中書省。二年三月置北平等處行中書省，治北平府。先屬山東、河南者皆復其舊。領府八，州三十七，縣一百三十六。八月置燕山都衛。與行中書省同治。八年十月改都衛爲北平都指揮使司。九年六月改行中書省爲承宣布政使司。永樂元年正月建北京於順天府，稱爲「行在」。二月罷北平布政使司，以所領直隸北京行部；罷北平都指揮使司，以所領直隸北京留守行後軍都督府。十九年正月改北京爲京師。罷北京留守行後軍都督府，直隸後軍都督府。衛所有實土者附見，無實土者不載。罷北京行部，直隸六部。洪熙初，仍稱行在。正統六年十一月罷稱行在，定爲京師。府八，直隸州二，屬州十七，縣一百一十六。爲里三千二百三十有奇。府州縣建置沿革，俱自元始。其沿革年月已見《元史志》者，不載。其未見《元史志》及明改元舊，並新增、新廢者，悉書。北至宣府，外爲邊地。東至遼海，與山東界。南至東明，與山東、河南界。西至阜平，與山西界。洪武二十六，年編戶三十三萬四千七百九十二，口一百九十二萬六千五百九十五。",
+      "verification_status": "15_region_framework_and_seat_reference_checked; exact_1500_geometry_pending",
+      "geometry_status": "modern_city_reference_point_not_historical_seat_survey",
+      "coordinate_note": "Natural Earth现代城市参考坐标；仅用于治所所在地区示意，不代表历史府衙位置或明代边界。",
+      "temporal_status": "1500_provisional_region_framework",
+      "scenario_year": 1500
+    },
+    {
+      "id": "nanzhili",
+      "name": "南直隶",
+      "official_name": "南京直隶",
+      "name_original": "南京",
+      "capital": "应天府",
+      "longitude": 118.778029,
+      "latitude": 32.051965,
+      "modern_reference_city": "Nanjing",
+      "source_ids": [
+        "mingshi_40",
+        "mingshi_siku_40",
+        "natural_earth_cities"
+      ],
+      "source_excerpt": "南京《禹貢》揚、徐、豫三州之域。元以江北地屬河南江北等處行中書省，又分置淮東道宣慰使司治揚州路屬焉；江南地屬江浙等處行中書省。明太祖丙申年七月置江南行中書省。治應天府。洪武元年八月建南京，罷行中書省，以應天等府直隸中書省，衛所直隸大都督府。十一年正月改南京爲京師。十三年正月己亥罷中書省，以所領直隸六部。癸卯改大都督府爲五軍都督府，以所領直隸中軍都督府。永樂元年正月仍稱南京。統府十四，直隸州四，屬州十七，縣九十有七。爲裏萬三千七百四十有奇。北至豐、沛，與山東、河南界。西至英山，與河南、湖廣界。南至婺源，與浙江、江西界。東至海。距北京三千四百四十五里。",
+      "verification_status": "15_region_framework_and_seat_reference_checked; exact_1500_geometry_pending",
+      "geometry_status": "modern_city_reference_point_not_historical_seat_survey",
+      "coordinate_note": "Natural Earth现代城市参考坐标；仅用于治所所在地区示意，不代表历史府衙位置或明代边界。",
+      "temporal_status": "1500_provisional_region_framework",
+      "scenario_year": 1500
+    },
+    {
+      "id": "shandong",
+      "name": "山东",
+      "official_name": "山东等处承宣布政使司",
+      "name_original": "山東",
+      "capital": "济南府",
+      "longitude": 116.993073,
+      "latitude": 36.676928,
+      "modern_reference_city": "Jinan",
+      "source_ids": [
+        "mingshi_41",
+        "mingshi_siku_41",
+        "natural_earth_cities"
+      ],
+      "source_excerpt": "山東《禹貢》青、兗二州地。元直隸中書省，又分置山東東西道宣慰司治益都路屬焉。洪武元年四月置山東等處行中書省。治濟南府。三年十二月置青州都衛。治青州府。八年十月改都衛爲山東都指揮使司。九年六月改行中書省爲承宣布政使司。領府六，屬州十五，縣八十九。爲裏六千四百有奇。南至郯城，與南直界。北至無棣，與北直界。西至定陶，與北直、河南界。東至海。距南京一千八百五十里，京師九百里。洪武二十六年編戶七十五萬三千八百九十四，口五百二十五萬五千八百七十六。弘治四年，戶七十七萬五百五十五，口六百七十五萬九千六百七十五。萬曆六年，戶一百三十七萬二千二百六，口五百六十六萬四千九十九。",
+      "verification_status": "15_region_framework_and_seat_reference_checked; exact_1500_geometry_pending",
+      "geometry_status": "modern_city_reference_point_not_historical_seat_survey",
+      "coordinate_note": "Natural Earth现代城市参考坐标；仅用于治所所在地区示意，不代表历史府衙位置或明代边界。",
+      "temporal_status": "1500_provisional_region_framework",
+      "scenario_year": 1500
+    },
+    {
+      "id": "shanxi",
+      "name": "山西",
+      "official_name": "山西等处承宣布政使司",
+      "name_original": "山西",
+      "capital": "太原府",
+      "longitude": 112.543112,
+      "latitude": 37.876958,
+      "modern_reference_city": "Taiyuan",
+      "source_ids": [
+        "mingshi_41",
+        "mingshi_siku_41",
+        "natural_earth_cities"
+      ],
+      "source_excerpt": "山西《禹貢》冀州之域。元置河東山西道宣慰使司，治大同路。直隸中書省。洪武二年四月置山西等處行中書省。治太原路。三年十二月置太原都衛。與行中書省同治。八年十月改都衛爲山西都指揮使司。九年六月改行中書省爲承宣布政使司。領府五，直隸州三，屬州十六，縣七十九。爲裏四千四百有奇。東至真定，與北直界。北至大同，外爲邊地。西南皆至河，與陝西、河南界。距南京二千四百里，京師千二百里。洪武二十六年編戶五十九萬五千四百四十四，口四百七萬二千一百二十七。弘治四年，戶五十七萬五千二百四十九，口四百三十六萬四百七十六。萬曆六年，戶五十九萬六千九十七，口五百三十一萬七千三百五十九。",
+      "verification_status": "15_region_framework_and_seat_reference_checked; exact_1500_geometry_pending",
+      "geometry_status": "modern_city_reference_point_not_historical_seat_survey",
+      "coordinate_note": "Natural Earth现代城市参考坐标；仅用于治所所在地区示意，不代表历史府衙位置或明代边界。",
+      "temporal_status": "1500_provisional_region_framework",
+      "scenario_year": 1500
+    },
+    {
+      "id": "henan",
+      "name": "河南",
+      "official_name": "河南等处承宣布政使司",
+      "name_original": "河南",
+      "capital": "开封府",
+      "longitude": 114.354819,
+      "latitude": 34.793814,
+      "modern_reference_city": "Kaifeng",
+      "source_ids": [
+        "mingshi_42",
+        "mingshi_siku_42",
+        "natural_earth_cities"
+      ],
+      "source_excerpt": "河南《禹貢》豫、冀、揚、兗四州之域。元以河北地直隸中書省，河南地置河南江北行中書省。治汴梁路。洪武元年五月置中書分省。治開封府。二年四月改分省爲河南等處行中書省。三年十二月置河南都衛。八年十月改都衛爲都指揮使司。九年六月改行中書省爲承宣布政使司。府八，直隸州一，屬州十一，縣九十六。爲裏三千八百八十有奇。北至武安，與北直、山西界。南至信陽，與江南、湖廣界。東至永城，與山東、江南界。西至陝州，與山西、陝西界。距南京一千一百七十五里，京師一千五百八十里。洪武二十六年編戶三十一萬五千六百一十七，口一百九十一萬二千五百四十二。弘治四年，戶五十七萬五千二百四十九，口四百三十六萬四百七十六。萬曆六年，戶六十三萬三千六十七，口五百一十九萬三千六百二。",
+      "verification_status": "15_region_framework_and_seat_reference_checked; exact_1500_geometry_pending",
+      "geometry_status": "modern_city_reference_point_not_historical_seat_survey",
+      "coordinate_note": "Natural Earth现代城市参考坐标；仅用于治所所在地区示意，不代表历史府衙位置或明代边界。",
+      "temporal_status": "1500_provisional_region_framework",
+      "scenario_year": 1500
+    },
+    {
+      "id": "shaanxi",
+      "name": "陕西",
+      "official_name": "陕西等处承宣布政使司",
+      "name_original": "陝西",
+      "capital": "西安府",
+      "longitude": 108.89305,
+      "latitude": 34.276971,
+      "modern_reference_city": "Xian",
+      "source_ids": [
+        "mingshi_42",
+        "mingshi_siku_42",
+        "natural_earth_cities"
+      ],
+      "source_excerpt": "陝西《禹貢》雍、樑二州之域。元置陝西等處行中書省，治奉元路。又置甘肅等處行中書省。治甘州路。洪武二年四月置陝西等處行中書省。治西安府。三年十二月置西安都衛。與行中書省同治。八年十月改都衛爲陝西都指揮使司。九年六月改行中書省爲承宣布政使司。領府八，屬州二十一，縣九十有五。爲裏三千五百九十七。東至華陰，與河南、山西界。南至紫陽，與湖廣、四川界。北至河套，西至肅州。外爲邊地。距南京二千四百三十里，京師二千六百五十里。洪武二十六年編戶二十九萬四千五百二十六，口二百三十一萬六千五百六十九。弘治四年，戶三十萬六千六百四十四，口三百九十一萬二千三百七十。萬曆六年，戶三十九萬四千四百二十三，口四百五十萬二千六十七。",
+      "verification_status": "15_region_framework_and_seat_reference_checked; exact_1500_geometry_pending",
+      "geometry_status": "modern_city_reference_point_not_historical_seat_survey",
+      "coordinate_note": "Natural Earth现代城市参考坐标；仅用于治所所在地区示意，不代表历史府衙位置或明代边界。",
+      "temporal_status": "1500_provisional_region_framework",
+      "scenario_year": 1500
+    },
+    {
+      "id": "sichuan",
+      "name": "四川",
+      "official_name": "四川等处承宣布政使司",
+      "name_original": "四川",
+      "capital": "成都府",
+      "longitude": 104.068074,
+      "latitude": 30.671946,
+      "modern_reference_city": "Chengdu",
+      "source_ids": [
+        "mingshi_43",
+        "mingshi_siku_43",
+        "natural_earth_cities"
+      ],
+      "source_excerpt": "四川《禹貢》樑、荊二州之域。元置四川等處行中書省。治成都路。又置羅羅蒙慶等處宣慰司，治建昌路。屬雲南行中書省。洪武四年六月平明升。七月置四川等處行中書省。九月置成都都衛。與行中書省同治。八年十月改都衛爲四川都指揮使司。領招討司一，宣慰司二，安撫司五，長官司二十二及諸衛所。九年六月改行中書省爲承宣布政使司。領府十三，直隸州六，宣撫司一，安撫司一，屬州十五，縣百十一，長官司十六。爲裏千一百五十有奇。北至廣元，與陝西界。東至巫山，與湖廣界。南至烏撒、東川，與貴州、雲南界。西至威茂，與西番界。距南京七千二百六十里，京師一萬七百一十里。洪武二十六年編戶二十一萬五千七百一十九，口一百四十六萬六千七百七十八。弘治四年，戶二十五萬三千八百三，口二百五十九萬八千四百六十。萬曆六年，戶二十六萬二千六百九十四，口三百一十萬二千七十三。",
+      "verification_status": "15_region_framework_and_seat_reference_checked; exact_1500_geometry_pending",
+      "geometry_status": "modern_city_reference_point_not_historical_seat_survey",
+      "coordinate_note": "Natural Earth现代城市参考坐标；仅用于治所所在地区示意，不代表历史府衙位置或明代边界。",
+      "temporal_status": "1500_provisional_region_framework",
+      "scenario_year": 1500
+    },
+    {
+      "id": "jiangxi",
+      "name": "江西",
+      "official_name": "江西等处承宣布政使司",
+      "name_original": "江西",
+      "capital": "南昌府",
+      "longitude": 115.87805,
+      "latitude": 28.681938,
+      "modern_reference_city": "Nanchang",
+      "source_ids": [
+        "mingshi_43",
+        "mingshi_siku_43",
+        "natural_earth_cities"
+      ],
+      "source_excerpt": "江西《禹貢》揚州之域。元置江西等處行中書省。治龍興路。太祖壬寅年正月因之。正月治吉安府。二月還治洪都。洪武三年十二月置江西都衛。與行中書省同治。八年十月改都衛爲都指揮使司。九年六月改行中書省爲承宣布政使司。領府十三，州一，縣七十七。爲裏九千九百五十六有奇。北至九江，與江南、湖廣界。東至玉山，與浙江界。南至安遠，與福建、廣東界。西至永寧，與湖廣界。距南京一千五百二十里，京師四千一百七十五里。洪武二十六年編戶一百五十五萬三千九百二十三，口八百九十八萬二千四百八十二。弘治四年，戶一百三十六萬三千六百二十九，口六百五十四萬九千八百。萬曆六年，戶一百三十四萬一千五，口五百八十五萬九千二十六。",
+      "verification_status": "15_region_framework_and_seat_reference_checked; exact_1500_geometry_pending",
+      "geometry_status": "modern_city_reference_point_not_historical_seat_survey",
+      "coordinate_note": "Natural Earth现代城市参考坐标；仅用于治所所在地区示意，不代表历史府衙位置或明代边界。",
+      "temporal_status": "1500_provisional_region_framework",
+      "scenario_year": 1500
+    },
+    {
+      "id": "huguang",
+      "name": "湖广",
+      "official_name": "湖广等处承宣布政使司",
+      "name_original": "湖廣",
+      "capital": "武昌府",
+      "longitude": 114.268071,
+      "latitude": 30.581977,
+      "modern_reference_city": "Wuhan",
+      "source_ids": [
+        "mingshi_44",
+        "mingshi_siku_44",
+        "natural_earth_cities"
+      ],
+      "source_excerpt": "湖廣《禹貢》荊、揚、樑、豫四州之域。元置湖廣等處行中書省，治武昌路，又分置湖南道宣慰司治天臨路屬焉。又以襄陽等三路屬河南江北等處行中書省，又分置荊湖北道宣慰司治中興路並屬焉。太祖甲辰年二月平陳理，置湖廣等處行中書省。洪武三年十二月置武昌都衛。與行中書省同治。八年十月改都衛爲湖廣都指揮使司。九年六月改行中書省爲承宣布政使司。領府十五，直隸州二，屬州十七，縣一百有八，宣慰司二，宣撫司四，安撫司五，長官司二十一，蠻夷長官司五。爲裏三千四百八十有奇。北至均州，與河南、陝西界。南至九疑，與廣東、廣西界。東至蘄州，與江南、江西界。西至施州，與四川、貴州界。距南京一千七百一十五里，京師五千一百七十里。洪武二十六年編戶七十七萬五千八百五十一，口四百七十萬二千六百六十。弘治四年，戶五十萬四千八百七十，口三百七十八萬一千七百一十四。萬曆六年，戶五十四萬一千三百一十，口四百三十九萬八千七百八十五。",
+      "verification_status": "15_region_framework_and_seat_reference_checked; exact_1500_geometry_pending",
+      "geometry_status": "modern_city_reference_point_not_historical_seat_survey",
+      "coordinate_note": "Natural Earth现代城市参考坐标；仅用于治所所在地区示意，不代表历史府衙位置或明代边界。",
+      "temporal_status": "1500_provisional_region_framework",
+      "scenario_year": 1500
+    },
+    {
+      "id": "zhejiang",
+      "name": "浙江",
+      "official_name": "浙江等处承宣布政使司",
+      "name_original": "浙江",
+      "capital": "杭州府",
+      "longitude": 120.168073,
+      "latitude": 30.25192,
+      "modern_reference_city": "Hangzhou",
+      "source_ids": [
+        "mingshi_44",
+        "mingshi_siku_44",
+        "natural_earth_cities"
+      ],
+      "source_excerpt": "浙江《禹貢》揚州之域。元置江浙等處行中書省，治杭州路。又分置浙東道宣慰使司，治慶元路。屬焉。太祖戊戌年十二月置中書分省。治甯越府。癸卯年二月移治嚴州府。丙午年十二月罷分省，置浙江等處行中書省。治杭州府。洪武三年十二月置杭州都衛。與行中書省同治。八年十月改都衛爲浙江都指揮使司。九年六月改行中書省爲承宣布政使司。領府十一，屬州一，縣七十五。爲裏一萬零八百九十九。西至開化，與江南界。南至平陽，與福建界。北至太湖，與江南界。東至海。距南京九百里，京師三千二百里。洪武二十六年編戶二百一十三萬八千二百二十五，口一千四十八萬七千五百六十七。弘治四年，戶一百五十萬三千一百二十四，口五百三十萬五千八百四十三。萬曆六年，戶一百五十四萬二千四百八，口五百一十五萬三千五。",
+      "verification_status": "15_region_framework_and_seat_reference_checked; exact_1500_geometry_pending",
+      "geometry_status": "modern_city_reference_point_not_historical_seat_survey",
+      "coordinate_note": "Natural Earth现代城市参考坐标；仅用于治所所在地区示意，不代表历史府衙位置或明代边界。",
+      "temporal_status": "1500_provisional_region_framework",
+      "scenario_year": 1500
+    },
+    {
+      "id": "fujian",
+      "name": "福建",
+      "official_name": "福建等处承宣布政使司",
+      "name_original": "福建",
+      "capital": "福州府",
+      "longitude": 119.2981,
+      "latitude": 26.081942,
+      "modern_reference_city": "Fuzhou",
+      "source_ids": [
+        "mingshi_45",
+        "mingshi_siku_45",
+        "natural_earth_cities"
+      ],
+      "source_excerpt": "福建《禹貢》揚州之域。元置福建道宣慰使司，治福州路。屬江浙行中書省。至正十六年正月改宣慰司爲行中書省。太祖吳元年十二月平陳友定。洪武二年五月仍置福建等處行中書省。七年二月置福州都衛。與行中書省同治。八年十月改福州都衛爲福建都指揮使司。九年六月改行中書省爲承宣布政使司。領府八，直隸州一，屬縣五十七。爲裏三千七百九十七。北至嶺，與浙江界。西至汀州，與江西界。南至詔安，與廣東界。東至海。距南京二千八百七十二里，京師六千一百三十三里。洪武二十六年編戶八十一萬五千五百二十七，口三百九十一萬六千八百六。弘治四年，戶五十萬六千三十九，口二百一十萬六千六十。萬曆六年，戶五十一萬五千三百七，口一百七十三萬八千七百九十三。",
+      "verification_status": "15_region_framework_and_seat_reference_checked; exact_1500_geometry_pending",
+      "geometry_status": "modern_city_reference_point_not_historical_seat_survey",
+      "coordinate_note": "Natural Earth现代城市参考坐标；仅用于治所所在地区示意，不代表历史府衙位置或明代边界。",
+      "temporal_status": "1500_provisional_region_framework",
+      "scenario_year": 1500
+    },
+    {
+      "id": "guangdong",
+      "name": "广东",
+      "official_name": "广东等处承宣布政使司",
+      "name_original": "廣東",
+      "capital": "广州府",
+      "longitude": 113.261785,
+      "latitude": 23.124723,
+      "modern_reference_city": "Guangzhou",
+      "source_ids": [
+        "mingshi_45",
+        "mingshi_siku_45",
+        "natural_earth_cities"
+      ],
+      "source_excerpt": "廣東《禹貢》揚州之域及揚州徼外。元置廣東道宣慰使司，治廣州路。屬江西行中書省。又置海北海南道宣慰使司，治雷州路。屬湖廣行中書省。洪武二年三月以海北海南道屬廣西行中書省。四月改廣東道爲廣東等處行中書省。六月以海南海北道所領並屬焉。四年十一月置廣東都衛。與行中書省同治。八年十月改都衛爲廣東都指揮使司。九年六月改行中書省爲承宣布政使司。領府十，直隸州一，屬州七，縣七十五。爲裏四千二十八。北至五嶺，與江西界。東至潮州，與福建界。西至欽州，與廣西界。南至瓊海。距南京四千三百里，京師七千八百三十五里。洪武二十六年編戶六十七萬五千五百九十九，口三百萬七千九百三十二。弘治四年，戶四十六萬七千三百九十，口一百八十一萬七千三百八十四。萬曆六年，戶五十三萬七百一十二，口五百四萬六百五十五。",
+      "verification_status": "15_region_framework_and_seat_reference_checked; exact_1500_geometry_pending",
+      "geometry_status": "modern_city_reference_point_not_historical_seat_survey",
+      "coordinate_note": "Natural Earth现代城市参考坐标；仅用于治所所在地区示意，不代表历史府衙位置或明代边界。",
+      "temporal_status": "1500_provisional_region_framework",
+      "scenario_year": 1500
+    },
+    {
+      "id": "guangxi",
+      "name": "广西",
+      "official_name": "广西等处承宣布政使司",
+      "name_original": "廣西",
+      "capital": "桂林府",
+      "longitude": 110.278082,
+      "latitude": 25.281939,
+      "modern_reference_city": "Guilin",
+      "source_ids": [
+        "mingshi_45",
+        "mingshi_siku_45",
+        "natural_earth_cities"
+      ],
+      "source_excerpt": "廣西《禹貢》荊州之域及荊、揚二州之徼外。元置廣西兩江道宣慰使司，治靜江路。屬湖廣行中書省。至正末，改宣慰使司爲廣西等處行中書省。洪武二年三月因之。六年四月置廣西都衛。與行中書省同治。八年十月改都衛爲都指揮使司。九年六月改行中書省爲承宣布政使司。領府十一，州四十有八，縣五十，長官司四。爲裏一千一百八十三。北至懷遠，與湖廣、貴州界。東至梧州，與廣東界。西至太平，與貴州、雲南界。南至博白，與廣東界。距南京四千二百九十五里，京師七千四百六十二里。洪武二十六年編戶二十一萬一千二百六十三，口一百四十八萬二千六百七十一。弘治四年，戶四十五萬九千六百四十，口一百六十七萬六千二百七十四。萬曆六年，戶二十一萬八千七百一十二，口一百一十八萬六千一百七十九。",
+      "verification_status": "15_region_framework_and_seat_reference_checked; exact_1500_geometry_pending",
+      "geometry_status": "modern_city_reference_point_not_historical_seat_survey",
+      "coordinate_note": "Natural Earth现代城市参考坐标；仅用于治所所在地区示意，不代表历史府衙位置或明代边界。",
+      "temporal_status": "1500_provisional_region_framework",
+      "scenario_year": 1500
+    },
+    {
+      "id": "yunnan",
+      "name": "云南",
+      "official_name": "云南等处承宣布政使司",
+      "name_original": "雲南",
+      "capital": "云南府",
+      "longitude": 102.69744,
+      "latitude": 25.042859,
+      "modern_reference_city": "Kunming",
+      "source_ids": [
+        "mingshi_46",
+        "mingshi_siku_46",
+        "natural_earth_cities"
+      ],
+      "source_excerpt": "雲南《禹貢》梁州徼外。元置雲南等處行中書省。治中慶路。洪武十五年二月癸丑平雲南，置雲南都指揮使司。乙卯置雲南等處承宣布政使司。同治雲南府。領府五十八，州七十五，縣五十五，蠻部六。後領府十九，御夷府二，州四十，御夷州三，縣三十，宣慰司八，宣撫司四，安撫司五，長官司三十三，御夷長官司二。北至永寧，與四川界。東至福州，與廣西界。西至幹崖，與西番界。南至木邦，與交址界。距南京七千二百里，京師一萬六百四十五里。洪武二十六年編戶五萬九千五百七十六，口二十五萬九千二百七十。弘治四年，戶一萬五千九百五十，口一十二萬五千九百五十五。萬曆六年，戶一十三萬五千五百六十，口一百四十七萬六千六百九十二。",
+      "verification_status": "15_region_framework_and_seat_reference_checked; exact_1500_geometry_pending",
+      "geometry_status": "modern_city_reference_point_not_historical_seat_survey",
+      "coordinate_note": "Natural Earth现代城市参考坐标；仅用于治所所在地区示意，不代表历史府衙位置或明代边界。",
+      "temporal_status": "1500_provisional_region_framework",
+      "scenario_year": 1500
+    },
+    {
+      "id": "guizhou",
+      "name": "贵州",
+      "official_name": "贵州等处承宣布政使司",
+      "name_original": "貴州",
+      "capital": "贵州宣慰司城（今贵阳）",
+      "longitude": 106.718093,
+      "latitude": 26.581989,
+      "modern_reference_city": "Guiyang",
+      "source_ids": [
+        "mingshi_46",
+        "mingshi_siku_46",
+        "natural_earth_cities"
+      ],
+      "source_excerpt": "貴州《禹貢》荊、樑二州徼外。元爲湖廣、四川、雲南三行中書省地。洪武十五年正月置貴州都指揮使司，治貴州宣慰司。其民職有司則仍屬湖廣、四川、雲南三布政司。永樂十一年置貴州等處承宣布政使司。與都指揮司同治。領府八，州一，縣一，宣慰司一，長官司三十九。後領府十，州九，縣十四，宣慰司一，長官司七十六。北至銅仁，與湖廣、四川界。南至鎮寧，與廣西、雲南界。東至黎平，與湖廣、廣西界。西至普安，與雲南、四川界。距南京四千二百五十里，京師七千六百七十里。弘治四年，編戶四萬三千三百六十七，口二十五萬八千六百九十三。萬曆六年，戶四萬三千四百五，口二十九萬九百七十二。",
+      "verification_status": "15_region_framework_and_seat_reference_checked; exact_1500_geometry_pending",
+      "geometry_status": "modern_city_reference_point_not_historical_seat_survey",
+      "coordinate_note": "Natural Earth现代城市参考坐标；仅用于治所所在地区示意，不代表历史府衙位置或明代边界。",
+      "temporal_status": "1500_provisional_region_framework",
+      "scenario_year": 1500
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "game-design-skill",
+  "version": "0.3.0",
+  "description": "Guide game concepts, systems, GDDs, balance, prototypes, playtests, UX, and design reviews with traceable sources.",
+  "author": {
+    "name": "JupiterTheWarlock"
+  },
+  "license": "MIT",
+  "keywords": [
+    "game-design",
+    "gdd",
+    "systems-design",
+    "balance",
+    "prototyping",
+    "playtesting"
+  ]
+}

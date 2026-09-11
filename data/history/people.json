@@ -1,0 +1,713 @@
+{
+  "metadata": {
+    "schema_version": 1,
+    "baseline_year": 1500,
+    "baseline_era": "弘治十三年",
+    "baseline_month": 1,
+    "calendar_note": "明代农历；不把正月等同公历1月；未实现闰月。",
+    "baseline_is_provisional": true,
+    "coverage_note": "13名皇帝、阁臣及中央主要官员的工作快照；不含全国地方官完整名册，未编造能力性格健康评分。",
+    "simulation_effects_enabled": false
+  },
+  "records": [
+    {
+      "id": "ming_person_zhu_youtang",
+      "name": "朱祐樘",
+      "office_ids": [
+        "ming_office_emperor"
+      ],
+      "roles": [
+        "皇帝（明孝宗）"
+      ],
+      "period": "弘治十三年（1500）正月工作快照",
+      "time_applicability": {
+        "snapshot_year": 1500,
+        "snapshot_lunar_month": 1,
+        "role_at_snapshot": [
+          "皇帝（明孝宗）"
+        ],
+        "later_changes": [],
+        "later_changes_are_reference_only": true
+      },
+      "titular_titles": [],
+      "note": "弘治皇帝；本纪记成化二十三年九月即位。健康、行动力、性格及忠心数值不从史料直接推定。",
+      "source_ids": [
+        "mingshi_015"
+      ],
+      "verification_status": "纪年与任职条目已核对（非完整履历校勘）",
+      "fact_kind": "史料记载及明确标注的开局时间归纳",
+      "personality_scores": null,
+      "evidence": [
+        {
+          "source_id": "mingshi_015",
+          "locator": "孝宗本纪开篇及成化二十三年",
+          "anchor": "孝宗建天明道",
+          "excerpt": "孝宗建天明道誠純中正聖文神武至仁大德敬皇帝[1]，諱祐樘，憲宗第三子也。母淑妃紀氏，成化六年七月生帝於西宮。時萬貴妃專寵，宮中莫敢言。悼恭太子薨後，憲宗始知之，育周太后宮中。十一年，敕禮部命名，大學士商輅等因以建儲請。是年六月，淑妃暴薨，帝年六歲，哀慕如成人。十一月，立為皇太子。",
+          "evidence_kind": "原典文字（空白已规范化；完整上下文见正文及HTML）"
+        },
+        {
+          "source_id": "mingshi_015",
+          "locator": "弘治十三年正月",
+          "anchor": "十三年春正月乙丑",
+          "excerpt": "十三年春正月乙丑，大祀天地於南郊。二月戊子，免山西被災稅糧。庚寅，定問刑條例。乙未，嚴旌舉連坐之法。夏四月，火篩寇大同，遊擊將軍王杲敗績於威遠衞。乙巳，平江伯陳銳為靖虜將軍，充總兵官，太監金輔監軍，戶部左侍郎許進提督軍務，禦之。五月甲寅朔，日有食之。丙辰，召大學士劉健、李東陽、謝",
+          "evidence_kind": "原典文字（空白已规范化；完整上下文见正文及HTML）"
+        }
+      ]
+    },
+    {
+      "id": "ming_person_liu_jian",
+      "name": "刘健",
+      "office_ids": [
+        "ming_office_grand_secretary"
+      ],
+      "roles": [
+        "内阁首辅",
+        "谨身殿大学士"
+      ],
+      "period": "弘治十三年（1500）正月工作快照",
+      "time_applicability": {
+        "snapshot_year": 1500,
+        "snapshot_lunar_month": 1,
+        "role_at_snapshot": [
+          "内阁首辅",
+          "谨身殿大学士"
+        ],
+        "later_changes": [],
+        "later_changes_are_reference_only": true
+      },
+      "titular_titles": [
+        "少傅兼太子太傅",
+        "户部尚书（阁臣兼衔）"
+      ],
+      "note": "1498年徐溥退休后居首辅。户部尚书是阁臣兼衔，不能与实际掌部的周经合并为同一岗位。",
+      "source_ids": [
+        "mingshi_109",
+        "mingshi_181",
+        "mingshi_015"
+      ],
+      "verification_status": "纪年与任职条目已核对（非完整履历校勘）",
+      "fact_kind": "史料记载及明确标注的开局时间归纳",
+      "personality_scores": null,
+      "evidence": [
+        {
+          "source_id": "mingshi_109",
+          "locator": "弘治十一至十三年宰辅",
+          "anchor": "健二月加少傅兼太子太傅戶部尚書謹身殿大學士",
+          "excerpt": "健二月加少傅兼太子太傅戶部尚書謹身殿大學士。東陽二月晉太子少保禮部尚書兼文淵閣大學士。遷二月晉太子少保兵部尚書兼東閣大學士。十二年己未健東陽遷十三年庚申健東陽遷十四年辛酉健東陽遷十五年壬戌健東陽遷十六年癸亥健二月加少師兼太子太師吏部尚書華蓋殿大學士。五月考滿，加特進。東陽二月晉太",
+          "evidence_kind": "原典文字（空白已规范化；完整上下文见正文及HTML）"
+        },
+        {
+          "source_id": "mingshi_181",
+          "locator": "刘健传",
+          "anchor": "十一年春，進少傅兼太子太傅",
+          "excerpt": "十一年春，進少傅兼太子太傅，代徐溥為首輔。健學問深粹，正色敢言，以身任天下之重。清寧宮災，太監李廣有罪自殺。健與同列李東陽、謝遷疏言：「古帝王未有不遇災而懼者。向來奸佞熒惑聖聽，賄賂公行，賞罰失當，災異之積，正此之由。今幸元惡殄喪，聖心開悟，而余慝未除，宿弊未革。伏願奮發勵精，進",
+          "evidence_kind": "原典文字（空白已规范化；完整上下文见正文及HTML）"
+        },
+        {
+          "source_id": "mingshi_015",
+          "locator": "弘治十三年五月",
+          "anchor": "召大學士劉健、李東陽、謝遷於平臺",
+          "excerpt": "召大學士劉健、李東陽、謝遷於平臺，議京營將領。癸亥，火篩大舉入寇大同左衞，遊擊將軍張俊禦卻之[4]。六月甲申，免江西被災秋糧，停山、陝採辦物料。庚子，召陳銳、金輔還，保國公朱暉、太監扶安往代，益兵禦寇。秋七月己巳，京師地震。八月辛卯，振江西水災。冬十月戊申，兩京地震。是月，小王子",
+          "evidence_kind": "原典文字（空白已规范化；完整上下文见正文及HTML）"
+        }
+      ]
+    },
+    {
+      "id": "ming_person_li_dongyang",
+      "name": "李东阳",
+      "office_ids": [
+        "ming_office_grand_secretary"
+      ],
+      "roles": [
+        "内阁大学士",
+        "文渊阁大学士"
+      ],
+      "period": "弘治十三年（1500）正月工作快照",
+      "time_applicability": {
+        "snapshot_year": 1500,
+        "snapshot_lunar_month": 1,
+        "role_at_snapshot": [
+          "内阁大学士",
+          "文渊阁大学士"
+        ],
+        "later_changes": [],
+        "later_changes_are_reference_only": true
+      },
+      "titular_titles": [
+        "太子少保",
+        "礼部尚书（阁臣兼衔）"
+      ],
+      "note": "弘治八年入阁；1503年的谨身殿大学士等后加衔不提前写入1500年。",
+      "source_ids": [
+        "mingshi_109",
+        "mingshi_015"
+      ],
+      "verification_status": "纪年与任职条目已核对（非完整履历校勘）",
+      "fact_kind": "史料记载及明确标注的开局时间归纳",
+      "personality_scores": null,
+      "evidence": [
+        {
+          "source_id": "mingshi_109",
+          "locator": "弘治十一至十三年宰辅",
+          "anchor": "東陽二月晉太子少保禮部尚書兼文淵閣大學士",
+          "excerpt": "東陽二月晉太子少保禮部尚書兼文淵閣大學士。遷二月晉太子少保兵部尚書兼東閣大學士。十二年己未健東陽遷十三年庚申健東陽遷十四年辛酉健東陽遷十五年壬戌健東陽遷十六年癸亥健二月加少師兼太子太師吏部尚書華蓋殿大學士。五月考滿，加特進。東陽二月晉太子太保戶部尚書兼謹身殿大學士。遷二月晉太子太",
+          "evidence_kind": "原典文字（空白已规范化；完整上下文见正文及HTML）"
+        },
+        {
+          "source_id": "mingshi_015",
+          "locator": "弘治八年二月",
+          "anchor": "禮部侍郎李東陽、少詹事謝遷入閣",
+          "excerpt": "禮部侍郎李東陽、少詹事謝遷入閣預機務。己卯，黃陵岡河口工成。三月壬辰，免湖廣被災稅糧。己亥，寧夏地震。夏四月甲寅，蘇、松各府治水工成。壬戌，諭吏部、都察院，人材進退，考察務得實跡，不可偏聽枉人。五月己丑，免南畿被災秋糧。秋七月丁亥，封宋儒楊時將樂伯，從祀孔子廟庭。戊子，廣西副總兵",
+          "evidence_kind": "原典文字（空白已规范化；完整上下文见正文及HTML）"
+        }
+      ]
+    },
+    {
+      "id": "ming_person_xie_qian",
+      "name": "谢迁",
+      "office_ids": [
+        "ming_office_grand_secretary"
+      ],
+      "roles": [
+        "内阁大学士",
+        "东阁大学士"
+      ],
+      "period": "弘治十三年（1500）正月工作快照",
+      "time_applicability": {
+        "snapshot_year": 1500,
+        "snapshot_lunar_month": 1,
+        "role_at_snapshot": [
+          "内阁大学士",
+          "东阁大学士"
+        ],
+        "later_changes": [],
+        "later_changes_are_reference_only": true
+      },
+      "titular_titles": [
+        "太子少保",
+        "兵部尚书（阁臣兼衔）"
+      ],
+      "note": "弘治八年入阁；兵部尚书是阁臣兼衔，不替代实际掌部的马文升。",
+      "source_ids": [
+        "mingshi_109",
+        "mingshi_015"
+      ],
+      "verification_status": "纪年与任职条目已核对（非完整履历校勘）",
+      "fact_kind": "史料记载及明确标注的开局时间归纳",
+      "personality_scores": null,
+      "evidence": [
+        {
+          "source_id": "mingshi_109",
+          "locator": "弘治十一至十三年宰辅",
+          "anchor": "遷二月晉太子少保兵部尚書兼東閣大學士",
+          "excerpt": "遷二月晉太子少保兵部尚書兼東閣大學士。十二年己未健東陽遷十三年庚申健東陽遷十四年辛酉健東陽遷十五年壬戌健東陽遷十六年癸亥健二月加少師兼太子太師吏部尚書華蓋殿大學士。五月考滿，加特進。東陽二月晉太子太保戶部尚書兼謹身殿大學士。遷二月晉太子太保禮部尚書兼武英殿大學士。十七年甲子健東陽",
+          "evidence_kind": "原典文字（空白已规范化；完整上下文见正文及HTML）"
+        },
+        {
+          "source_id": "mingshi_015",
+          "locator": "弘治十三年五月",
+          "anchor": "召大學士劉健、李東陽、謝遷於平臺",
+          "excerpt": "召大學士劉健、李東陽、謝遷於平臺，議京營將領。癸亥，火篩大舉入寇大同左衞，遊擊將軍張俊禦卻之[4]。六月甲申，免江西被災秋糧，停山、陝採辦物料。庚子，召陳銳、金輔還，保國公朱暉、太監扶安往代，益兵禦寇。秋七月己巳，京師地震。八月辛卯，振江西水災。冬十月戊申，兩京地震。是月，小王子",
+          "evidence_kind": "原典文字（空白已规范化；完整上下文见正文及HTML）"
+        }
+      ]
+    },
+    {
+      "id": "ming_person_tu_yong",
+      "name": "屠滽",
+      "office_ids": [
+        "ming_office_personnel_minister"
+      ],
+      "roles": [
+        "吏部尚书"
+      ],
+      "period": "弘治十三年（1500）正月工作快照",
+      "time_applicability": {
+        "snapshot_year": 1500,
+        "snapshot_lunar_month": 1,
+        "role_at_snapshot": [
+          "吏部尚书"
+        ],
+        "later_changes": [
+          {
+            "year": 1500,
+            "lunar_month": 5,
+            "change": "致仕；六月由倪岳继任"
+          }
+        ],
+        "later_changes_are_reference_only": true
+      },
+      "titular_titles": [],
+      "note": "由弘治十二年年表连续任职与十三年五月离任记载归纳正月在任；六月由倪岳继任。此后史实变动仅供查阅，游戏不会强制重演。",
+      "source_ids": [
+        "mingshi_111",
+        "mingtongjian_043"
+      ],
+      "verification_status": "纪年与任职条目已核对（非完整履历校勘）",
+      "fact_kind": "史料记载及明确标注的开局时间归纳",
+      "personality_scores": null,
+      "evidence": [
+        {
+          "source_id": "mingshi_111",
+          "locator": "弘治十二、十三年七卿表，对照同表列标题",
+          "anchor": "滽五月加柱國，致仕",
+          "excerpt": "滽五月加柱國，致仕。倪岳六月任。經五月晉太子太保，致仕。鍾五月任。瓊五月晉太子太保，致仕。傅瀚五月任。文升六月晉少傅。昂五月加太子太傅，致仕。閔珪五月任。七月晉太子太保。貫五月加太子太傅，致仕。曾鑑五月任。珪五月遷刑部尚書。鍾五月遷戶部尚書。戴珊六月任左。史琳六月任右，經略紫荊關",
+          "evidence_kind": "原典文字（空白已规范化；完整上下文见正文及HTML）"
+        },
+        {
+          "source_id": "mingtongjian_043",
+          "locator": "弘治十三年五月五部尚书致仕",
+          "anchor": "吏部尚书屠滽",
+          "excerpt": "吏部尚书屠滽，兵部尚书马文升等请罢传奉官。上初即位，罢成化时传奉官。寻修京城河桥成，从太监李兴请，授工匠四人官。已，又传升通玫司经历沈禄为参议，王恕、周经争之不能止。嗣后传奉渐多，及是一月中升授二百余人。滽言：“传升文职过多，请惜名器之滥，究夤缘之奸。”文升言：“祖宗设武阶以待军",
+          "evidence_kind": "原典文字（空白已规范化；完整上下文见正文及HTML）"
+        }
+      ]
+    },
+    {
+      "id": "ming_person_zhou_jing",
+      "name": "周经",
+      "office_ids": [
+        "ming_office_revenue_minister"
+      ],
+      "roles": [
+        "户部尚书"
+      ],
+      "period": "弘治十三年（1500）正月工作快照",
+      "time_applicability": {
+        "snapshot_year": 1500,
+        "snapshot_lunar_month": 1,
+        "role_at_snapshot": [
+          "户部尚书"
+        ],
+        "later_changes": [
+          {
+            "year": 1500,
+            "lunar_month": 5,
+            "change": "致仕；五月由佀钟继任"
+          }
+        ],
+        "later_changes_are_reference_only": true
+      },
+      "titular_titles": [],
+      "note": "由弘治十二年年表连续任职与十三年五月离任记载归纳正月在任；五月由佀钟继任。此后史实变动仅供查阅，游戏不会强制重演。",
+      "source_ids": [
+        "mingshi_111",
+        "mingtongjian_043",
+        "mingshi_183"
+      ],
+      "verification_status": "纪年与任职条目已核对（非完整履历校勘）",
+      "fact_kind": "史料记载及明确标注的开局时间归纳",
+      "personality_scores": null,
+      "evidence": [
+        {
+          "source_id": "mingshi_111",
+          "locator": "弘治十二、十三年七卿表，对照同表列标题",
+          "anchor": "經五月晉太子太保，致仕",
+          "excerpt": "經五月晉太子太保，致仕。鍾五月任。瓊五月晉太子太保，致仕。傅瀚五月任。文升六月晉少傅。昂五月加太子太傅，致仕。閔珪五月任。七月晉太子太保。貫五月加太子太傅，致仕。曾鑑五月任。珪五月遷刑部尚書。鍾五月遷戶部尚書。戴珊六月任左。史琳六月任右，經略紫荊關。吏部尚書戶部尚書禮部尚書兵部尚",
+          "evidence_kind": "原典文字（空白已规范化；完整上下文见正文及HTML）"
+        },
+        {
+          "source_id": "mingtongjian_043",
+          "locator": "弘治十三年五月五部尚书致仕",
+          "anchor": "户部尚书周经",
+          "excerpt": "户部尚书周经，礼部尚书徐琼，刑部尚书白昂，工部尚书徐贯，皆以星变请致仕，许之。滽加柱国，经、琼加太子太保，昂、贯太子太傅，赐敕驰驿。廷臣争上章留经，一时中外论荐者至八十余疏，咸报寝，以右都御史佀钟为户部尚书，礼部侍郎傅瀚为本部尚书，左都御史闵珪为刑部尚书，工部侍郎曾鉴为工部尚书。",
+          "evidence_kind": "原典文字（空白已规范化；完整上下文见正文及HTML）"
+        },
+        {
+          "source_id": "mingshi_183",
+          "locator": "周经传",
+          "anchor": "明年，代葉淇為戶部尚書",
+          "excerpt": "明年，代葉淇為戶部尚書。時孝宗寬仁，而戶部尤奸蠹所萃，挾勢行私者不可勝紀。少不如意，讒毀隨之。經悉按祖宗成憲，無所顧。寬逋緩征，裁節冗濫。四方告災，必覆奏蠲除。每委官監稅課，入多者與下考，苛切之風為之少衰。奉禦趙瑄獻雄縣地為東宮莊。經等劾瑄違制，下詔獄。而帝復從鎮撫司言遣官勘實。",
+          "evidence_kind": "原典文字（空白已规范化；完整上下文见正文及HTML）"
+        }
+      ]
+    },
+    {
+      "id": "ming_person_xu_qiong",
+      "name": "徐琼",
+      "office_ids": [
+        "ming_office_rites_minister"
+      ],
+      "roles": [
+        "礼部尚书"
+      ],
+      "period": "弘治十三年（1500）正月工作快照",
+      "time_applicability": {
+        "snapshot_year": 1500,
+        "snapshot_lunar_month": 1,
+        "role_at_snapshot": [
+          "礼部尚书"
+        ],
+        "later_changes": [
+          {
+            "year": 1500,
+            "lunar_month": 5,
+            "change": "致仕；五月由傅瀚继任"
+          }
+        ],
+        "later_changes_are_reference_only": true
+      },
+      "titular_titles": [],
+      "note": "由弘治十二年年表连续任职与十三年五月离任记载归纳正月在任；五月由傅瀚继任。此后史实变动仅供查阅，游戏不会强制重演。",
+      "source_ids": [
+        "mingshi_111",
+        "mingtongjian_043"
+      ],
+      "verification_status": "纪年与任职条目已核对（非完整履历校勘）",
+      "fact_kind": "史料记载及明确标注的开局时间归纳",
+      "personality_scores": null,
+      "evidence": [
+        {
+          "source_id": "mingshi_111",
+          "locator": "弘治十二、十三年七卿表，对照同表列标题",
+          "anchor": "瓊五月晉太子太保，致仕",
+          "excerpt": "瓊五月晉太子太保，致仕。傅瀚五月任。文升六月晉少傅。昂五月加太子太傅，致仕。閔珪五月任。七月晉太子太保。貫五月加太子太傅，致仕。曾鑑五月任。珪五月遷刑部尚書。鍾五月遷戶部尚書。戴珊六月任左。史琳六月任右，經略紫荊關。吏部尚書戶部尚書禮部尚書兵部尚書刑部尚書工部尚書左、右都御史十四",
+          "evidence_kind": "原典文字（空白已规范化；完整上下文见正文及HTML）"
+        },
+        {
+          "source_id": "mingtongjian_043",
+          "locator": "弘治十三年五月五部尚书致仕",
+          "anchor": "礼部尚书徐琼",
+          "excerpt": "礼部尚书徐琼事迹，附记此狱颇悉，又王世贞《史乘考误》，则谓《实录》所载，乃焦芳为敏政掩覆之词，今并录以备考。《列卿记》云：“琼于己未知贡举，是年，主考为李东阳、程敏政。敏政发策，以刘静修《退斋记》为题，人罕知者，其昵幸门生徐经，平日独伺得之，尝与南畿解元唐寅陈说。至是果以发难，举",
+          "evidence_kind": "原典文字（空白已规范化；完整上下文见正文及HTML）"
+        }
+      ]
+    },
+    {
+      "id": "ming_person_bai_ang",
+      "name": "白昂",
+      "office_ids": [
+        "ming_office_justice_minister"
+      ],
+      "roles": [
+        "刑部尚书"
+      ],
+      "period": "弘治十三年（1500）正月工作快照",
+      "time_applicability": {
+        "snapshot_year": 1500,
+        "snapshot_lunar_month": 1,
+        "role_at_snapshot": [
+          "刑部尚书"
+        ],
+        "later_changes": [
+          {
+            "year": 1500,
+            "lunar_month": 5,
+            "change": "致仕；五月由闵珪继任"
+          }
+        ],
+        "later_changes_are_reference_only": true
+      },
+      "titular_titles": [],
+      "note": "由弘治十二年年表连续任职与十三年五月离任记载归纳正月在任；五月由闵珪继任。此后史实变动仅供查阅，游戏不会强制重演。",
+      "source_ids": [
+        "mingshi_111",
+        "mingtongjian_043"
+      ],
+      "verification_status": "纪年与任职条目已核对（非完整履历校勘）",
+      "fact_kind": "史料记载及明确标注的开局时间归纳",
+      "personality_scores": null,
+      "evidence": [
+        {
+          "source_id": "mingshi_111",
+          "locator": "弘治十二、十三年七卿表，对照同表列标题",
+          "anchor": "昂五月加太子太傅，致仕",
+          "excerpt": "昂五月加太子太傅，致仕。閔珪五月任。七月晉太子太保。貫五月加太子太傅，致仕。曾鑑五月任。珪五月遷刑部尚書。鍾五月遷戶部尚書。戴珊六月任左。史琳六月任右，經略紫荊關。吏部尚書戶部尚書禮部尚書兵部尚書刑部尚書工部尚書左、右都御史十四年辛酉岳十月卒。馬文升十月任。鍾瀚文升十月改吏部。劉",
+          "evidence_kind": "原典文字（空白已规范化；完整上下文见正文及HTML）"
+        },
+        {
+          "source_id": "mingtongjian_043",
+          "locator": "弘治十三年五月五部尚书致仕",
+          "anchor": "刑部尚书白昂",
+          "excerpt": "刑部尚书白昂，工部尚书徐贯，皆以星变请致仕，许之。滽加柱国，经、琼加太子太保，昂、贯太子太傅，赐敕驰驿。廷臣争上章留经，一时中外论荐者至八十余疏，咸报寝，以右都御史佀钟为户部尚书，礼部侍郎傅瀚为本部尚书，左都御史闵珪为刑部尚书，工部侍郎曾鉴为工部尚书。起侍郎刘大夏为右都御史，总督",
+          "evidence_kind": "原典文字（空白已规范化；完整上下文见正文及HTML）"
+        }
+      ]
+    },
+    {
+      "id": "ming_person_xu_guan",
+      "name": "徐贯",
+      "office_ids": [
+        "ming_office_works_minister"
+      ],
+      "roles": [
+        "工部尚书"
+      ],
+      "period": "弘治十三年（1500）正月工作快照",
+      "time_applicability": {
+        "snapshot_year": 1500,
+        "snapshot_lunar_month": 1,
+        "role_at_snapshot": [
+          "工部尚书"
+        ],
+        "later_changes": [
+          {
+            "year": 1500,
+            "lunar_month": 5,
+            "change": "致仕；五月由曾鉴继任"
+          }
+        ],
+        "later_changes_are_reference_only": true
+      },
+      "titular_titles": [],
+      "note": "由弘治十二年年表连续任职与十三年五月离任记载归纳正月在任；五月由曾鉴继任。此后史实变动仅供查阅，游戏不会强制重演。",
+      "source_ids": [
+        "mingshi_111",
+        "mingtongjian_043"
+      ],
+      "verification_status": "纪年与任职条目已核对（非完整履历校勘）",
+      "fact_kind": "史料记载及明确标注的开局时间归纳",
+      "personality_scores": null,
+      "evidence": [
+        {
+          "source_id": "mingshi_111",
+          "locator": "弘治十二、十三年七卿表，对照同表列标题",
+          "anchor": "貫五月加太子太傅，致仕",
+          "excerpt": "貫五月加太子太傅，致仕。曾鑑五月任。珪五月遷刑部尚書。鍾五月遷戶部尚書。戴珊六月任左。史琳六月任右，經略紫荊關。吏部尚書戶部尚書禮部尚書兵部尚書刑部尚書工部尚書左、右都御史十四年辛酉岳十月卒。馬文升十月任。鍾瀚文升十月改吏部。劉大夏十月召。珪鑑珊琳十五年壬戌文升鍾瀚二月卒。張昇二",
+          "evidence_kind": "原典文字（空白已规范化；完整上下文见正文及HTML）"
+        },
+        {
+          "source_id": "mingtongjian_043",
+          "locator": "弘治十三年五月五部尚书致仕",
+          "anchor": "工部尚书徐贯",
+          "excerpt": "工部尚书徐贯，皆以星变请致仕，许之。滽加柱国，经、琼加太子太保，昂、贯太子太傅，赐敕驰驿。廷臣争上章留经，一时中外论荐者至八十余疏，咸报寝，以右都御史佀钟为户部尚书，礼部侍郎傅瀚为本部尚书，左都御史闵珪为刑部尚书，工部侍郎曾鉴为工部尚书。起侍郎刘大夏为右都御史，总督两广军务。敕使",
+          "evidence_kind": "原典文字（空白已规范化；完整上下文见正文及HTML）"
+        }
+      ]
+    },
+    {
+      "id": "ming_person_ma_wensheng",
+      "name": "马文升",
+      "office_ids": [
+        "ming_office_war_minister"
+      ],
+      "roles": [
+        "兵部尚书"
+      ],
+      "period": "弘治十三年（1500）正月工作快照",
+      "time_applicability": {
+        "snapshot_year": 1500,
+        "snapshot_lunar_month": 1,
+        "role_at_snapshot": [
+          "兵部尚书"
+        ],
+        "later_changes": [
+          {
+            "year": 1500,
+            "lunar_month": 6,
+            "change": "加少傅，仍掌兵部"
+          },
+          {
+            "year": 1501,
+            "lunar_month": 10,
+            "change": "改吏部尚书"
+          }
+        ],
+        "later_changes_are_reference_only": true
+      },
+      "titular_titles": [],
+      "note": "弘治二年任兵部尚书兼督团营；1500年仍掌兵部。1501年十月改吏部，不能提前设为吏部尚书。",
+      "source_ids": [
+        "mingshi_111",
+        "mingtongjian_043"
+      ],
+      "verification_status": "纪年与任职条目已核对（非完整履历校勘）",
+      "fact_kind": "史料记载及明确标注的开局时间归纳",
+      "personality_scores": null,
+      "evidence": [
+        {
+          "source_id": "mingshi_111",
+          "locator": "弘治二年七卿表",
+          "anchor": "馬文升二月任，兼督團營",
+          "excerpt": "馬文升二月任，兼督團營。喬新俊文升二月遷兵部尚書。屠滽二月任。三年庚戌恕敏裕文升喬新俊滽四年辛亥恕敏正月致仕。葉淇二月任。裕四月下獄，旋釋。文升喬新八月致仕。彭韶九月任。俊滽二月病去。白昂二月任。五年壬子恕淇裕文升五月加太子少保。韶俊五月加太子少保。昂吏部尚書戶部尚書禮部尚書兵部",
+          "evidence_kind": "原典文字（空白已规范化；完整上下文见正文及HTML）"
+        },
+        {
+          "source_id": "mingtongjian_043",
+          "locator": "弘治十三年六月",
+          "anchor": "兵部非文升不可",
+          "excerpt": "兵部非文升不可”，上亦以为然，乃命岳代，而加文升少傅以慰之。召南京刑部尚书戴珊为左都御史。又以侍郎史琳为右都御史，经略紫荆关。秋，七月，已巳，京师地震。【考异】《三编·目》云：“是月十七日己巳夜也。”是月癸丑朔。八月，辛卯，江西复以水灾告，诏巡抚等官发粟振之。九月，下行人司行人王",
+          "evidence_kind": "原典文字（空白已规范化；完整上下文见正文及HTML）"
+        }
+      ]
+    },
+    {
+      "id": "ming_person_min_gui",
+      "name": "闵珪",
+      "office_ids": [
+        "ming_office_censor_left"
+      ],
+      "roles": [
+        "左都御史"
+      ],
+      "period": "弘治十三年（1500）正月工作快照",
+      "time_applicability": {
+        "snapshot_year": 1500,
+        "snapshot_lunar_month": 1,
+        "role_at_snapshot": [
+          "左都御史"
+        ],
+        "later_changes": [
+          {
+            "year": 1500,
+            "lunar_month": 5,
+            "change": "改刑部尚书"
+          }
+        ],
+        "later_changes_are_reference_only": true
+      },
+      "titular_titles": [],
+      "note": "1500正月为左都御史；五月才改刑部尚书。姓名采用珪，保留常见异写闵圭作检索别名。",
+      "source_ids": [
+        "mingshi_111",
+        "mingtongjian_043",
+        "mingshi_183"
+      ],
+      "verification_status": "纪年与任职条目已核对（非完整履历校勘）",
+      "fact_kind": "史料记载及明确标注的开局时间归纳",
+      "personality_scores": null,
+      "evidence": [
+        {
+          "source_id": "mingshi_111",
+          "locator": "弘治十三年七卿表",
+          "anchor": "珪五月遷刑部尚書",
+          "excerpt": "珪五月遷刑部尚書。鍾五月遷戶部尚書。戴珊六月任左。史琳六月任右，經略紫荊關。吏部尚書戶部尚書禮部尚書兵部尚書刑部尚書工部尚書左、右都御史十四年辛酉岳十月卒。馬文升十月任。鍾瀚文升十月改吏部。劉大夏十月召。珪鑑珊琳十五年壬戌文升鍾瀚二月卒。張昇二月任。大夏珪鑑珊琳十六年癸亥文升六月",
+          "evidence_kind": "原典文字（空白已规范化；完整上下文见正文及HTML）"
+        },
+        {
+          "source_id": "mingtongjian_043",
+          "locator": "弘治十三年五月",
+          "anchor": "左都御史闵珪为刑部尚书",
+          "excerpt": "左都御史闵珪为刑部尚书，工部侍郎曾鉴为工部尚书。起侍郎刘大夏为右都御史，总督两广军务。敕使及门，携二僮行。广人故思大夏，鼓舞称庆。大夏为清吏治，捐供亿，禁内外镇守官私役军士，盗贼为之衰止。【考异】据《明史》大夏本传，“以十年移疾归，越二年，起总督两广。”《宪章录》系之是年之五月，",
+          "evidence_kind": "原典文字（空白已规范化；完整上下文见正文及HTML）"
+        },
+        {
+          "source_id": "mingshi_183",
+          "locator": "闵珪传",
+          "anchor": "十三年代白昂為刑部尚書",
+          "excerpt": "十三年代白昂為刑部尚書，再加太子太保。以災異與都御史戴珊共陳時政八事，又陳刑獄四事，多報可。珪久為法官，議獄皆會情比律，歸於仁恕。宣府妖人李道明聚眾燒香，巡撫劉聰信千戶黃珍言，株連數十家，謂道明將引北寇攻宣府。及逮訊無驗，珪乃止坐道明一人，余悉得釋，而抵珍罪，聰亦下獄貶官。帝之親",
+          "evidence_kind": "原典文字（空白已规范化；完整上下文见正文及HTML）"
+        }
+      ],
+      "aliases": [
+        "闵圭",
+        "閔珪"
+      ]
+    },
+    {
+      "id": "ming_person_si_zhong",
+      "name": "佀钟",
+      "office_ids": [
+        "ming_office_censor_right"
+      ],
+      "roles": [
+        "右都御史"
+      ],
+      "period": "弘治十三年（1500）正月工作快照",
+      "time_applicability": {
+        "snapshot_year": 1500,
+        "snapshot_lunar_month": 1,
+        "role_at_snapshot": [
+          "右都御史"
+        ],
+        "later_changes": [
+          {
+            "year": 1500,
+            "lunar_month": 5,
+            "change": "改户部尚书"
+          }
+        ],
+        "later_changes_are_reference_only": true
+      },
+      "titular_titles": [],
+      "note": "1500正月为右都御史，五月改户部尚书。在线卷185正文出现似鐘/侶鐘等异写；以篇目、年表及《明通鉴》互核为佀钟，异文仍待影印本校勘。",
+      "source_ids": [
+        "mingshi_111",
+        "mingtongjian_043"
+      ],
+      "verification_status": "任职互核；姓名录文异体待影印本复校",
+      "fact_kind": "史料记载及明确标注的开局时间归纳",
+      "personality_scores": null,
+      "evidence": [
+        {
+          "source_id": "mingshi_111",
+          "locator": "弘治十一至十三年七卿表",
+          "anchor": "鍾十二月任右",
+          "excerpt": "鍾十二月任右。十二年己未滽經瓊文升昂貫十月晉太子太保。珪鍾十三年庚申滽五月加柱國，致仕。倪岳六月任。經五月晉太子太保，致仕。鍾五月任。瓊五月晉太子太保，致仕。傅瀚五月任。文升六月晉少傅。昂五月加太子太傅，致仕。閔珪五月任。七月晉太子太保。貫五月加太子太傅，致仕。曾鑑五月任。珪五月",
+          "evidence_kind": "原典文字（空白已规范化；完整上下文见正文及HTML）"
+        },
+        {
+          "source_id": "mingtongjian_043",
+          "locator": "弘治十三年五月",
+          "anchor": "右都御史佀钟为户部尚书",
+          "excerpt": "右都御史佀钟为户部尚书，礼部侍郎傅瀚为本部尚书，左都御史闵珪为刑部尚书，工部侍郎曾鉴为工部尚书。起侍郎刘大夏为右都御史，总督两广军务。敕使及门，携二僮行。广人故思大夏，鼓舞称庆。大夏为清吏治，捐供亿，禁内外镇守官私役军士，盗贼为之衰止。【考异】据《明史》大夏本传，“以十年移疾归，",
+          "evidence_kind": "原典文字（空白已规范化；完整上下文见正文及HTML）"
+        }
+      ],
+      "aliases": [
+        "佀鍾",
+        "似鐘",
+        "侶鐘"
+      ]
+    },
+    {
+      "id": "ming_person_dai_shan",
+      "name": "戴珊",
+      "office_ids": [
+        "ming_office_nanjing_justice_minister"
+      ],
+      "roles": [
+        "南京刑部尚书"
+      ],
+      "period": "弘治十三年（1500）正月工作快照",
+      "time_applicability": {
+        "snapshot_year": 1500,
+        "snapshot_lunar_month": 1,
+        "role_at_snapshot": [
+          "南京刑部尚书"
+        ],
+        "later_changes": [
+          {
+            "year": 1500,
+            "lunar_month": 6,
+            "change": "调左都御史"
+          }
+        ],
+        "later_changes_are_reference_only": true
+      },
+      "titular_titles": [],
+      "note": "开局在南京，不是1500正月的北京左都御史；当年六月才调任左都御史。",
+      "source_ids": [
+        "mingshi_183",
+        "mingshi_111",
+        "mingtongjian_043"
+      ],
+      "verification_status": "纪年与任职条目已核对（非完整履历校勘）",
+      "fact_kind": "史料记载及明确标注的开局时间归纳",
+      "personality_scores": null,
+      "evidence": [
+        {
+          "source_id": "mingshi_183",
+          "locator": "戴珊传",
+          "anchor": "進南京刑部尚書。久之，召為左都御史",
+          "excerpt": "進南京刑部尚書。久之，召為左都御史。十七年，考察京官，珊廉介不茍合。給事中吳、王蓋自疑見黜，連疏詆吏部尚書馬文升，並言珊縱妻子納賄。珊等乞罷，帝慰留之。御史馮允中等言：「文升、珊歷事累朝，清德素著，不可因浮詞廢計典。」乃下、蓋詔獄，命文升、珊即舉察事。珊等言：「兩人逆計當黜，故先",
+          "evidence_kind": "原典文字（空白已规范化；完整上下文见正文及HTML）"
+        },
+        {
+          "source_id": "mingshi_111",
+          "locator": "弘治十三年六月",
+          "anchor": "戴珊六月任左",
+          "excerpt": "戴珊六月任左。史琳六月任右，經略紫荊關。吏部尚書戶部尚書禮部尚書兵部尚書刑部尚書工部尚書左、右都御史十四年辛酉岳十月卒。馬文升十月任。鍾瀚文升十月改吏部。劉大夏十月召。珪鑑珊琳十五年壬戌文升鍾瀚二月卒。張昇二月任。大夏珪鑑珊琳十六年癸亥文升六月晉少師兼太子太師。鍾昇大夏珪鑑珊琳十",
+          "evidence_kind": "原典文字（空白已规范化；完整上下文见正文及HTML）"
+        },
+        {
+          "source_id": "mingtongjian_043",
+          "locator": "弘治十三年六月",
+          "anchor": "召南京刑部尚书戴珊为左都御史",
+          "excerpt": "召南京刑部尚书戴珊为左都御史。又以侍郎史琳为右都御史，经略紫荆关。秋，七月，已巳，京师地震。【考异】《三编·目》云：“是月十七日己巳夜也。”是月癸丑朔。八月，辛卯，江西复以水灾告，诏巡抚等官发粟振之。九月，下行人司行人王雄于狱。时上方召还陈锐，代以朱晖，出师御寇。雄上言：“克敌在",
+          "evidence_kind": "原典文字（空白已规范化；完整上下文见正文及HTML）"
+        }
+      ]
+    }
+  ]
+}

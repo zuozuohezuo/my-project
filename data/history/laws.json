@@ -1,0 +1,359 @@
+{
+  "metadata": {
+    "schema_version": 1,
+    "baseline_year": 1500,
+    "baseline_era": "弘治十三年",
+    "baseline_month": 1,
+    "calendar_note": "明代农历；不把正月等同公历1月；未实现闰月。",
+    "baseline_is_provisional": true,
+    "coverage_note": "10条基本律文主题、2项开局前诏令与1项开局后二月制度事件；未把任何法令转换成数值模拟。",
+    "simulation_effects_enabled": false
+  },
+  "records": [
+    {
+      "id": "ming_law_appointments",
+      "name": "大臣专擅选官",
+      "category": "律文主题",
+      "domain": "appointment",
+      "summary": "除授官员归朝廷选用，限制大臣擅自任命。具体授权例外须另查敕令。",
+      "period": "洪武定律传统；1500年作为律文主题参考，所用载体含后世集解附例",
+      "source_ids": [
+        "daminglv_02",
+        "mingshi_093"
+      ],
+      "verification_status": "条名与正文已核；1500字句版本及附例适用性待复校",
+      "fact_kind": "律文主题概括；非完整法制复原",
+      "effective_at_baseline": "reference_only_pending_edition_collation",
+      "simulation_effects_enabled": false,
+      "evidence": [
+        {
+          "source_id": "daminglv_02",
+          "locator": "律文条目：大臣專擅選官（不取后附条例为1500事实）",
+          "anchor": "大臣專擅選官",
+          "excerpt": "大臣專擅選官凡除授官員，須從朝廷選用。若大臣專擅選用者斬。若大臣親戚，非奉特旨，不許除授官職，違者罪亦如之。其見任在朝官員，回諭差遣及改除，不問遠近，託故不行者，並杖一百，罷職不敘。集解專擅謂未題知，罪坐大臣。其受官者亦是當選之人，故不坐。託故是亦有故，如親老之類，但不妨差除而託辭者。若無故而推，自有詐病、死傷、避事者，律。大明令凡內外管屬衙門官吏，有係父子、兄弟、叔侄者，皆須從卑迴避。凡流官注擬，並須迴避本貫。會典",
+          "evidence_kind": "原典文字（空白已规范化；完整上下文见正文及HTML）"
+        }
+      ],
+      "implementation_note": "只在史料页陈列。诏书上限、政务CD、忠心声誉惩罚属于用户设计，不来自本律。"
+    },
+    {
+      "id": "ming_law_imperial_orders",
+      "name": "制书有违",
+      "category": "律文主题",
+      "domain": "orders",
+      "summary": "区分奉制执行中的违旨、失错和迟延，供未来命令执行系统参考。",
+      "period": "洪武定律传统；1500年作为律文主题参考，所用载体含后世集解附例",
+      "source_ids": [
+        "daminglv_03",
+        "mingshi_093"
+      ],
+      "verification_status": "条名与正文已核；1500字句版本及附例适用性待复校",
+      "fact_kind": "律文主题概括；非完整法制复原",
+      "effective_at_baseline": "reference_only_pending_edition_collation",
+      "simulation_effects_enabled": false,
+      "evidence": [
+        {
+          "source_id": "daminglv_03",
+          "locator": "律文条目：制書有違（不取后附条例为1500事实）",
+          "anchor": "制書有違",
+          "excerpt": "制書有違凡奉制書有所施行而違者杖一百，違皇太子令旨者同罪，違親王令旨者杖九十，失錯旨意者各減三等。其稽緩制書及皇太子令旨者，一日笞五十，每一日加一等罪，止杖一百。稽緩親王令旨者，各減一等。集解失錯是不識文義而差行，故減一等。若傳寫失錯，有詐僞條本律。棄毀制書印信凡棄毀制書及起馬御寶聖旨起船符驗若各衙門印信及夜巡銅牌者斬。若棄毀官文書者杖一百。有所規避者從論。事干軍機錢糧者絞。當該官吏知而不舉與犯同人同罪。不知者不坐。",
+          "evidence_kind": "原典文字（空白已规范化；完整上下文见正文及HTML）"
+        }
+      ],
+      "implementation_note": "只在史料页陈列。诏书上限、政务CD、忠心声誉惩罚属于用户设计，不来自本律。"
+    },
+    {
+      "id": "ming_law_reporting",
+      "name": "事应奏不奏",
+      "category": "律文主题",
+      "domain": "reporting",
+      "summary": "规定应奏、应申事项的上报责任及擅自施行责任，不能推成所有地方事务一律请旨。",
+      "period": "洪武定律传统；1500年作为律文主题参考，所用载体含后世集解附例",
+      "source_ids": [
+        "daminglv_03",
+        "mingshi_093"
+      ],
+      "verification_status": "条名与正文已核；1500字句版本及附例适用性待复校",
+      "fact_kind": "律文主题概括；非完整法制复原",
+      "effective_at_baseline": "reference_only_pending_edition_collation",
+      "simulation_effects_enabled": false,
+      "evidence": [
+        {
+          "source_id": "daminglv_03",
+          "locator": "律文条目：事應奏不奏（不取后附条例为1500事实）",
+          "anchor": "事應奏不奏",
+          "excerpt": "事應奏不奏凡軍官犯罪應請旨而不請旨及應論功上議而不上議當該官吏處絞○若文職有犯應奏請而不奏請者杖一百有所規從重論○若軍務錢糧選法制度刑名死罪災異及事應奏而不奏者杖八十應申上而不申上者笞四十○若巳奏巳申不待回報而輙施行者並同不奏不申之罪○其合奏公事湏要依律定擬具寫奏本其奏事及當該官吏僉書姓名明白奏聞若有規避增減緊關情節朦朧奏准施行巳後因事發露雖經年遠鞫問明白斬○若於親臨上司官處稟議公事必先隨事詳陳可否定擬稟說若准擬者上",
+          "evidence_kind": "原典文字（空白已规范化；完整上下文见正文及HTML）"
+        }
+      ],
+      "implementation_note": "只在史料页陈列。诏书上限、政务CD、忠心声誉惩罚属于用户设计，不来自本律。"
+    },
+    {
+      "id": "ming_law_paperwork",
+      "name": "官文书稽程",
+      "category": "律文主题",
+      "domain": "administration",
+      "summary": "对官文书迟延、含糊推调等规定责任，供未来传递与官僚效率模块参考。",
+      "period": "洪武定律传统；1500年作为律文主题参考，所用载体含后世集解附例",
+      "source_ids": [
+        "daminglv_03",
+        "mingshi_093"
+      ],
+      "verification_status": "条名与正文已核；1500字句版本及附例适用性待复校",
+      "fact_kind": "律文主题概括；非完整法制复原",
+      "effective_at_baseline": "reference_only_pending_edition_collation",
+      "simulation_effects_enabled": false,
+      "evidence": [
+        {
+          "source_id": "daminglv_03",
+          "locator": "律文条目：官文書稽程（不取后附条例为1500事实）",
+          "anchor": "官文書稽程",
+          "excerpt": "官文書稽程凡官文書稽程者一日吏典笞一十三日加一等罪止笞四十首領官各減一等○若各衙門門遇有所屬申稟公事隨即詳議可否明白定奪回報若當該官吏不與果決倉糊行移互相推調以致躭悞公事者杖八十其所屬將可行事件不行區處作疑申稟者罪亦如之其所行公事巳果決行移或有未絕或不完者自依官文書稽程論罪〈纂註〉稽程稽遲程限也詳見各例公事失錯條各減一等各字指大小中三項事凡官府文書行移完結各有程限如小事五日中事十日大事二十日過此不了為稽程承行吏典計日",
+          "evidence_kind": "原典文字（空白已规范化；完整上下文见正文及HTML）"
+        }
+      ],
+      "implementation_note": "只在史料页陈列。诏书上限、政务CD、忠心声誉惩罚属于用户设计，不来自本律。"
+    },
+    {
+      "id": "ming_law_registration",
+      "name": "人户以籍为定",
+      "category": "律文主题",
+      "domain": "population",
+      "summary": "以既定户籍约束户类及差役归属；户籍人口不直接等于实际人口。",
+      "period": "洪武定律传统；1500年作为律文主题参考，所用载体含后世集解附例",
+      "source_ids": [
+        "daminglv_04",
+        "mingshi_093"
+      ],
+      "verification_status": "条名与正文已核；1500字句版本及附例适用性待复校",
+      "fact_kind": "律文主题概括；非完整法制复原",
+      "effective_at_baseline": "reference_only_pending_edition_collation",
+      "simulation_effects_enabled": false,
+      "evidence": [
+        {
+          "source_id": "daminglv_04",
+          "locator": "律文条目：人戶以籍為定（不取后附条例为1500事实）",
+          "anchor": "人戶以籍為定",
+          "excerpt": "人戶以籍為定凡軍民驛、竈、醫、卜、工、樂諸色人戶並以籍為定，若詐冒脫免、避重就輕者，杖八十。其官司妄准脫免及變亂版籍者罪同。若詐稱各衛軍人不當軍民差役者，杖一百，發邊遠充軍。集解詐冒二字雖可分，然亦相因。蓋如舊戶詐作迯絕，又冒他人之戶，欲以脫免前籍，避重就輕也。役因戶而出，俱一件事，故下文官司只言脫免。變亂版籍是以軍作民、以竈作匠之意。詐稱各衛軍人，不是冒軍，是自稱係軍以避民差，又不當軍也。大明令凡軍民醫、匠、陰陽諸",
+          "evidence_kind": "原典文字（空白已规范化；完整上下文见正文及HTML）"
+        }
+      ],
+      "implementation_note": "只在史料页陈列。诏书上限、政务CD、忠心声誉惩罚属于用户设计，不来自本律。"
+    },
+    {
+      "id": "ming_law_disaster_survey",
+      "name": "检踏灾伤田粮",
+      "category": "律文主题",
+      "domain": "relief",
+      "summary": "灾伤田粮需申报与检验，对虚报、失实勘报等有规定。",
+      "period": "洪武定律传统；1500年作为律文主题参考，所用载体含后世集解附例",
+      "source_ids": [
+        "daminglv_05",
+        "mingshi_093"
+      ],
+      "verification_status": "条名与正文已核；1500字句版本及附例适用性待复校",
+      "fact_kind": "律文主题概括；非完整法制复原",
+      "effective_at_baseline": "reference_only_pending_edition_collation",
+      "simulation_effects_enabled": false,
+      "evidence": [
+        {
+          "source_id": "daminglv_05",
+          "locator": "律文条目：檢踏災傷田糧（不取后附条例为1500事实）",
+          "anchor": "檢踏災傷田糧",
+          "excerpt": "檢踏災傷田糧凡部內有水旱霜雹蝗蝻為害一應災傷田糧有司官吏應准告而不即受理申報檢踏及本管上司不與委官覆踏者各杖八十若初覆檢踏官吏不行親詣田所及雖詣田所不為用心從實檢踏止憑里長甲首朦朧供報中間以熟作荒以荒作熟增減數通同作弊瞞官害民者各杖一百罷職役不敘若致枉有所徵免數計贓重者坐贓論里長甲首各與同罪受財者並計贓以枉法從重論○其檢踏官吏及里長甲首失於關防致有不實計者計田十畝以下免罪十畝以上至二十畝笞二十每二十畝加一等罪止杖八十",
+          "evidence_kind": "原典文字（空白已规范化；完整上下文见正文及HTML）"
+        }
+      ],
+      "implementation_note": "只在史料页陈列。诏书上限、政务CD、忠心声誉惩罚属于用户设计，不来自本律。"
+    },
+    {
+      "id": "ming_law_tax_measure",
+      "name": "多收税粮斛面",
+      "category": "律文主题",
+      "domain": "taxation",
+      "summary": "约束收粮量器与额外多收；实际折耗与附例属于另需按年代校核的层次。",
+      "period": "洪武定律传统；1500年作为律文主题参考，所用载体含后世集解附例",
+      "source_ids": [
+        "daminglv_07",
+        "mingshi_093"
+      ],
+      "verification_status": "条名与正文已核；1500字句版本及附例适用性待复校",
+      "fact_kind": "律文主题概括；非完整法制复原",
+      "effective_at_baseline": "reference_only_pending_edition_collation",
+      "simulation_effects_enabled": false,
+      "evidence": [
+        {
+          "source_id": "daminglv_07",
+          "locator": "律文条目：多收稅糧斛面（不取后附条例为1500事实）",
+          "anchor": "多收稅糧斛面",
+          "excerpt": "多收稅糧斛面凡各倉收受稅糧聽令納戶親自行槩平斛交收作數支銷依令准除折耗若倉官斗級不令納戶行槩踢斛淋尖多收斛面者杖六十若以附餘糧數計贓重者坐贓論罪止杖一百提調官吏知而不舉與同罪不知者不坐〈纂註〉槩者平斛之依令依大明也令云每米一石除耗米七合謂正數之外多加以防折耗也踢斛使其實淋尖使其滿也附餘糧數即所多收之糧積出羨餘也此條因主守收受糧有慮恐折耗而取盈於斛面者故特立此法聽令納戶親自行槩平斛交收將斛內之數收入倉厫作數支銷仍依令於",
+          "evidence_kind": "原典文字（空白已规范化；完整上下文见正文及HTML）"
+        }
+      ],
+      "implementation_note": "只在史料页陈列。诏书上限、政务CD、忠心声誉惩罚属于用户设计，不来自本律。"
+    },
+    {
+      "id": "ming_law_bribery",
+      "name": "官吏受财",
+      "category": "律文主题",
+      "domain": "corruption",
+      "summary": "区分枉法、不枉法等受财情形；不据此直接生成抽象腐败度或刑罚数值。",
+      "period": "洪武定律传统；1500年作为律文主题参考，所用载体含后世集解附例",
+      "source_ids": [
+        "daminglv_23",
+        "mingshi_093"
+      ],
+      "verification_status": "条名与正文已核；1500字句版本及附例适用性待复校",
+      "fact_kind": "律文主题概括；非完整法制复原",
+      "effective_at_baseline": "reference_only_pending_edition_collation",
+      "simulation_effects_enabled": false,
+      "evidence": [
+        {
+          "source_id": "daminglv_23",
+          "locator": "律文条目：官吏受財（不取后附条例为1500事实）",
+          "anchor": "官吏受財",
+          "excerpt": "官吏受財凡官吏受財者計贓科斷無祿人各減一等官追奪除名吏罷役俱不敘○說事過錢者有祿人減受錢人一等無祿人減二等罪止杖一百各遷徙有贓者計贓從重論有祿人枉法贓各主者通算全科〈謂受有事人財而曲法處斷者如受十人財一時事發通算作一處全科其罪〉一貫以下杖七十一貫之上至五貫杖八十一十貫杖九十一十五貫杖一百二十貫杖六十徒一年二十五貫杖七十徒一年半三十貫杖八十徒二年三十五貫杖九十徒二年半四十貫杖一百徒三年四十五貫杖一百流二千里五十貫杖一百",
+          "evidence_kind": "原典文字（空白已规范化；完整上下文见正文及HTML）"
+        }
+      ],
+      "implementation_note": "只在史料页陈列。诏书上限、政务CD、忠心声誉惩罚属于用户设计，不来自本律。"
+    },
+    {
+      "id": "ming_law_levees",
+      "name": "失时不修堤防",
+      "category": "律文主题",
+      "domain": "infrastructure",
+      "summary": "规定堤防维护责任，并区分非人力所能控制的暴水连雨情形。",
+      "period": "洪武定律传统；1500年作为律文主题参考，所用载体含后世集解附例",
+      "source_ids": [
+        "daminglv_30",
+        "mingshi_093"
+      ],
+      "verification_status": "条名与正文已核；1500字句版本及附例适用性待复校",
+      "fact_kind": "律文主题概括；非完整法制复原",
+      "effective_at_baseline": "reference_only_pending_edition_collation",
+      "simulation_effects_enabled": false,
+      "evidence": [
+        {
+          "source_id": "daminglv_30",
+          "locator": "律文条目：失時不修隄防（不取后附条例为1500事实）",
+          "anchor": "失時不修隄防",
+          "excerpt": "失時不修隄防凡不修河防及修而失時者提調官吏各笞五十若毀害人家漂失財物者杖六十因而致傷人命者杖八十○若不修圩岸及修而失時者笞三十因而渰沒田禾者笞五十○其暴水連雨損壞隄防非人力所致者勿論〈纂註〉此條罪專坐提調官吏防岸所以障水不修則有潰決之患故不修或修而失其當修之時提調官吏豈得辭其責哉故其罪如此暴水卒暴之水連雨連日之雨也此非人力所能制者故勿論條例一凡運河一帶用強包攬閘夫溜夫二名之上撈淺鋪夫三名之上俱問罪旗軍發邊衛民并軍丁人",
+          "evidence_kind": "原典文字（空白已规范化；完整上下文见正文及HTML）"
+        }
+      ],
+      "implementation_note": "只在史料页陈列。诏书上限、政务CD、忠心声誉惩罚属于用户设计，不来自本律。"
+    },
+    {
+      "id": "ming_law_roads",
+      "name": "修理桥梁道路",
+      "category": "律文主题",
+      "domain": "infrastructure",
+      "summary": "府州县佐贰在农隙检查修理桥梁道路并维持交通。",
+      "period": "洪武定律传统；1500年作为律文主题参考，所用载体含后世集解附例",
+      "source_ids": [
+        "daminglv_30",
+        "mingshi_093"
+      ],
+      "verification_status": "条名与正文已核；1500字句版本及附例适用性待复校",
+      "fact_kind": "律文主题概括；非完整法制复原",
+      "effective_at_baseline": "reference_only_pending_edition_collation",
+      "simulation_effects_enabled": false,
+      "evidence": [
+        {
+          "source_id": "daminglv_30",
+          "locator": "律文条目：修理橋梁道路（不取后附条例为1500事实）",
+          "anchor": "修理橋梁道路",
+          "excerpt": "修理橋梁道路凡橋梁道路府州縣佐貳官提調於農隙之時常加點視修理務要堅完平坦若損壞失於修理阻礙經行者提調官吏笞三十○若津渡之處應造橋梁而不造應置渡船而不置者笞四十〈纂註〉橋梁道路以通往來之人若有損壞而不及時修理未免阻礙經行故提調官吏笞三十津渡之處未有橋梁而應造未有渡船而應置不造不置則民將病涉矣故笞四十亦坐提調官吏條例一條例申明頒布之後一切舊刻事例未經今次載入如比附律條等項悉行停寢凡問刑衙門敢有恣任喜怒妄行引擬或移情就例故",
+          "evidence_kind": "原典文字（空白已规范化；完整上下文见正文及HTML）"
+        }
+      ],
+      "implementation_note": "只在史料页陈列。诏书上限、政务CD、忠心声誉惩罚属于用户设计，不来自本律。"
+    },
+    {
+      "id": "ming_edict_grain_reserves_1490",
+      "name": "命预备仓积粟",
+      "category": "有纪年的诏令记录",
+      "summary": "本纪记命天下预备仓积粟，以里数多寡为差；仅记录已颁命令，不推定1500各地实际库存与执行效果。",
+      "period": "弘治三年（1490）三月",
+      "source_ids": [
+        "mingshi_015"
+      ],
+      "verification_status": "本纪日期与命令内容已核",
+      "fact_kind": "史料直接记载",
+      "effective_at_baseline": "past_edict_reference",
+      "simulation_effects_enabled": false,
+      "evidence": [
+        {
+          "source_id": "mingshi_015",
+          "locator": "弘治三年（1490）三月",
+          "anchor": "命天下預備倉積粟",
+          "excerpt": "命天下預備倉積粟，以里數多寡為差，不及額者罪之。庚午，賜錢福等進士及第、出身有差。甲戌，侍郎張海、通政使元守直閱邊。秋九月庚戌，禁內府加派供御物料。閏月癸巳，禁宗室、勳戚奏請田土及受人投獻。冬十一月甲辰，停工役，罷內官燒造瓷器。十二月辛亥，以彗星見，敕羣臣修省，陳軍民利病。己未，",
+          "evidence_kind": "原典文字（空白已规范化；完整上下文见正文及HTML）"
+        }
+      ]
+    },
+    {
+      "id": "ming_edict_assessment_1495",
+      "name": "考察官员务得实迹",
+      "category": "有纪年的诏令记录",
+      "summary": "要求吏部、都察院考察人才进退依据实迹、避免偏听枉人。",
+      "period": "弘治八年（1495）四月",
+      "source_ids": [
+        "mingshi_015"
+      ],
+      "verification_status": "本纪日期与命令内容已核",
+      "fact_kind": "史料直接记载",
+      "effective_at_baseline": "past_edict_reference",
+      "simulation_effects_enabled": false,
+      "evidence": [
+        {
+          "source_id": "mingshi_015",
+          "locator": "弘治八年（1495）四月",
+          "anchor": "諭吏部、都察院，人材進退",
+          "excerpt": "諭吏部、都察院，人材進退，考察務得實跡，不可偏聽枉人。五月己丑，免南畿被災秋糧。秋七月丁亥，封宋儒楊時將樂伯，從祀孔子廟庭。戊子，廣西副總兵歐磐擊破平樂叛瑤。八月癸亥，以四方災異數見，敕羣臣修省。冬十一月己酉，免直隸被災秋糧。十二月辛酉，巡撫甘肅僉都御史許進、總兵官劉寧入哈密，土",
+          "evidence_kind": "原典文字（空白已规范化；完整上下文见正文及HTML）"
+        }
+      ]
+    },
+    {
+      "id": "ming_law_wenxing_1500",
+      "name": "弘治问刑条例重定",
+      "category": "开局之后的制度事件参考",
+      "summary": "弘治十三年二月重定问刑条例。《明史·刑法》记增历年可行者297条；不能在正月开局就声明其全部已生效，也不能把后世附例整本替代本次条例。",
+      "period": "弘治十三年（1500）二月，晚于本包正月基准",
+      "source_ids": [
+        "mingshi_015",
+        "mingshi_093",
+        "mingtongjian_043"
+      ],
+      "verification_status": "制定时间及总数互核；297条独立版本尚未完整校录",
+      "fact_kind": "史料直接记载及开局先后判断",
+      "effective_at_baseline": false,
+      "simulation_effects_enabled": false,
+      "evidence": [
+        {
+          "source_id": "mingshi_015",
+          "locator": "弘治十三年二月",
+          "anchor": "庚寅，定問刑條例",
+          "excerpt": "庚寅，定問刑條例。乙未，嚴旌舉連坐之法。夏四月，火篩寇大同，遊擊將軍王杲敗績於威遠衞。乙巳，平江伯陳銳為靖虜將軍，充總兵官，太監金輔監軍，戶部左侍郎許進提督軍務，禦之。五月甲寅朔，日有食之。丙辰，召大學士劉健、李東陽、謝遷於平臺，議京營將領。癸亥，火篩大舉入寇大同左衞，遊擊將軍張",
+          "evidence_kind": "原典文字（空白已规范化；完整上下文见正文及HTML）"
+        },
+        {
+          "source_id": "mingshi_093",
+          "locator": "弘治十三年问刑条例",
+          "anchor": "增歷年問刑條例經久可行者二百九十七條",
+          "excerpt": "增歷年問刑條例經久可行者二百九十七條。帝摘其中六事，令再議以聞。九卿執奏，乃不果改。然自是以後，律例並行而網亦少密。王府禁例六條，諸王無故出城有罰，其法尤嚴。嘉靖七年，保定巡撫王應鵬言：「正德間，新增問刑條例四十四款，深中情法，皆宜編入。」不從。惟詔偽造印信及竊盜三犯者不得用可矜",
+          "evidence_kind": "原典文字（空白已规范化；完整上下文见正文及HTML）"
+        },
+        {
+          "source_id": "mingtongjian_043",
+          "locator": "弘治十三年二月",
+          "anchor": "庚寅，诏更定刑部条律",
+          "excerpt": "庚寅，诏更定刑部条律。初，洪、永间定制，法司断狱，一依律拟议。英、宪以后，巧法之吏，往往舍律用例，于是条例日繁。五年，以鸿胪少卿李鐩请，命刑部尚书彭韶删定问刑条例。及足给事中杨廉复言：“高皇帝肇造之初，特命刘基、陶安等详定律令，且谕之曰：‘立法贵简，若条例繁多，可轻可重，吏得因缘",
+          "evidence_kind": "原典文字（空白已规范化；完整上下文见正文及HTML）"
+        }
+      ]
+    }
+  ]
+}

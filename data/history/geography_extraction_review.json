@@ -1,0 +1,1090 @@
+{
+  "metadata": {
+    "schema_version": 1,
+    "scenario_year": 1500,
+    "scenario_era": "弘治十三年（临时开局基准）",
+    "generated_at": "2026-09-06T16:59:08.717511+00:00",
+    "historical_scope": "《明史》地理志跨明代沿革名录；下级行政记录尚未全部回溯到1500年",
+    "coordinate_reference_system": "WGS84 longitude, latitude",
+    "historical_boundaries_available": false,
+    "data_warning": "府州县为史料参考库；禁止把其数量、隶属与万历人口直接用作1500开局实值。",
+    "display_name_conversion": "OpenCC t2s",
+    "parsed_units": 654,
+    "parsed_counties": 1173,
+    "unclassified_paragraph_count": 120,
+    "county_counts_by_region": {
+      "beizhili": 117,
+      "nanzhili": 96,
+      "shandong": 89,
+      "shanxi": 78,
+      "henan": 96,
+      "shaanxi": 96,
+      "sichuan": 111,
+      "jiangxi": 77,
+      "huguang": 110,
+      "zhejiang": 75,
+      "fujian": 57,
+      "guangdong": 77,
+      "guangxi": 50,
+      "yunnan": 30,
+      "guizhou": 14
+    },
+    "county_name_corrections": [
+      {
+        "id": "beizhili_county_0ed9073b4a",
+        "original": "井徑",
+        "corrected": "井陉县"
+      },
+      {
+        "id": "beizhili_county_08cf2d39a8",
+        "original": "成安安",
+        "corrected": "成安县"
+      },
+      {
+        "id": "nanzhili_county_57d65fbe34",
+        "original": "徑",
+        "corrected": "泾县"
+      },
+      {
+        "id": "shanxi_county_b42e838b88",
+        "original": "教義",
+        "corrected": "孝义县"
+      },
+      {
+        "id": "shaanxi_county_bbb102da73",
+        "original": "扶鳳",
+        "corrected": "扶风县"
+      },
+      {
+        "id": "zhejiang_county_fad9c08524",
+        "original": "蒲江",
+        "corrected": "浦江县"
+      },
+      {
+        "id": "yunnan_county_3ccca03f5a",
+        "original": "柷嘉",
+        "corrected": "𥔲嘉县"
+      }
+    ],
+    "county_names_without_second_transcription_substring_match": [
+      {
+        "id": "beizhili_county_e1c78077b6",
+        "name": "柏乡县",
+        "source_ids": [
+          "mingshi_40",
+          "mingshi_siku_40"
+        ]
+      },
+      {
+        "id": "beizhili_county_89fa53778b",
+        "name": "浚县",
+        "source_ids": [
+          "mingshi_40",
+          "mingshi_siku_40"
+        ]
+      },
+      {
+        "id": "nanzhili_county_2972fe2153",
+        "name": "蒙城县",
+        "source_ids": [
+          "mingshi_40",
+          "mingshi_siku_40"
+        ]
+      },
+      {
+        "id": "nanzhili_county_ca5c67957d",
+        "name": "盱眙县",
+        "source_ids": [
+          "mingshi_40",
+          "mingshi_siku_40"
+        ]
+      },
+      {
+        "id": "nanzhili_county_c1ff0ad4cd",
+        "name": "赣榆县",
+        "source_ids": [
+          "mingshi_40",
+          "mingshi_siku_40"
+        ]
+      },
+      {
+        "id": "nanzhili_county_ddc2df3b81",
+        "name": "睢宁县",
+        "source_ids": [
+          "mingshi_40",
+          "mingshi_siku_40"
+        ]
+      },
+      {
+        "id": "nanzhili_county_9269b970b6",
+        "name": "泰兴县",
+        "source_ids": [
+          "mingshi_40",
+          "mingshi_siku_40"
+        ]
+      },
+      {
+        "id": "nanzhili_county_a23e64dc01",
+        "name": "如皋县",
+        "source_ids": [
+          "mingshi_40",
+          "mingshi_siku_40"
+        ]
+      },
+      {
+        "id": "shandong_county_e3a2372f76",
+        "name": "临朐县",
+        "source_ids": [
+          "mingshi_41",
+          "mingshi_siku_41"
+        ]
+      },
+      {
+        "id": "shandong_county_699573c1f2",
+        "name": "蒙阴县",
+        "source_ids": [
+          "mingshi_41",
+          "mingshi_siku_41"
+        ]
+      },
+      {
+        "id": "shandong_county_e88ce2b66b",
+        "name": "招远县",
+        "source_ids": [
+          "mingshi_41",
+          "mingshi_siku_41"
+        ]
+      },
+      {
+        "id": "shanxi_county_a78abd7b80",
+        "name": "洪洞县",
+        "source_ids": [
+          "mingshi_41",
+          "mingshi_siku_41"
+        ]
+      },
+      {
+        "id": "shanxi_county_1e8ad315d0",
+        "name": "荥河县",
+        "source_ids": [
+          "mingshi_41",
+          "mingshi_siku_41"
+        ]
+      },
+      {
+        "id": "shanxi_county_8b9e080b3f",
+        "name": "壶关县",
+        "source_ids": [
+          "mingshi_41",
+          "mingshi_siku_41"
+        ]
+      },
+      {
+        "id": "henan_county_c1e4a00a82",
+        "name": "杞县",
+        "source_ids": [
+          "mingshi_42",
+          "mingshi_siku_42"
+        ]
+      },
+      {
+        "id": "henan_county_c7aee6e156",
+        "name": "临颍县",
+        "source_ids": [
+          "mingshi_42",
+          "mingshi_siku_42"
+        ]
+      },
+      {
+        "id": "henan_county_a66cbe2116",
+        "name": "桐柏县",
+        "source_ids": [
+          "mingshi_42",
+          "mingshi_siku_42"
+        ]
+      },
+      {
+        "id": "shaanxi_county_ba6d7f64aa",
+        "name": "宁远县",
+        "source_ids": [
+          "mingshi_42",
+          "mingshi_siku_42"
+        ]
+      },
+      {
+        "id": "shaanxi_county_0ba42170e6",
+        "name": "伏羌县",
+        "source_ids": [
+          "mingshi_42",
+          "mingshi_siku_42"
+        ]
+      },
+      {
+        "id": "sichuan_county_08b94dc617",
+        "name": "仪陇县",
+        "source_ids": [
+          "mingshi_43",
+          "mingshi_siku_43"
+        ]
+      },
+      {
+        "id": "sichuan_county_c66ba544dc",
+        "name": "定远县",
+        "source_ids": [
+          "mingshi_43",
+          "mingshi_siku_43"
+        ]
+      },
+      {
+        "id": "sichuan_county_bac13b8db4",
+        "name": "宜宾县",
+        "source_ids": [
+          "mingshi_43",
+          "mingshi_siku_43"
+        ]
+      },
+      {
+        "id": "sichuan_county_09cb48e0bc",
+        "name": "丹棱县",
+        "source_ids": [
+          "mingshi_43",
+          "mingshi_siku_43"
+        ]
+      },
+      {
+        "id": "sichuan_county_41d0b86187",
+        "name": "峨眉县",
+        "source_ids": [
+          "mingshi_43",
+          "mingshi_siku_43"
+        ]
+      },
+      {
+        "id": "sichuan_county_6ab7b5e3d2",
+        "name": "威远县",
+        "source_ids": [
+          "mingshi_43",
+          "mingshi_siku_43"
+        ]
+      },
+      {
+        "id": "huguang_county_c0938e85f9",
+        "name": "远安县",
+        "source_ids": [
+          "mingshi_44",
+          "mingshi_siku_44"
+        ]
+      },
+      {
+        "id": "huguang_county_e94d3012d0",
+        "name": "酃县",
+        "source_ids": [
+          "mingshi_44",
+          "mingshi_siku_44"
+        ]
+      },
+      {
+        "id": "huguang_county_ced829a10b",
+        "name": "邵阳县",
+        "source_ids": [
+          "mingshi_44",
+          "mingshi_siku_44"
+        ]
+      },
+      {
+        "id": "huguang_county_0067a6e1c9",
+        "name": "辰溪县",
+        "source_ids": [
+          "mingshi_44",
+          "mingshi_siku_44"
+        ]
+      },
+      {
+        "id": "guangdong_county_93c4cb5ea3",
+        "name": "东莞县",
+        "source_ids": [
+          "mingshi_45",
+          "mingshi_siku_45"
+        ]
+      },
+      {
+        "id": "guangdong_county_fbc163a326",
+        "name": "清远县",
+        "source_ids": [
+          "mingshi_45",
+          "mingshi_siku_45"
+        ]
+      },
+      {
+        "id": "guangxi_county_fb0912fce6",
+        "name": "荔浦县",
+        "source_ids": [
+          "mingshi_45",
+          "mingshi_siku_45"
+        ]
+      },
+      {
+        "id": "guangxi_county_1ce73ab52c",
+        "name": "柳城县",
+        "source_ids": [
+          "mingshi_45",
+          "mingshi_siku_45"
+        ]
+      },
+      {
+        "id": "guangxi_county_168196ed12",
+        "name": "怀远县",
+        "source_ids": [
+          "mingshi_45",
+          "mingshi_siku_45"
+        ]
+      },
+      {
+        "id": "guangxi_county_7eb7d15cc9",
+        "name": "来宾县",
+        "source_ids": [
+          "mingshi_45",
+          "mingshi_siku_45"
+        ]
+      },
+      {
+        "id": "yunnan_county_df1f16b3bb",
+        "name": "定远县",
+        "source_ids": [
+          "mingshi_46",
+          "mingshi_siku_46"
+        ]
+      },
+      {
+        "id": "guizhou_county_cb646edde8",
+        "name": "镇远县",
+        "source_ids": [
+          "mingshi_46",
+          "mingshi_siku_46"
+        ]
+      }
+    ]
+  },
+  "records": [
+    {
+      "volume": 40,
+      "region_id": "beizhili",
+      "source_line": 339,
+      "text": "興和守禦千戶所 永樂二十年自興和舊城徙宣府城內。宣德五年六月改屬。"
+    },
+    {
+      "volume": 40,
+      "region_id": "beizhili",
+      "source_line": 341,
+      "text": "龍門守禦千戶所 宣德六年七月置於李家莊。西有西高山。東有白河。北有牧馬堡。東有寧遠堡。東北有長伸地、滴水涯等堡。東南有樣田堡。西南距都司二百四十里。"
+    },
+    {
+      "volume": 40,
+      "region_id": "beizhili",
+      "source_line": 343,
+      "text": "長安嶺堡永樂九年置。弘治二年置守禦千戶所於此。有長安嶺，名槍桿嶺。西北有鷹窩山泉。西南距都司一百四十里。"
+    },
+    {
+      "volume": 40,
+      "region_id": "beizhili",
+      "source_line": 345,
+      "text": "鵰鶚堡宣德五年六月置。北有浩門嶺。南有南河，下流入於白河。西南距都司一百七十里。"
+    },
+    {
+      "volume": 40,
+      "region_id": "beizhili",
+      "source_line": 347,
+      "text": "赤城堡宣德五年六月置。東有赤城山，又有東河，即通州白河之上源也，又有西河，合焉。西北有鎮寧堡，弘治十一年置。西南距都司二百里。"
+    },
+    {
+      "volume": 40,
+      "region_id": "beizhili",
+      "source_line": 351,
+      "text": "馬營堡宣德七年置。西北有冠帽山。南有灤河。又西北有君子堡。西有松樹堡。東南有倉上堡。西南距都司二百里。"
+    },
+    {
+      "volume": 40,
+      "region_id": "beizhili",
+      "source_line": 399,
+      "text": "興和守禦千戶所元隆興路，直隸中書省。皇慶元年十月改爲興和路。洪武三年爲府，屬北平布政司。四年後，府廢。三十年正月置所。永樂元年二月直隸後軍都督府。二十年爲阿魯臺所攻，徙治宣府衛城，而所地遂虛。東北有凌霄峯。南有威遠川。西有魚兒濼。又西有集寧路，元直隸中書省。西北有寶昌州，元屬興和路。又有高原縣，元爲興和路治。洪武中俱廢。{{PUA|}}距北平都司裏。"
+    },
+    {
+      "volume": 40,
+      "region_id": "beizhili",
+      "source_line": 401,
+      "text": "寬河守禦千戶所洪武二十二年二月置。永樂元年二月徙治遵化縣，仍屬大寧都司。又僑置寬河衛於京師，直隸後軍都督府。東南有寬河，一名豹河，下流經遷安縣西北，又東合於灤河。距北平都司裏。"
+    },
+    {
+      "volume": 40,
+      "region_id": "beizhili",
+      "source_line": 403,
+      "text": "宜興守禦千戶所元宜興縣，屬興州。致和元年八月升爲宜興州。洪武二年兼置衛，屬永平府。三年三月屬北平府。六月改衛爲守禦千戶所。五年七月，州廢，存所。永樂元年，所廢。距北平都司裏。"
+    },
+    {
+      "volume": 41,
+      "region_id": "shandong",
+      "source_line": 255,
+      "text": "定遼左衛、定遼右衛俱洪武六年十一月置。"
+    },
+    {
+      "volume": 41,
+      "region_id": "shandong",
+      "source_line": 265,
+      "text": "以上五衛一州，同治都司城內。"
+    },
+    {
+      "volume": 41,
+      "region_id": "shandong",
+      "source_line": 277,
+      "text": "廣寧中衛、廣寧左衛俱洪武二十六年正月置。二十八年四月廢。三十五年十一月復置。"
+    },
+    {
+      "volume": 41,
+      "region_id": "shandong",
+      "source_line": 281,
+      "text": "以上三衛，俱在廣寧衛城。"
+    },
+    {
+      "volume": 41,
+      "region_id": "shandong",
+      "source_line": 283,
+      "text": "廣寧前衛、廣寧後衛俱洪武二十六年正月置。後俱廢。"
+    },
+    {
+      "volume": 41,
+      "region_id": "shandong",
+      "source_line": 301,
+      "text": "瀋陽左衛、瀋陽右衛俱洪武中置。建文初廢。洪武三十五年七月復置，後仍廢。"
+    },
+    {
+      "volume": 41,
+      "region_id": "shanxi",
+      "source_line": 568,
+      "text": "井坪守禦千戶所成化二十年七月置。"
+    },
+    {
+      "volume": 41,
+      "region_id": "shanxi",
+      "source_line": 584,
+      "text": "}}"
+    },
+    {
+      "volume": 42,
+      "region_id": "shaanxi",
+      "source_line": 547,
+      "text": "西固城守禦軍民千戶所衛南。本西固城千戶所，洪武七年三月置，屬鞏昌府。十五年四月改置，來屬。南有白水。北有化石關。西北有平定關。"
+    },
+    {
+      "volume": 42,
+      "region_id": "shaanxi",
+      "source_line": 553,
+      "text": "靈州守禦千戶所衛東南。洪武十六年十月置，治在河口。宣德三年二月徙於城東。弘治十三年九月復置靈州於所城。"
+    },
+    {
+      "volume": 42,
+      "region_id": "shaanxi",
+      "source_line": 555,
+      "text": "興武守禦千戶所衛東南。正德元年以興武營置。"
+    },
+    {
+      "volume": 42,
+      "region_id": "shaanxi",
+      "source_line": 557,
+      "text": "韋州守禦千戶所衛東南。弘治十年以故韋州置。西有大蠡山。南有小蠡山。東有東湖。"
+    },
+    {
+      "volume": 42,
+      "region_id": "shaanxi",
+      "source_line": 559,
+      "text": "平虜千戶所衛北少東。嘉靖三十年以平虜城置。東北有老虎山，濱大河。北有鎮遠關。"
+    },
+    {
+      "volume": 42,
+      "region_id": "shaanxi",
+      "source_line": 561,
+      "text": "寧夏前衛在寧夏城內，洪武十七年置。"
+    },
+    {
+      "volume": 42,
+      "region_id": "shaanxi",
+      "source_line": 563,
+      "text": "○寧夏左屯衛"
+    },
+    {
+      "volume": 42,
+      "region_id": "shaanxi",
+      "source_line": 565,
+      "text": "寧夏右屯衛亦俱在寧夏城內，洪武二十五年二月置，後廢。三十五年十二月復置。"
+    },
+    {
+      "volume": 42,
+      "region_id": "shaanxi",
+      "source_line": 577,
+      "text": "甘州右衛、甘州中衛俱洪武二十五年三月置。"
+    },
+    {
+      "volume": 42,
+      "region_id": "shaanxi",
+      "source_line": 579,
+      "text": "甘州前衛、甘州後衛俱洪武二十九年置。四衛俱與甘州左衛同城。"
+    },
+    {
+      "volume": 42,
+      "region_id": "shaanxi",
+      "source_line": 595,
+      "text": "碾伯守禦千戶所本碾北地。洪武十一年三月置莊浪分衛。七月改置碾北衛，後廢，而徙西寧衛右千戶所於此。成化中更名。南有碾伯河。西北距行都司千二百三十里。"
+    },
+    {
+      "volume": 42,
+      "region_id": "shaanxi",
+      "source_line": 599,
+      "text": "鎮夷守禦千戶所洪武三十年以甘州衛地置。建文二年罷。永樂元年復置所，舊在西北，天順八年移於今治。南有黑河，即張掖河也。西南有鹽池。北有兔兒關。東南距行都司三百里。"
+    },
+    {
+      "volume": 42,
+      "region_id": "shaanxi",
+      "source_line": 601,
+      "text": "古浪守禦千戶所正統三年六月以莊浪衛地置。古浪河在東。又南有古浪關。東有石峽關。東南距行都司六百四十里。"
+    },
+    {
+      "volume": 42,
+      "region_id": "shaanxi",
+      "source_line": 603,
+      "text": "高臺守禦千戶所景泰七年以甘州衛之高臺站置。弱水在北。又西有合黎山。西南有白城山。東南距行都司一百六十里。"
+    },
+    {
+      "volume": 42,
+      "region_id": "shaanxi",
+      "source_line": 607,
+      "text": "}}"
+    },
+    {
+      "volume": 43,
+      "region_id": "sichuan",
+      "source_line": 356,
+      "text": "九姓長官司司城西南。元九姓羅氏黨蠻夷長官千戶。洪武六年十二月改置。天啓六年改屬瀘州。南有通江溪，東北會於納溪之江門峽。西南有金鵝池。"
+    },
+    {
+      "volume": 43,
+      "region_id": "sichuan",
+      "source_line": 366,
+      "text": "小河守禦千戶所宣德四年正月置。北有師家山，一名文山，山麓有文山關。南有小河，即涪水也，東流入龍安府界，有鐵索橋跨其上。"
+    },
+    {
+      "volume": 43,
+      "region_id": "sichuan",
+      "source_line": 368,
+      "text": "佔藏先結簇長官司、蠟匝簇長官司、白馬路簇長官司、山洞簇長官司、阿昔洞簇長官司、北定簇長官司、麥匝簇長官司、者多簇長官司、牟力結簇長官司、班班簇長官司、祈命簇長官司、勒都簇長官司、包藏先結簇長官司以上十三司，俱洪武十四年正月置。，阿用簇長官司宣德十年五月置。，潘斡寨長官司正統五年七月置。，別思寨長官司宣德十年五月置。，八郎安撫司永樂十五年二月置。，麻兒匝安撫司宣德二年三月，以阿樂地置。，阿角寨安撫司、芒兒者安撫司二司俱正統五年七月置。，思曩日安撫司正統十一年七月置。"
+    },
+    {
+      "volume": 43,
+      "region_id": "sichuan",
+      "source_line": 370,
+      "text": "疊溪守禦軍民千戶所本疊溪右千戶所，洪武十一年以古翼州置，屬茂州衛。二十五年改置。直隸都司。南有排柵山。西有汶江，南有黑水流合焉，謂之翼水。又南有南橋、中橋、徹底三關，北有永鎮橋關、鎮平關，西有疊溪橋關，東有小關，俱洪武十一年置。領長官司二。東南距布政司五百八十里。"
+    },
+    {
+      "volume": 43,
+      "region_id": "sichuan",
+      "source_line": 372,
+      "text": "疊溪長官司所城北。、鬱即長官司所城西。俱永樂元年正月置。"
+    },
+    {
+      "volume": 43,
+      "region_id": "sichuan",
+      "source_line": 374,
+      "text": "黎州守禦軍民千戶所本黎州長官司，洪武九年七月置。十一年六月升安撫司，直隸布政司。萬曆二十四年降爲千戶所，直隸都司。東北有聖鐘山，下有黎州，元屬陝西行省吐蕃宣慰司。洪武五年省州治漢源縣入州。永樂後廢。西北有飛越山，兩面皆接生羌界。西南有大田山，東麓爲大田壩，萬曆二十四年立黎州土千戶所於此。又東有沖天山。南有避瘴山。西北又有筍筤山。南有大渡河，即古若水。洪武十五年六月置大渡河守禦千戶所，後徙司城西北隅。又西南有漢水，源出飛越山之仙人洞，亦曰流沙河，下流至試劍山，入大渡河。河南即清溪關，與建昌行都司界。西有黑崖關，洪武十六年置。又有椒子關，路通長河西等處。東北距布政司六百九十里。"
+    },
+    {
+      "volume": 43,
+      "region_id": "sichuan",
+      "source_line": 382,
+      "text": "懷遠長官司、宣化長官司俱成化十三年二月，與宣撫司同置。"
+    },
+    {
+      "volume": 43,
+      "region_id": "sichuan",
+      "source_line": 386,
+      "text": "石耶洞長官司司東南。元石耶軍民府。洪武八年正月改爲長官司。邑梅洞長官司司南。元佛鄉洞長官司。明玉珍改邑梅沿邊溪洞軍民府。洪武八年正月改置。北有凱歌河，一名買賽河，自貴州平頭著可司流入，東入酉陽司界。麻兔洞長官司洪武八年正月置。"
+    },
+    {
+      "volume": 43,
+      "region_id": "sichuan",
+      "source_line": 394,
+      "text": "○守禦禮州後千戶所"
+    },
+    {
+      "volume": 43,
+      "region_id": "sichuan",
+      "source_line": 396,
+      "text": "守禦禮州中中千戶所衛北。元禮州，屬建昌路。洪武十五年三月屬建昌府，兼置二守禦所，屬衛。二十七年後，州廢。北有瀘沽縣，元屬禮州，洪武十五年三月因之，亦二十七年後廢。"
+    },
+    {
+      "volume": 43,
+      "region_id": "sichuan",
+      "source_line": 398,
+      "text": "守禦打衝河中前千戶所衛西。洪武二十七年二月置。西有打衝河，蠻名黑惠江，一名納夷江，源出吐蕃，下流入金沙江。東北有水砦關。南有天星砦。"
+    },
+    {
+      "volume": 43,
+      "region_id": "sichuan",
+      "source_line": 400,
+      "text": "守禦德昌千戶所衛南。洪武十五年置。南有德昌路，元屬羅羅蒙慶宣慰司，洪武十五年三月爲府，屬雲南布政司，十月改屬四川布政司，二十七年後廢。"
+    },
+    {
+      "volume": 43,
+      "region_id": "sichuan",
+      "source_line": 402,
+      "text": "昌州長官司衛南。元屬德昌路。洪武十五年三月屬德昌府。永樂二年七月改置。"
+    },
+    {
+      "volume": 43,
+      "region_id": "sichuan",
+      "source_line": 404,
+      "text": "威龍長官司衛東南。元威龍州，屬德昌路。洪武十五年三月以「龍。」爲「隆」，屬德昌府。永樂二年七月改置。"
+    },
+    {
+      "volume": 43,
+      "region_id": "sichuan",
+      "source_line": 406,
+      "text": "普濟長官司衛西南。元普濟州，屬德昌路。洪武十五年三月屬德昌府。永樂二年七月改置。"
+    },
+    {
+      "volume": 43,
+      "region_id": "sichuan",
+      "source_line": 410,
+      "text": "守禦冕山橋後千戶所衛東。正統七年以冕山堡置。東有東河，與瀘沽河合，下流入金沙江。北有冕山關。"
+    },
+    {
+      "volume": 43,
+      "region_id": "sichuan",
+      "source_line": 414,
+      "text": "鎮西后千戶所衛北。弘治中置。"
+    },
+    {
+      "volume": 43,
+      "region_id": "sichuan",
+      "source_line": 416,
+      "text": "邛部長官司衛東。元邛部州，屬建昌路。洪武十五年三月屬建昌府，二十七年四月升軍民府，後仍爲州，屬越巂衛。永樂元年五月改爲長官司。東有平夷、歸化二堡，萬曆十五年開部夷地增置。"
+    },
+    {
+      "volume": 43,
+      "region_id": "sichuan",
+      "source_line": 420,
+      "text": "打衝河守禦中左千戶所衛東北。洪武二十五年置。"
+    },
+    {
+      "volume": 43,
+      "region_id": "sichuan",
+      "source_line": 422,
+      "text": "馬刺長官司衛南。永樂初置。"
+    },
+    {
+      "volume": 43,
+      "region_id": "sichuan",
+      "source_line": 426,
+      "text": "守禦迷易千戶所衛西北。洪武二十五年閏十一月置。"
+    },
+    {
+      "volume": 43,
+      "region_id": "jiangxi",
+      "source_line": 615,
+      "text": "}}"
+    },
+    {
+      "volume": 44,
+      "region_id": "huguang",
+      "source_line": 312,
+      "text": "大田軍民千戶所洪武二十三年閏四月以散毛宣撫司之大水田置。東有小關山。西南有萬頃湖，與酉陽界。又南有深溪關。北有硝場，產硝。東北距衛二百二十里。"
+    },
+    {
+      "volume": 44,
+      "region_id": "huguang",
+      "source_line": 320,
+      "text": "○上愛茶峒長官司"
+    },
+    {
+      "volume": 44,
+      "region_id": "huguang",
+      "source_line": 322,
+      "text": "下愛茶峒長官司二長官司俱元容美洞地。至大二年置懷德府，屬四川南道宣慰司。至順二年正月升宣撫司。至正中，升軍民宣慰司。太祖甲辰年六月改軍民宣撫司，後廢。宣德三年五月改置。"
+    },
+    {
+      "volume": 44,
+      "region_id": "huguang",
+      "source_line": 324,
+      "text": "鎮遠蠻夷官司宣德三年五月置。"
+    },
+    {
+      "volume": 44,
+      "region_id": "huguang",
+      "source_line": 326,
+      "text": "隆奉蠻夷官司元隆奉宣撫司。洪武四年十二月改長官司，後廢。宣德三年五月改置官司。"
+    },
+    {
+      "volume": 44,
+      "region_id": "huguang",
+      "source_line": 328,
+      "text": "忠路安撫司明玉珍忠路宣撫司。洪武四年改安撫司，二十三年廢。永樂五年復置，領長官司一。"
+    },
+    {
+      "volume": 44,
+      "region_id": "huguang",
+      "source_line": 336,
+      "text": "西坪蠻夷官司宣德三年五月置。"
+    },
+    {
+      "volume": 44,
+      "region_id": "huguang",
+      "source_line": 344,
+      "text": "大旺安撫司明玉珍大旺宣撫司。洪武八年十二月因之，屬四川。永樂五年改置，領蠻夷官司二。"
+    },
+    {
+      "volume": 44,
+      "region_id": "huguang",
+      "source_line": 346,
+      "text": "東流蠻夷官司洪武八年十二月置東流安撫司，屬四川，後廢。宣德三年五月改置，來屬。"
+    },
+    {
+      "volume": 44,
+      "region_id": "huguang",
+      "source_line": 348,
+      "text": "臈壁峒蠻夷官司宣德三年五月置。"
+    },
+    {
+      "volume": 44,
+      "region_id": "huguang",
+      "source_line": 362,
+      "text": "椒山瑪瑙長官司、五峯石寶長官司、石樑下峒長官司、水盡源通塔平長官司四長官司，俱洪武七年十一月置，十四年廢。永樂五年復置。"
+    },
+    {
+      "volume": 44,
+      "region_id": "huguang",
+      "source_line": 372,
+      "text": "南渭州司西。元屬新添葛蠻安撫司，後廢。洪武二年復置，改屬。"
+    },
+    {
+      "volume": 44,
+      "region_id": "huguang",
+      "source_line": 374,
+      "text": "施溶州司東南。元會溪施溶等處長官司，屬思州軍民安撫司，後廢。洪武二年改置，來屬。"
+    },
+    {
+      "volume": 44,
+      "region_id": "huguang",
+      "source_line": 376,
+      "text": "上溪州司西。洪武二年置"
+    },
+    {
+      "volume": 44,
+      "region_id": "huguang",
+      "source_line": 378,
+      "text": "臈惹洞長官司、麥著黃洞長官司、驢遲洞長官司、施溶溪長官司四長官司，元俱屬思州軍民安撫司。洪武三年改屬。"
+    },
+    {
+      "volume": 44,
+      "region_id": "huguang",
+      "source_line": 386,
+      "text": "五寨長官司司南。元置，洪武七年六月因之。"
+    },
+    {
+      "volume": 44,
+      "region_id": "huguang",
+      "source_line": 388,
+      "text": "筸子坪長官司司南。太祖甲辰年六月置竿子坪洞元帥府，後廢。永樂三年七月改置。"
+    },
+    {
+      "volume": 44,
+      "region_id": "zhejiang",
+      "source_line": 581,
+      "text": "}}"
+    },
+    {
+      "volume": 45,
+      "region_id": "guangxi",
+      "source_line": 624,
+      "text": "}}"
+    },
+    {
+      "volume": 46,
+      "region_id": "yunnan",
+      "source_line": 21,
+      "text": "歸化東北有交七浦，滇池下流。"
+    },
+    {
+      "volume": 46,
+      "region_id": "yunnan",
+      "source_line": 233,
+      "text": "鎮道安撫司、楊塘安撫司二司地舊屬西番，與麗江府接界。俱永樂四年正月置，屬金齒軍民司。嘉靖元年屬府。"
+    },
+    {
+      "volume": 46,
+      "region_id": "yunnan",
+      "source_line": 252,
+      "text": "孟緬長官司州西南。宣德五年六月以景東府之孟緬、孟梳地置，屬景東府，後直隸布政司。萬曆二十五年來屬。有大猛麻、又有猛撒二土巡檢司，與猛緬稱爲「三猛」。"
+    },
+    {
+      "volume": 46,
+      "region_id": "yunnan",
+      "source_line": 301,
+      "text": "孟璉長官司舊爲麓川平緬司地，後爲孟定府。永樂四年四月置，直隸都司。東南有木來府，元置，洪武十五年三月因之，後廢。東北距布政司二十三程。"
+    },
+    {
+      "volume": 46,
+      "region_id": "yunnan",
+      "source_line": 303,
+      "text": "大古剌軍民宣慰使司在孟養西南。亦曰擺古，濱南海，與暹羅鄰、底馬撒軍民宣慰使司在大古剌東南、小古剌長官司、茶山長官司、底板長官司、孟倫長官司、八家塔長官司皆在西南極邊俱永樂四年六月置。"
+    },
+    {
+      "volume": 46,
+      "region_id": "yunnan",
+      "source_line": 307,
+      "text": "○促瓦長官司"
+    },
+    {
+      "volume": 46,
+      "region_id": "yunnan",
+      "source_line": 309,
+      "text": "散金長官司舊俱爲麓川平緬司地。永樂六年四月置。"
+    },
+    {
+      "volume": 46,
+      "region_id": "guizhou",
+      "source_line": 338,
+      "text": "小程番長官司州西北。元小程番安撫司。洪武六年正月改置。"
+    },
+    {
+      "volume": 46,
+      "region_id": "guizhou",
+      "source_line": 340,
+      "text": "上馬橋長官司州西北。洪武十五年六月置。"
+    },
+    {
+      "volume": 46,
+      "region_id": "guizhou",
+      "source_line": 342,
+      "text": "盧番長官司州北。元盧番靜海軍安撫司。洪武六年正月改置，省元盧番蠻夷軍民長官司入焉。"
+    },
+    {
+      "volume": 46,
+      "region_id": "guizhou",
+      "source_line": 344,
+      "text": "韋番長官司州南。元韋番蠻夷長官司。洪武十五年六月改置。"
+    },
+    {
+      "volume": 46,
+      "region_id": "guizhou",
+      "source_line": 346,
+      "text": "方番長官司州南。元方番河中府安撫司。洪武五年改置。"
+    },
+    {
+      "volume": 46,
+      "region_id": "guizhou",
+      "source_line": 348,
+      "text": "洪番長官司州西。元洪番永盛軍安撫司。洪武六年正月改置。"
+    },
+    {
+      "volume": 46,
+      "region_id": "guizhou",
+      "source_line": 350,
+      "text": "臥龍番長官司州南。元臥龍番南寧州安撫司。洪武五年改置。"
+    },
+    {
+      "volume": 46,
+      "region_id": "guizhou",
+      "source_line": 352,
+      "text": "小龍番長官司州東南。元小龍番靜蠻軍安撫司。洪武六年正月改置。"
+    },
+    {
+      "volume": 46,
+      "region_id": "guizhou",
+      "source_line": 354,
+      "text": "大龍番長官司州東南。元大龍番應天府安撫司。洪武五年改置。"
+    },
+    {
+      "volume": 46,
+      "region_id": "guizhou",
+      "source_line": 356,
+      "text": "金石番長官司州東。元金石番太平軍安撫司。洪武五年改置。"
+    },
+    {
+      "volume": 46,
+      "region_id": "guizhou",
+      "source_line": 358,
+      "text": "羅番長官司州南。元羅番大龍遏蠻軍安撫司。洪武五年改置。"
+    },
+    {
+      "volume": 46,
+      "region_id": "guizhou",
+      "source_line": 360,
+      "text": "盧山長官司州南。元盧山等處蠻夷軍安撫司。洪武六年正月改置。"
+    },
+    {
+      "volume": 46,
+      "region_id": "guizhou",
+      "source_line": 370,
+      "text": "水東長官司宣慰司北。元水東寨長官司。洪武五年改置，後廢。永樂元年六月置，屬都司，後來屬。"
+    },
+    {
+      "volume": 46,
+      "region_id": "guizhou",
+      "source_line": 372,
+      "text": "中曹蠻夷長官司宣慰司東南。元中曹白納等處長官司，屬管番民總管。洪武五年改置，來屬。"
+    },
+    {
+      "volume": 46,
+      "region_id": "guizhou",
+      "source_line": 374,
+      "text": "龍裏長官司宣慰司東南。元龍裏等寨長官司，屬管番民總管。洪武五年改置，來屬。"
+    },
+    {
+      "volume": 46,
+      "region_id": "guizhou",
+      "source_line": 376,
+      "text": "白納長官司宣慰司東南。元茶山白納等處長官司。洪武五年併入中曹司。永樂四年五月置，來屬。"
+    },
+    {
+      "volume": 46,
+      "region_id": "guizhou",
+      "source_line": 378,
+      "text": "底寨長官司宣慰司北。元底寨等處長官司。洪武五年改置。"
+    },
+    {
+      "volume": 46,
+      "region_id": "guizhou",
+      "source_line": 380,
+      "text": "乖西蠻夷長官司宣慰司東北。元乖西軍民府，屬管番民總管。洪武五年改置，後廢。永樂元年六月復置，屬都司，後來屬。"
+    },
+    {
+      "volume": 46,
+      "region_id": "guizhou",
+      "source_line": 382,
+      "text": "養龍坑長官司宣慰司北。元養龍坑宿徵等處長官司。洪武五年改置。"
+    },
+    {
+      "volume": 46,
+      "region_id": "guizhou",
+      "source_line": 393,
+      "text": "十二營長官司州北。洪武十九年置，屬安順州。二十五年八月屬普定衛。正統三年八月來屬。下仿此。東北有天生橋，又有公具河。北有阿破河。"
+    },
+    {
+      "volume": 46,
+      "region_id": "guizhou",
+      "source_line": 395,
+      "text": "康佐長官司州東。建置所屬同上。"
+    },
+    {
+      "volume": 46,
+      "region_id": "guizhou",
+      "source_line": 399,
+      "text": "慕役長官司州西。洪武十九年置，屬安順州。二十五年八月屬普定衛。正統三年八月來屬。下仿此。北有安籠箐山。西北有象鼻嶺。東有北盤江，與永寧州分界，東南流，南盤江自雲南羅平州來合焉，又南入廣西泗城州界。"
+    },
+    {
+      "volume": 46,
+      "region_id": "guizhou",
+      "source_line": 401,
+      "text": "頂營長官司州北。洪武四年置，所屬同上。東有關索嶺。西有盤江。"
+    },
+    {
+      "volume": 46,
+      "region_id": "guizhou",
+      "source_line": 418,
+      "text": "樂平長官司州西北。洪武二十四年五月置，屬雲南，後屬平越衛。弘治七年五月來屬。東北有馬場山。南有樂平溪。"
+    },
+    {
+      "volume": 46,
+      "region_id": "guizhou",
+      "source_line": 420,
+      "text": "平定長官司州西北。洪武二十二年置，屬平越衛。三十年屬清平衛。弘治七年五月來屬。東有山江河。"
+    },
+    {
+      "volume": 46,
+      "region_id": "guizhou",
+      "source_line": 426,
+      "text": "合江洲陳蒙爛土長官司州東。洪武十六年置，屬都勻衛。弘治七年五月屬州。東南有梅花洞。"
+    },
+    {
+      "volume": 46,
+      "region_id": "guizhou",
+      "source_line": 428,
+      "text": "豐寧長官司州西南。洪武二十三年置，屬都勻衛。弘治七年五月屬州。西南有行郎山。"
+    },
+    {
+      "volume": 46,
+      "region_id": "guizhou",
+      "source_line": 547,
+      "text": "大平伐長官司衛南。洪武十九年置，屬貴州衛。二十八年來屬。東北有谷峽山。東南有甕首河，下流合清水江。"
+    },
+    {
+      "volume": 46,
+      "region_id": "guizhou",
+      "source_line": 553,
+      "text": "小平伐長官司衛西南。洪武十五年六月置，屬貴州衛，尋屬龍裏衛。二十九年來屬。"
+    },
+    {
+      "volume": 46,
+      "region_id": "guizhou",
+      "source_line": 555,
+      "text": "把平寨長官司衛南。洪武十五年六月置，屬貴州衛，尋屬龍裏衛。二十九年來屬。"
+    },
+    {
+      "volume": 46,
+      "region_id": "guizhou",
+      "source_line": 557,
+      "text": "丹平長官司衛西南。洪武三十年置，尋省。永樂二年復置。"
+    },
+    {
+      "volume": 46,
+      "region_id": "guizhou",
+      "source_line": 559,
+      "text": "丹行長官司衛西南。洪武三十年置，尋省。永樂二年復置。"
+    },
+    {
+      "volume": 46,
+      "region_id": "guizhou",
+      "source_line": 569,
+      "text": "守禦七星關後千戶所衛西。洪武二十一年置，屬烏撒衛。永樂中來屬。有七星關河，亦曰可渡河，源出四川烏撒府，即北盤江上流，七星關在其上，下流入雲南沾益州界。"
+    },
+    {
+      "volume": 46,
+      "region_id": "guizhou",
+      "source_line": 573,
+      "text": "摩尼千戶所衛北、白撒千戶所衛東南。二所俱洪武二十二年九月置、阿落密千戶所衛南、前千戶所衛南。二所俱洪武二十七年置。"
+    },
+    {
+      "volume": 46,
+      "region_id": "guizhou",
+      "source_line": 575,
+      "text": "普市守禦千戶所洪武二十三年三月析永寧宣撫司地置，直隸貴州都司。東有木案山。西南有水腦洞。又東南有龍泉澗。距布政司七百二十里。"
+    },
+    {
+      "volume": 46,
+      "region_id": "guizhou",
+      "source_line": 579,
+      "text": "於襄守禦千戶所衛西。本青山長官司，洪武五年改元青山遠地等處長官司置，屬貴州宣慰司。崇禎三年改置。"
+    },
+    {
+      "volume": 46,
+      "region_id": "guizhou",
+      "source_line": 581,
+      "text": "息烽守禦千戶所衛東北。崇禎三年以貴州前衛故絕六屯並割底寨司地置。西有西望山。南有石天洞。北有烏江。"
+    },
+    {
+      "volume": 46,
+      "region_id": "guizhou",
+      "source_line": 583,
+      "text": "濯靈守禦千戶所衛北。西有陸廣河，北流合烏江、修文守禦千戶所衛東北。二所俱宣慰司水西地，崇禎三年同置。"
+    },
+    {
+      "volume": 46,
+      "region_id": "guizhou",
+      "source_line": 587,
+      "text": "威武守禦千戶所衛東、赫聲守禦千戶所衛北。有鴨池河、柔遠守禦千戶所衛□、定遠守禦千戶所衛□。以上俱水西地，崇禎三年與衛同置。"
+    },
+    {
+      "volume": 46,
+      "region_id": "guizhou",
+      "source_line": 591,
+      "text": "}}"
+    }
+  ]
+}

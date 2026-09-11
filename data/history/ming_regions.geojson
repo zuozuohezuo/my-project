@@ -1,0 +1,331 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "schema_version": 1,
+    "scenario_year": 1500,
+    "scenario_era": "弘治十三年（临时开局基准）",
+    "generated_at": "2026-09-06T16:59:08.717511+00:00",
+    "historical_scope": "《明史》地理志跨明代沿革名录；下级行政记录尚未全部回溯到1500年",
+    "coordinate_reference_system": "WGS84 longitude, latitude",
+    "historical_boundaries_available": false,
+    "data_warning": "府州县为史料参考库；禁止把其数量、隶属与万历人口直接用作1500开局实值。",
+    "display_name_conversion": "OpenCC t2s"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "region_id": "beizhili",
+        "name": "北直隶",
+        "capital": "顺天府",
+        "source_ids": [
+          "mingshi_40",
+          "mingshi_siku_40",
+          "natural_earth_cities"
+        ],
+        "geometry_status": "modern_city_reference_point_not_historical_seat_survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.394201,
+          39.90172
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "region_id": "nanzhili",
+        "name": "南直隶",
+        "capital": "应天府",
+        "source_ids": [
+          "mingshi_40",
+          "mingshi_siku_40",
+          "natural_earth_cities"
+        ],
+        "geometry_status": "modern_city_reference_point_not_historical_seat_survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.778029,
+          32.051965
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "region_id": "shandong",
+        "name": "山东",
+        "capital": "济南府",
+        "source_ids": [
+          "mingshi_41",
+          "mingshi_siku_41",
+          "natural_earth_cities"
+        ],
+        "geometry_status": "modern_city_reference_point_not_historical_seat_survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.993073,
+          36.676928
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "region_id": "shanxi",
+        "name": "山西",
+        "capital": "太原府",
+        "source_ids": [
+          "mingshi_41",
+          "mingshi_siku_41",
+          "natural_earth_cities"
+        ],
+        "geometry_status": "modern_city_reference_point_not_historical_seat_survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.543112,
+          37.876958
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "region_id": "henan",
+        "name": "河南",
+        "capital": "开封府",
+        "source_ids": [
+          "mingshi_42",
+          "mingshi_siku_42",
+          "natural_earth_cities"
+        ],
+        "geometry_status": "modern_city_reference_point_not_historical_seat_survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.354819,
+          34.793814
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "region_id": "shaanxi",
+        "name": "陕西",
+        "capital": "西安府",
+        "source_ids": [
+          "mingshi_42",
+          "mingshi_siku_42",
+          "natural_earth_cities"
+        ],
+        "geometry_status": "modern_city_reference_point_not_historical_seat_survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.89305,
+          34.276971
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "region_id": "sichuan",
+        "name": "四川",
+        "capital": "成都府",
+        "source_ids": [
+          "mingshi_43",
+          "mingshi_siku_43",
+          "natural_earth_cities"
+        ],
+        "geometry_status": "modern_city_reference_point_not_historical_seat_survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.068074,
+          30.671946
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "region_id": "jiangxi",
+        "name": "江西",
+        "capital": "南昌府",
+        "source_ids": [
+          "mingshi_43",
+          "mingshi_siku_43",
+          "natural_earth_cities"
+        ],
+        "geometry_status": "modern_city_reference_point_not_historical_seat_survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.87805,
+          28.681938
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "region_id": "huguang",
+        "name": "湖广",
+        "capital": "武昌府",
+        "source_ids": [
+          "mingshi_44",
+          "mingshi_siku_44",
+          "natural_earth_cities"
+        ],
+        "geometry_status": "modern_city_reference_point_not_historical_seat_survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.268071,
+          30.581977
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "region_id": "zhejiang",
+        "name": "浙江",
+        "capital": "杭州府",
+        "source_ids": [
+          "mingshi_44",
+          "mingshi_siku_44",
+          "natural_earth_cities"
+        ],
+        "geometry_status": "modern_city_reference_point_not_historical_seat_survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.168073,
+          30.25192
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "region_id": "fujian",
+        "name": "福建",
+        "capital": "福州府",
+        "source_ids": [
+          "mingshi_45",
+          "mingshi_siku_45",
+          "natural_earth_cities"
+        ],
+        "geometry_status": "modern_city_reference_point_not_historical_seat_survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.2981,
+          26.081942
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "region_id": "guangdong",
+        "name": "广东",
+        "capital": "广州府",
+        "source_ids": [
+          "mingshi_45",
+          "mingshi_siku_45",
+          "natural_earth_cities"
+        ],
+        "geometry_status": "modern_city_reference_point_not_historical_seat_survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.261785,
+          23.124723
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "region_id": "guangxi",
+        "name": "广西",
+        "capital": "桂林府",
+        "source_ids": [
+          "mingshi_45",
+          "mingshi_siku_45",
+          "natural_earth_cities"
+        ],
+        "geometry_status": "modern_city_reference_point_not_historical_seat_survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.278082,
+          25.281939
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "region_id": "yunnan",
+        "name": "云南",
+        "capital": "云南府",
+        "source_ids": [
+          "mingshi_46",
+          "mingshi_siku_46",
+          "natural_earth_cities"
+        ],
+        "geometry_status": "modern_city_reference_point_not_historical_seat_survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.69744,
+          25.042859
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "region_id": "guizhou",
+        "name": "贵州",
+        "capital": "贵州宣慰司城（今贵阳）",
+        "source_ids": [
+          "mingshi_46",
+          "mingshi_siku_46",
+          "natural_earth_cities"
+        ],
+        "geometry_status": "modern_city_reference_point_not_historical_seat_survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.718093,
+          26.581989
+        ]
+      }
+    }
+  ]
+}

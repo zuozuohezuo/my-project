@@ -1,0 +1,118 @@
+{
+  "records": [
+    {
+      "name": "LGPL-3.0.txt",
+      "source_url": "https://www.gnu.org/licenses/lgpl-3.0.txt",
+      "local_path": "docs/licenses/LGPL-3.0.txt",
+      "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118",
+      "accessed_at": "2026-09-06T17:15:31.717802+00:00",
+      "note": "Unmodified official license text"
+    },
+    {
+      "name": "GPL-3.0.txt",
+      "source_url": "https://www.gnu.org/licenses/gpl-3.0.txt",
+      "local_path": "docs/licenses/GPL-3.0.txt",
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "accessed_at": "2026-09-06T17:15:33.267319+00:00",
+      "note": "Unmodified official license text"
+    },
+    {
+      "name": "GPL-2.0.txt",
+      "source_url": "https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt",
+      "local_path": "docs/licenses/GPL-2.0.txt",
+      "sha256": "edaef632cbb643e4e7a221717a6c441a4c1a7c918e6e4d56debc3d8739b233f6",
+      "accessed_at": "2026-09-06T17:15:35.008180+00:00",
+      "note": "Unmodified official license text"
+    },
+    {
+      "name": "pyside6-METADATA.txt",
+      "source_url": "https://pypi.org/project/pyside6/6.11.2/",
+      "original_local_path": ".venv/Lib/site-packages/pyside6-6.11.2.dist-info/METADATA",
+      "local_path": "docs/licenses/pyside6-METADATA.txt",
+      "sha256": "bddd6d1e6f840de4ecf6464c1afe885491c76d1081c72ce30744deaa74949276",
+      "accessed_at": "2026-09-06T17:15:35.016690+00:00",
+      "note": "Exact copy from installed wheel"
+    },
+    {
+      "name": "pyside6-LicenseRef-Qt-Commercial.txt",
+      "source_url": "https://pypi.org/project/pyside6/6.11.2/",
+      "original_local_path": ".venv/Lib/site-packages/pyside6-6.11.2.dist-info/licenses/LicenseRef-Qt-Commercial.txt",
+      "local_path": "docs/licenses/pyside6-LicenseRef-Qt-Commercial.txt",
+      "sha256": "4f54763ac0fe2abd8f7f8d8fe370a94a08ebf84786aa0b91045bd6628deb08a3",
+      "accessed_at": "2026-09-06T17:15:35.021695+00:00",
+      "note": "Exact copy from installed wheel"
+    },
+    {
+      "name": "pyside6_essentials-METADATA.txt",
+      "source_url": "https://pypi.org/project/pyside6_essentials/6.11.2/",
+      "original_local_path": ".venv/Lib/site-packages/pyside6_essentials-6.11.2.dist-info/METADATA",
+      "local_path": "docs/licenses/pyside6_essentials-METADATA.txt",
+      "sha256": "a9bdd4937ee837eb46e0c38f9c0ab6c59a6f788d711b96b63c726247ca7a2379",
+      "accessed_at": "2026-09-06T17:15:35.029201+00:00",
+      "note": "Exact copy from installed wheel"
+    },
+    {
+      "name": "pyside6_essentials-LicenseRef-Qt-Commercial.txt",
+      "source_url": "https://pypi.org/project/pyside6_essentials/6.11.2/",
+      "original_local_path": ".venv/Lib/site-packages/pyside6_essentials-6.11.2.dist-info/licenses/LicenseRef-Qt-Commercial.txt",
+      "local_path": "docs/licenses/pyside6_essentials-LicenseRef-Qt-Commercial.txt",
+      "sha256": "4f54763ac0fe2abd8f7f8d8fe370a94a08ebf84786aa0b91045bd6628deb08a3",
+      "accessed_at": "2026-09-06T17:15:35.030203+00:00",
+      "note": "Exact copy from installed wheel"
+    },
+    {
+      "name": "pyside6_addons-METADATA.txt",
+      "source_url": "https://pypi.org/project/pyside6_addons/6.11.2/",
+      "original_local_path": ".venv/Lib/site-packages/pyside6_addons-6.11.2.dist-info/METADATA",
+      "local_path": "docs/licenses/pyside6_addons-METADATA.txt",
+      "sha256": "6c14f94cb03f754a3d8e9ada4d726dbc08aff04d4f0b4377483f9921aa646952",
+      "accessed_at": "2026-09-06T17:15:35.037213+00:00",
+      "note": "Exact copy from installed wheel"
+    },
+    {
+      "name": "pyside6_addons-LicenseRef-Qt-Commercial.txt",
+      "source_url": "https://pypi.org/project/pyside6_addons/6.11.2/",
+      "original_local_path": ".venv/Lib/site-packages/pyside6_addons-6.11.2.dist-info/licenses/LicenseRef-Qt-Commercial.txt",
+      "local_path": "docs/licenses/pyside6_addons-LicenseRef-Qt-Commercial.txt",
+      "sha256": "4f54763ac0fe2abd8f7f8d8fe370a94a08ebf84786aa0b91045bd6628deb08a3",
+      "accessed_at": "2026-09-06T17:15:35.038772+00:00",
+      "note": "Exact copy from installed wheel"
+    },
+    {
+      "name": "shiboken6-METADATA.txt",
+      "source_url": "https://pypi.org/project/shiboken6/6.11.2/",
+      "original_local_path": ".venv/Lib/site-packages/shiboken6-6.11.2.dist-info/METADATA",
+      "local_path": "docs/licenses/shiboken6-METADATA.txt",
+      "sha256": "d118511674eb858e7e0666fae0de10ac79ae31800ad1215ad57285953d4ad241",
+      "accessed_at": "2026-09-06T17:15:35.043771+00:00",
+      "note": "Exact copy from installed wheel"
+    },
+    {
+      "name": "shiboken6-LicenseRef-Qt-Commercial.txt",
+      "source_url": "https://pypi.org/project/shiboken6/6.11.2/",
+      "original_local_path": ".venv/Lib/site-packages/shiboken6-6.11.2.dist-info/licenses/LicenseRef-Qt-Commercial.txt",
+      "local_path": "docs/licenses/shiboken6-LicenseRef-Qt-Commercial.txt",
+      "sha256": "4f54763ac0fe2abd8f7f8d8fe370a94a08ebf84786aa0b91045bd6628deb08a3",
+      "accessed_at": "2026-09-06T17:15:35.044772+00:00",
+      "note": "Exact copy from installed wheel"
+    },
+    {
+      "name": "CPython-3.12.13-LICENSE.txt",
+      "source_url": "https://docs.python.org/3.12/license.html",
+      "original_local_path": ".runtime/python/cpython-3.12.13-windows-x86_64-none/LICENSE.txt",
+      "local_path": "docs/licenses/CPython-3.12.13-LICENSE.txt",
+      "sha256": "886a0ead2d89030ee62dbff52b04e47ab91998341295bb9c56fb952b4e081c7a",
+      "accessed_at": "2026-09-06T17:15:35.050832+00:00",
+      "note": "Exact copy from installed runtime"
+    },
+    {
+      "name": "PyInstaller-COPYING.txt",
+      "source_url": "https://pyinstaller.org/en/stable/license.html",
+      "original_local_path": ".venv/Lib/site-packages/pyinstaller-6.22.2.dist-info/licenses/COPYING.txt",
+      "local_path": "docs/licenses/PyInstaller-COPYING.txt",
+      "sha256": "dcf75fdb959db1e3b41c0f8505069d2ece781b5ec6b3d0a4d30975cfc6580245",
+      "accessed_at": "2026-09-06T17:15:35.055831+00:00",
+      "note": "Exact copy from installed wheel"
+    }
+  ]
+}

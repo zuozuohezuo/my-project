@@ -1,0 +1,40 @@
+{
+  "ok": true,
+  "baseline": "two independently installable Marketplace plugins",
+  "cases": {
+    "repository_structure": {
+      "verifier_ok": true,
+      "plugin_count_is_2": true,
+      "skill_count_is_2": true,
+      "all_vendored_references_routed": true
+    },
+    "dual_platform_installation": {
+      "commands_ok": true,
+      "game_design_sha_matches_both_installs": true,
+      "ai_native_sha_matches_both_installs": true,
+      "tracked_plugin_assets_match_both_installs": true
+    },
+    "authored_links": {
+      "link_check_ok": true
+    },
+    "environment_restore": {
+      "restore_ok": true
+    }
+  },
+  "case_status": {
+    "repository_structure": true,
+    "dual_platform_installation": true,
+    "authored_links": true,
+    "environment_restore": true
+  },
+  "historical_behavioral_transcripts": {
+    "counted_as_current_gate": false,
+    "note": "Existing raw model transcripts predate the two-plugin split. Current isolated forward tests are summarized in verification/REPORT.md."
+  },
+  "environment_notes": [
+    "Both plugin IDs were independently discovered and installed by Claude Code and Codex.",
+    "Each canonical skill matched its Claude and Codex cache copy by SHA-256.",
+    "The new AI NPC reference asset matched its canonical copy in both product caches.",
+    "Temporary installations, Marketplace registrations, caches, and generated local settings were removed after capture."
+  ]
+}

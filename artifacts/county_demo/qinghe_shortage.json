@@ -1,0 +1,1151 @@
+{
+  "save_version": 3,
+  "config": {
+    "edicts_per_turn": 3,
+    "health_ap_thresholds": [
+      [
+        0,
+        10
+      ],
+      [
+        40,
+        20
+      ],
+      [
+        80,
+        30
+      ]
+    ],
+    "initial_health": 100,
+    "initial_year": 1500,
+    "initial_month": 1,
+    "initial_xun": 1,
+    "tax_cooldown_turns": 3,
+    "seed": 1500,
+    "turn_rules_version": 3
+  },
+  "state": {
+    "year": 1500,
+    "month": 1,
+    "xun": 1,
+    "turn_index": 0,
+    "scenario_profile": {
+      "scenario_name": "清河县 · 县级经济演示",
+      "emperor_name": "朱祐樘",
+      "era_name": "弘治",
+      "era_start_year": 1488
+    },
+    "emperor": {
+      "attributes": {
+        "logic": 50,
+        "emotional_intelligence": 50,
+        "memory": 50,
+        "insight": 50,
+        "creativity": 50,
+        "strength": 50,
+        "constitution": 50,
+        "agility": 50,
+        "perception": 50,
+        "appearance": 50,
+        "self_discipline": 50,
+        "emotional_resilience": 50,
+        "courage": 50
+      },
+      "skills": {
+        "administration": 0,
+        "military_strategy": 0,
+        "people_reading": 0,
+        "rhetoric": 0,
+        "calligraphy": 0,
+        "scholarship": 0
+      },
+      "traits": [],
+      "pressure": 0,
+      "body_conditions": [],
+      "modifiers": [],
+      "personality": {
+        "benevolence": 50,
+        "trust": 50,
+        "tradition": 50,
+        "luxury": 50,
+        "control": 50,
+        "humility": 50,
+        "partiality": 50,
+        "integrity": 50,
+        "sociability": 50
+      },
+      "objectives": []
+    },
+    "phase": "planning",
+    "health": 100,
+    "ap_capacity": 30,
+    "work_budget": 20,
+    "activity_cursor": 0,
+    "turn_stage": "court",
+    "stage_initial_work_budget": 20,
+    "stage_transfers": [],
+    "emergency_timing": {},
+    "activities": [
+      {
+        "id": "activity-1",
+        "kind": "court",
+        "status": "pending",
+        "cost": 5,
+        "spent_ap": 0,
+        "stage": "planned",
+        "scene": {},
+        "summary": "",
+        "appointment_id": null,
+        "parameters": {}
+      }
+    ],
+    "completion_records": [],
+    "objective_record_starts": {},
+    "work_items": [
+      {
+        "id": "work-demo-1",
+        "title": "核阅地方仓储奏报",
+        "kind": "paperwork",
+        "complexity": 4,
+        "progress": 0,
+        "status": "pending"
+      },
+      {
+        "id": "work-demo-2",
+        "title": "会核河工勘报",
+        "kind": "paperwork",
+        "complexity": 7,
+        "progress": 0,
+        "status": "pending"
+      },
+      {
+        "id": "work-demo-3",
+        "title": "听取吏部用人陈述",
+        "kind": "audience",
+        "complexity": 5,
+        "progress": 0,
+        "status": "pending"
+      },
+      {
+        "id": "work-demo-4",
+        "title": "审阅宫苑修葺清册",
+        "kind": "palace",
+        "complexity": 4,
+        "progress": 0,
+        "status": "pending"
+      }
+    ],
+    "appointments": [],
+    "appointment_consequences": [],
+    "court_open": false,
+    "edict_limit": 3,
+    "edict_available": 3,
+    "edict_debt": 0,
+    "edicts_spent_this_turn": 0,
+    "month_plan": [],
+    "emergencies": [],
+    "active_emergency_id": null,
+    "pending_command": null,
+    "cooldowns": {},
+    "command_ledger": [],
+    "policy_settings": {},
+    "pending_effects": [],
+    "logs": [
+      {
+        "turn": 0,
+        "label": "开局",
+        "message": "建立县级经济演示；数值为可调整的游戏样例，不代表历史县情。",
+        "date": "1500年1月上旬"
+      }
+    ],
+    "world_snapshot": {
+      "scenario": "county_economy_demo",
+      "simulation_enabled": true,
+      "simulation_scope": "one_demo_county",
+      "reference_year": 1500,
+      "regions": [],
+      "metrics": {},
+      "notes": "虚构演示县；各项数据不是历史复原。"
+    },
+    "economy": {
+      "schema_version": 2,
+      "rules_version": 2,
+      "demo": true,
+      "scenario": "shortage",
+      "scenario_label": "口粮短缺",
+      "scenario_description": "民间池起始粮食为零；官府和皇家粮食不会自动补入，可观察贫困群体更重的后果及向下转层。",
+      "last_settled_turn": -1,
+      "county": {
+        "id": "demo_qinghe",
+        "name": "清河县",
+        "description": "独立虚构演示县：观察产权产出、有限生产投入、共同资源池及财富分层消费后果。",
+        "parent_id": "demo_parent_unassigned",
+        "pool_ids": {
+          "private": "qinghe_private",
+          "public": "qinghe_public",
+          "royal": "qinghe_royal"
+        },
+        "population": {
+          "cohorts": [
+            {
+              "id": "farmer_poor_settled",
+              "occupation": "farmer",
+              "wealth": "poor",
+              "resident_status": "settled",
+              "count": 250,
+              "income_per_capita": 0.6,
+              "health": 100,
+              "satisfaction": 75,
+              "labor_factor": 1,
+              "death_remainder": 0,
+              "descent_remainder": 0
+            },
+            {
+              "id": "farmer_poor_displaced",
+              "occupation": "farmer",
+              "wealth": "poor",
+              "resident_status": "displaced",
+              "count": 20,
+              "income_per_capita": 0.6,
+              "health": 100,
+              "satisfaction": 75,
+              "labor_factor": 1,
+              "death_remainder": 0,
+              "descent_remainder": 0
+            },
+            {
+              "id": "farmer_ordinary_settled",
+              "occupation": "farmer",
+              "wealth": "ordinary",
+              "resident_status": "settled",
+              "count": 175,
+              "income_per_capita": 1.8,
+              "health": 100,
+              "satisfaction": 75,
+              "labor_factor": 1,
+              "death_remainder": 0,
+              "descent_remainder": 0
+            },
+            {
+              "id": "farmer_ordinary_displaced",
+              "occupation": "farmer",
+              "wealth": "ordinary",
+              "resident_status": "displaced",
+              "count": 0,
+              "income_per_capita": 1.8,
+              "health": 100,
+              "satisfaction": 75,
+              "labor_factor": 1,
+              "death_remainder": 0,
+              "descent_remainder": 0
+            },
+            {
+              "id": "farmer_wealthy_settled",
+              "occupation": "farmer",
+              "wealth": "wealthy",
+              "resident_status": "settled",
+              "count": 5,
+              "income_per_capita": 4.5,
+              "health": 100,
+              "satisfaction": 75,
+              "labor_factor": 1,
+              "death_remainder": 0,
+              "descent_remainder": 0
+            },
+            {
+              "id": "farmer_wealthy_displaced",
+              "occupation": "farmer",
+              "wealth": "wealthy",
+              "resident_status": "displaced",
+              "count": 0,
+              "income_per_capita": 4.5,
+              "health": 100,
+              "satisfaction": 75,
+              "labor_factor": 1,
+              "death_remainder": 0,
+              "descent_remainder": 0
+            },
+            {
+              "id": "laborer_poor_settled",
+              "occupation": "laborer",
+              "wealth": "poor",
+              "resident_status": "settled",
+              "count": 140,
+              "income_per_capita": 0.62,
+              "health": 100,
+              "satisfaction": 75,
+              "labor_factor": 1,
+              "death_remainder": 0,
+              "descent_remainder": 0
+            },
+            {
+              "id": "laborer_poor_displaced",
+              "occupation": "laborer",
+              "wealth": "poor",
+              "resident_status": "displaced",
+              "count": 0,
+              "income_per_capita": 0.62,
+              "health": 100,
+              "satisfaction": 75,
+              "labor_factor": 1,
+              "death_remainder": 0,
+              "descent_remainder": 0
+            },
+            {
+              "id": "laborer_ordinary_settled",
+              "occupation": "laborer",
+              "wealth": "ordinary",
+              "resident_status": "settled",
+              "count": 60,
+              "income_per_capita": 1.9000000000000001,
+              "health": 100,
+              "satisfaction": 75,
+              "labor_factor": 1,
+              "death_remainder": 0,
+              "descent_remainder": 0
+            },
+            {
+              "id": "laborer_ordinary_displaced",
+              "occupation": "laborer",
+              "wealth": "ordinary",
+              "resident_status": "displaced",
+              "count": 0,
+              "income_per_capita": 1.9000000000000001,
+              "health": 100,
+              "satisfaction": 75,
+              "labor_factor": 1,
+              "death_remainder": 0,
+              "descent_remainder": 0
+            },
+            {
+              "id": "laborer_wealthy_settled",
+              "occupation": "laborer",
+              "wealth": "wealthy",
+              "resident_status": "settled",
+              "count": 0,
+              "income_per_capita": 4.7,
+              "health": 100,
+              "satisfaction": 75,
+              "labor_factor": 1,
+              "death_remainder": 0,
+              "descent_remainder": 0
+            },
+            {
+              "id": "laborer_wealthy_displaced",
+              "occupation": "laborer",
+              "wealth": "wealthy",
+              "resident_status": "displaced",
+              "count": 0,
+              "income_per_capita": 4.7,
+              "health": 100,
+              "satisfaction": 75,
+              "labor_factor": 1,
+              "death_remainder": 0,
+              "descent_remainder": 0
+            },
+            {
+              "id": "artisan_poor_settled",
+              "occupation": "artisan",
+              "wealth": "poor",
+              "resident_status": "settled",
+              "count": 30,
+              "income_per_capita": 0.64,
+              "health": 100,
+              "satisfaction": 75,
+              "labor_factor": 1,
+              "death_remainder": 0,
+              "descent_remainder": 0
+            },
+            {
+              "id": "artisan_poor_displaced",
+              "occupation": "artisan",
+              "wealth": "poor",
+              "resident_status": "displaced",
+              "count": 0,
+              "income_per_capita": 0.64,
+              "health": 100,
+              "satisfaction": 75,
+              "labor_factor": 1,
+              "death_remainder": 0,
+              "descent_remainder": 0
+            },
+            {
+              "id": "artisan_ordinary_settled",
+              "occupation": "artisan",
+              "wealth": "ordinary",
+              "resident_status": "settled",
+              "count": 105,
+              "income_per_capita": 2.0,
+              "health": 100,
+              "satisfaction": 75,
+              "labor_factor": 1,
+              "death_remainder": 0,
+              "descent_remainder": 0
+            },
+            {
+              "id": "artisan_ordinary_displaced",
+              "occupation": "artisan",
+              "wealth": "ordinary",
+              "resident_status": "displaced",
+              "count": 0,
+              "income_per_capita": 2.0,
+              "health": 100,
+              "satisfaction": 75,
+              "labor_factor": 1,
+              "death_remainder": 0,
+              "descent_remainder": 0
+            },
+            {
+              "id": "artisan_wealthy_settled",
+              "occupation": "artisan",
+              "wealth": "wealthy",
+              "resident_status": "settled",
+              "count": 5,
+              "income_per_capita": 4.9,
+              "health": 100,
+              "satisfaction": 75,
+              "labor_factor": 1,
+              "death_remainder": 0,
+              "descent_remainder": 0
+            },
+            {
+              "id": "artisan_wealthy_displaced",
+              "occupation": "artisan",
+              "wealth": "wealthy",
+              "resident_status": "displaced",
+              "count": 0,
+              "income_per_capita": 4.9,
+              "health": 100,
+              "satisfaction": 75,
+              "labor_factor": 1,
+              "death_remainder": 0,
+              "descent_remainder": 0
+            },
+            {
+              "id": "merchant_poor_settled",
+              "occupation": "merchant",
+              "wealth": "poor",
+              "resident_status": "settled",
+              "count": 10,
+              "income_per_capita": 0.6599999999999999,
+              "health": 100,
+              "satisfaction": 75,
+              "labor_factor": 1,
+              "death_remainder": 0,
+              "descent_remainder": 0
+            },
+            {
+              "id": "merchant_poor_displaced",
+              "occupation": "merchant",
+              "wealth": "poor",
+              "resident_status": "displaced",
+              "count": 0,
+              "income_per_capita": 0.6599999999999999,
+              "health": 100,
+              "satisfaction": 75,
+              "labor_factor": 1,
+              "death_remainder": 0,
+              "descent_remainder": 0
+            },
+            {
+              "id": "merchant_ordinary_settled",
+              "occupation": "merchant",
+              "wealth": "ordinary",
+              "resident_status": "settled",
+              "count": 60,
+              "income_per_capita": 2.1,
+              "health": 100,
+              "satisfaction": 75,
+              "labor_factor": 1,
+              "death_remainder": 0,
+              "descent_remainder": 0
+            },
+            {
+              "id": "merchant_ordinary_displaced",
+              "occupation": "merchant",
+              "wealth": "ordinary",
+              "resident_status": "displaced",
+              "count": 0,
+              "income_per_capita": 2.1,
+              "health": 100,
+              "satisfaction": 75,
+              "labor_factor": 1,
+              "death_remainder": 0,
+              "descent_remainder": 0
+            },
+            {
+              "id": "merchant_wealthy_settled",
+              "occupation": "merchant",
+              "wealth": "wealthy",
+              "resident_status": "settled",
+              "count": 20,
+              "income_per_capita": 5.1,
+              "health": 100,
+              "satisfaction": 75,
+              "labor_factor": 1,
+              "death_remainder": 0,
+              "descent_remainder": 0
+            },
+            {
+              "id": "merchant_wealthy_displaced",
+              "occupation": "merchant",
+              "wealth": "wealthy",
+              "resident_status": "displaced",
+              "count": 0,
+              "income_per_capita": 5.1,
+              "health": 100,
+              "satisfaction": 75,
+              "labor_factor": 1,
+              "death_remainder": 0,
+              "descent_remainder": 0
+            },
+            {
+              "id": "landowner_poor_settled",
+              "occupation": "landowner",
+              "wealth": "poor",
+              "resident_status": "settled",
+              "count": 0,
+              "income_per_capita": 0.6799999999999999,
+              "health": 100,
+              "satisfaction": 75,
+              "labor_factor": 1,
+              "death_remainder": 0,
+              "descent_remainder": 0
+            },
+            {
+              "id": "landowner_poor_displaced",
+              "occupation": "landowner",
+              "wealth": "poor",
+              "resident_status": "displaced",
+              "count": 0,
+              "income_per_capita": 0.6799999999999999,
+              "health": 100,
+              "satisfaction": 75,
+              "labor_factor": 1,
+              "death_remainder": 0,
+              "descent_remainder": 0
+            },
+            {
+              "id": "landowner_ordinary_settled",
+              "occupation": "landowner",
+              "wealth": "ordinary",
+              "resident_status": "settled",
+              "count": 30,
+              "income_per_capita": 2.2,
+              "health": 100,
+              "satisfaction": 75,
+              "labor_factor": 1,
+              "death_remainder": 0,
+              "descent_remainder": 0
+            },
+            {
+              "id": "landowner_ordinary_displaced",
+              "occupation": "landowner",
+              "wealth": "ordinary",
+              "resident_status": "displaced",
+              "count": 0,
+              "income_per_capita": 2.2,
+              "health": 100,
+              "satisfaction": 75,
+              "labor_factor": 1,
+              "death_remainder": 0,
+              "descent_remainder": 0
+            },
+            {
+              "id": "landowner_wealthy_settled",
+              "occupation": "landowner",
+              "wealth": "wealthy",
+              "resident_status": "settled",
+              "count": 30,
+              "income_per_capita": 5.3,
+              "health": 100,
+              "satisfaction": 75,
+              "labor_factor": 1,
+              "death_remainder": 0,
+              "descent_remainder": 0
+            },
+            {
+              "id": "landowner_wealthy_displaced",
+              "occupation": "landowner",
+              "wealth": "wealthy",
+              "resident_status": "displaced",
+              "count": 0,
+              "income_per_capita": 5.3,
+              "health": 100,
+              "satisfaction": 75,
+              "labor_factor": 1,
+              "death_remainder": 0,
+              "descent_remainder": 0
+            },
+            {
+              "id": "noble_poor_settled",
+              "occupation": "noble",
+              "wealth": "poor",
+              "resident_status": "settled",
+              "count": 0,
+              "income_per_capita": 0.7,
+              "health": 100,
+              "satisfaction": 75,
+              "labor_factor": 1,
+              "death_remainder": 0,
+              "descent_remainder": 0
+            },
+            {
+              "id": "noble_poor_displaced",
+              "occupation": "noble",
+              "wealth": "poor",
+              "resident_status": "displaced",
+              "count": 0,
+              "income_per_capita": 0.7,
+              "health": 100,
+              "satisfaction": 75,
+              "labor_factor": 1,
+              "death_remainder": 0,
+              "descent_remainder": 0
+            },
+            {
+              "id": "noble_ordinary_settled",
+              "occupation": "noble",
+              "wealth": "ordinary",
+              "resident_status": "settled",
+              "count": 5,
+              "income_per_capita": 2.3,
+              "health": 100,
+              "satisfaction": 75,
+              "labor_factor": 1,
+              "death_remainder": 0,
+              "descent_remainder": 0
+            },
+            {
+              "id": "noble_ordinary_displaced",
+              "occupation": "noble",
+              "wealth": "ordinary",
+              "resident_status": "displaced",
+              "count": 0,
+              "income_per_capita": 2.3,
+              "health": 100,
+              "satisfaction": 75,
+              "labor_factor": 1,
+              "death_remainder": 0,
+              "descent_remainder": 0
+            },
+            {
+              "id": "noble_wealthy_settled",
+              "occupation": "noble",
+              "wealth": "wealthy",
+              "resident_status": "settled",
+              "count": 15,
+              "income_per_capita": 5.5,
+              "health": 100,
+              "satisfaction": 75,
+              "labor_factor": 1,
+              "death_remainder": 0,
+              "descent_remainder": 0
+            },
+            {
+              "id": "noble_wealthy_displaced",
+              "occupation": "noble",
+              "wealth": "wealthy",
+              "resident_status": "displaced",
+              "count": 0,
+              "income_per_capita": 5.5,
+              "health": 100,
+              "satisfaction": 75,
+              "labor_factor": 1,
+              "death_remainder": 0,
+              "descent_remainder": 0
+            },
+            {
+              "id": "official_poor_settled",
+              "occupation": "official",
+              "wealth": "poor",
+              "resident_status": "settled",
+              "count": 0,
+              "income_per_capita": 0.72,
+              "health": 100,
+              "satisfaction": 75,
+              "labor_factor": 1,
+              "death_remainder": 0,
+              "descent_remainder": 0
+            },
+            {
+              "id": "official_poor_displaced",
+              "occupation": "official",
+              "wealth": "poor",
+              "resident_status": "displaced",
+              "count": 0,
+              "income_per_capita": 0.72,
+              "health": 100,
+              "satisfaction": 75,
+              "labor_factor": 1,
+              "death_remainder": 0,
+              "descent_remainder": 0
+            },
+            {
+              "id": "official_ordinary_settled",
+              "occupation": "official",
+              "wealth": "ordinary",
+              "resident_status": "settled",
+              "count": 15,
+              "income_per_capita": 2.4000000000000004,
+              "health": 100,
+              "satisfaction": 75,
+              "labor_factor": 1,
+              "death_remainder": 0,
+              "descent_remainder": 0
+            },
+            {
+              "id": "official_ordinary_displaced",
+              "occupation": "official",
+              "wealth": "ordinary",
+              "resident_status": "displaced",
+              "count": 0,
+              "income_per_capita": 2.4000000000000004,
+              "health": 100,
+              "satisfaction": 75,
+              "labor_factor": 1,
+              "death_remainder": 0,
+              "descent_remainder": 0
+            },
+            {
+              "id": "official_wealthy_settled",
+              "occupation": "official",
+              "wealth": "wealthy",
+              "resident_status": "settled",
+              "count": 25,
+              "income_per_capita": 5.7,
+              "health": 100,
+              "satisfaction": 75,
+              "labor_factor": 1,
+              "death_remainder": 0,
+              "descent_remainder": 0
+            },
+            {
+              "id": "official_wealthy_displaced",
+              "occupation": "official",
+              "wealth": "wealthy",
+              "resident_status": "displaced",
+              "count": 0,
+              "income_per_capita": 5.7,
+              "health": 100,
+              "satisfaction": 75,
+              "labor_factor": 1,
+              "death_remainder": 0,
+              "descent_remainder": 0
+            }
+          ],
+          "shortage_turns": 0,
+          "birth_remainder": 0.0,
+          "natural_death_remainder": 0.0
+        },
+        "land": {
+          "total_area": 2000,
+          "parcels": [
+            {
+              "id": "private_fields",
+              "label": "民田",
+              "area": 1000,
+              "use": "farmland",
+              "owner": "private",
+              "fertility": 1,
+              "irrigation": 1,
+              "reclaimable": 0
+            },
+            {
+              "id": "public_fields",
+              "label": "官田",
+              "area": 200,
+              "use": "farmland",
+              "owner": "public",
+              "fertility": 1,
+              "irrigation": 1,
+              "reclaimable": 0
+            },
+            {
+              "id": "royal_fields",
+              "label": "皇庄田",
+              "area": 100,
+              "use": "farmland",
+              "owner": "royal",
+              "fertility": 1,
+              "irrigation": 1,
+              "reclaimable": 0
+            },
+            {
+              "id": "private_forest",
+              "label": "民有林地",
+              "area": 150,
+              "use": "forest",
+              "owner": "private",
+              "fertility": 1,
+              "irrigation": 1,
+              "reclaimable": 0
+            },
+            {
+              "id": "private_mine",
+              "label": "民有矿地",
+              "area": 50,
+              "use": "mine",
+              "owner": "private",
+              "fertility": 1,
+              "irrigation": 1,
+              "reclaimable": 0
+            },
+            {
+              "id": "public_settlement",
+              "label": "聚落用地",
+              "area": 100,
+              "use": "settlement",
+              "owner": "public",
+              "fertility": 1,
+              "irrigation": 1,
+              "reclaimable": 0
+            },
+            {
+              "id": "public_unused",
+              "label": "未利用地",
+              "area": 400,
+              "use": "unused",
+              "owner": "public",
+              "fertility": 1,
+              "irrigation": 1,
+              "reclaimable": 180
+            }
+          ]
+        },
+        "facilities": [
+          {
+            "id": "daily_workshop",
+            "label": "日用品作坊",
+            "owner": "private",
+            "kind": "workshop",
+            "condition": 1,
+            "description": "原料每投入一个完整工作旬，产出一批日用品。"
+          },
+          {
+            "id": "luxury_workshop",
+            "label": "细工作坊",
+            "owner": "private",
+            "kind": "workshop",
+            "condition": 1,
+            "description": "加工演示享受品；商品交易与价格尚未接入。"
+          }
+        ],
+        "industries": [
+          {
+            "id": "agri_private",
+            "label": "民田粮作",
+            "category": "agriculture",
+            "asset_id": "private_fields",
+            "scale": 1000,
+            "workers_needed": 220,
+            "technology": 1,
+            "inputs": {
+              "grain": 400
+            },
+            "outputs": {
+              "grain": 37000
+            },
+            "cycle_turns": 24,
+            "sow_month": 2,
+            "sow_xun": 1,
+            "harvest_month": 9,
+            "harvest_xun": 3,
+            "progress": 0,
+            "active": false,
+            "sown_ratio": 0,
+            "state": "未到农时",
+            "last_output": {},
+            "last_input_ratio": 1,
+            "last_labor_ratio": 1
+          },
+          {
+            "id": "agri_public",
+            "label": "官田粮作",
+            "category": "agriculture",
+            "asset_id": "public_fields",
+            "scale": 200,
+            "workers_needed": 44,
+            "technology": 1,
+            "inputs": {
+              "grain": 60
+            },
+            "outputs": {
+              "grain": 7000
+            },
+            "cycle_turns": 24,
+            "sow_month": 2,
+            "sow_xun": 1,
+            "harvest_month": 9,
+            "harvest_xun": 3,
+            "progress": 0,
+            "active": false,
+            "sown_ratio": 0,
+            "state": "未到农时",
+            "last_output": {},
+            "last_input_ratio": 1,
+            "last_labor_ratio": 1
+          },
+          {
+            "id": "agri_royal",
+            "label": "皇庄粮作",
+            "category": "agriculture",
+            "asset_id": "royal_fields",
+            "scale": 100,
+            "workers_needed": 22,
+            "technology": 1,
+            "inputs": {
+              "grain": 30
+            },
+            "outputs": {
+              "grain": 3500
+            },
+            "cycle_turns": 24,
+            "sow_month": 2,
+            "sow_xun": 1,
+            "harvest_month": 9,
+            "harvest_xun": 3,
+            "progress": 0,
+            "active": false,
+            "sown_ratio": 0,
+            "state": "未到农时",
+            "last_output": {},
+            "last_input_ratio": 1,
+            "last_labor_ratio": 1
+          },
+          {
+            "id": "craft_daily",
+            "label": "日用品加工",
+            "category": "craft",
+            "asset_id": "daily_workshop",
+            "scale": 1,
+            "workers_needed": 70,
+            "technology": 1,
+            "inputs": {
+              "raw_material": 20
+            },
+            "outputs": {
+              "daily_goods": 50
+            },
+            "cycle_turns": 1,
+            "sow_month": 2,
+            "sow_xun": 1,
+            "harvest_month": 9,
+            "harvest_xun": 3,
+            "progress": 0,
+            "active": false,
+            "sown_ratio": 0,
+            "state": "等待生产",
+            "last_output": {},
+            "last_input_ratio": 1,
+            "last_labor_ratio": 1
+          },
+          {
+            "id": "craft_luxury",
+            "label": "细工加工",
+            "category": "craft",
+            "asset_id": "luxury_workshop",
+            "scale": 1,
+            "workers_needed": 25,
+            "technology": 1,
+            "inputs": {
+              "raw_material": 5
+            },
+            "outputs": {
+              "luxury_goods": 8
+            },
+            "cycle_turns": 1,
+            "sow_month": 2,
+            "sow_xun": 1,
+            "harvest_month": 9,
+            "harvest_xun": 3,
+            "progress": 0,
+            "active": false,
+            "sown_ratio": 0,
+            "state": "等待生产",
+            "last_output": {},
+            "last_input_ratio": 1,
+            "last_labor_ratio": 1
+          },
+          {
+            "id": "forest_material",
+            "label": "林业经营",
+            "category": "husbandry",
+            "asset_id": "private_forest",
+            "scale": 150,
+            "workers_needed": 35,
+            "technology": 1,
+            "inputs": {},
+            "outputs": {
+              "raw_material": 75
+            },
+            "cycle_turns": 3,
+            "sow_month": 2,
+            "sow_xun": 1,
+            "harvest_month": 9,
+            "harvest_xun": 3,
+            "progress": 0,
+            "active": false,
+            "sown_ratio": 0,
+            "state": "等待生产",
+            "last_output": {},
+            "last_input_ratio": 1,
+            "last_labor_ratio": 1
+          },
+          {
+            "id": "mine_material",
+            "label": "原料采掘",
+            "category": "extraction",
+            "asset_id": "private_mine",
+            "scale": 50,
+            "workers_needed": 20,
+            "technology": 1,
+            "inputs": {},
+            "outputs": {
+              "raw_material": 12
+            },
+            "cycle_turns": 6,
+            "sow_month": 2,
+            "sow_xun": 1,
+            "harvest_month": 9,
+            "harvest_xun": 3,
+            "progress": 0,
+            "active": false,
+            "sown_ratio": 0,
+            "state": "等待生产",
+            "last_output": {},
+            "last_input_ratio": 1,
+            "last_labor_ratio": 1
+          }
+        ],
+        "specialties": [
+          {
+            "name": "清河竹器（虚构）",
+            "description": "展示当地加工方向，产量已经进入日用品加工配方，不再额外叠加特产收益。"
+          }
+        ],
+        "modifiers": [
+          {
+            "name": "正常生产条件",
+            "description": "演示修正倍率为1；地力与灌溉已分别作用，不重复加成。",
+            "target": "all",
+            "multiplier": 1
+          }
+        ],
+        "notices": [
+          "土地单位、粮物单位及产业规模均为演示量表，不能用于史实比较。",
+          "人口按七种职业、收入财富档及居住身份交叉记录；不划分年龄。默认50%基础劳力，健康和劳力状态再影响可用劳力。",
+          "四类产业已运行生产周期；完整畜牧渔业、矿藏耗竭、设施建设升级仍待扩展。",
+          "民间、官府、皇家池按产权归属；官府和皇家池尚未接入国库内帑划拨、年度供给、税收和公共消费。",
+          "消费直接扣池；没有库存预留、逐户钱包、市场采购、跨县运输或官员AI。",
+          "生产投入按同一旬开始的资源条件分配，全部投入扣除后再入库产出；当旬收获可用于当旬消费。",
+          "年出生率3%、年自然死亡率2%，按年率除以36折算每旬；以全县小数余量和按人数加权轮转分配实际事件。",
+          "新生人口按家庭生计计入同职业，作为无年龄细分的抽象；财富变化不自动改变职业。",
+          "人均旬收入为独立演示收入水平，用于相对基本生活成本分档，不会直接给资源池增钱；缺粮降档会持久降低该部分人口收入。"
+        ]
+      },
+      "pools": {
+        "qinghe_private": {
+          "id": "qinghe_private",
+          "owner": "private",
+          "label": "民间池",
+          "balances": {
+            "money": 4000,
+            "grain": 0,
+            "raw_material": 200,
+            "daily_goods": 250,
+            "luxury_goods": 60
+          }
+        },
+        "qinghe_public": {
+          "id": "qinghe_public",
+          "owner": "public",
+          "label": "官府池",
+          "balances": {
+            "money": 1500,
+            "grain": 2000,
+            "raw_material": 30,
+            "daily_goods": 20,
+            "luxury_goods": 10
+          }
+        },
+        "qinghe_royal": {
+          "id": "qinghe_royal",
+          "owner": "royal",
+          "label": "皇家池",
+          "balances": {
+            "money": 1000,
+            "grain": 1000,
+            "raw_material": 20,
+            "daily_goods": 20,
+            "luxury_goods": 10
+          }
+        }
+      },
+      "rules": {
+        "history_limit": 120,
+        "household_size": 4,
+        "needs": {
+          "poor": {
+            "grain": 1,
+            "daily_goods": 0.03,
+            "luxury_goods": 0
+          },
+          "ordinary": {
+            "grain": 1,
+            "daily_goods": 0.05,
+            "luxury_goods": 0.008
+          },
+          "wealthy": {
+            "grain": 1,
+            "daily_goods": 0.09,
+            "luxury_goods": 0.04
+          }
+        },
+        "wealth_effects": {
+          "poor": 1.5,
+          "ordinary": 1,
+          "wealthy": 0.5
+        },
+        "grain_death_rate": 0.015,
+        "grain_health_penalty": 4,
+        "grain_satisfaction_penalty": 5,
+        "daily_satisfaction_penalty": 1.8,
+        "luxury_satisfaction_penalty": 1.2,
+        "grain_labor_penalty": 0.02,
+        "health_recovery": 0.5,
+        "satisfaction_recovery": 0.8,
+        "labor_recovery": 0.02,
+        "streak_increment": 0.08,
+        "streak_cap": 6,
+        "descent_grain_rate": 0.035,
+        "descent_goods_rate": 0.008,
+        "settlement_order": "production_then_consumption",
+        "rounding": "carry_fraction",
+        "labor_ratio": 0.5,
+        "annual_birth_rate": 0.03,
+        "annual_death_rate": 0.02,
+        "turns_per_year": 36,
+        "basic_living_cost": 1,
+        "wealthy_income_multiplier": 3
+      },
+      "history": []
+    },
+    "reports": [],
+    "random_state": {
+      "seed": 1500,
+      "draws": 0
+    },
+    "next_id": 2,
+    "notes": [
+      "健康→行动力阈值为0→10、40→20、80→30，属于可配置演示值。",
+      "每旬3份诏书、改税CD为3旬，属于可配置演示值。",
+      "按早朝、工作、私生活依次推进；活动可预排或进入阶段后选择，早朝每旬默认安排且可取消。",
+      "县级经济演示已启用：实际旬末结算生产、消费和人口；其他国家系统仍待开发。",
+      "急报仅手动注入演示，不运行自然事件与地方自主决策。",
+      "县档案展示演示真值；历史全国经济和正式奏报过滤尚未启用。",
+      "留空参数原样保留为委派意图，本版不运行官员补全与决策。",
+      "工作剩余时间可单向转为私生活；急报位置按工作中点或私生活非最后行动排定，并保存送达位置。"
+    ]
+  }
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Game Design Skill"
+  short_description: "Source-grounded game design guidance"
+  default_prompt: "Use $game-design-skill to design or review this game with source-grounded methods."

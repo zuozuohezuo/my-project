@@ -1,0 +1,29 @@
+[
+  {
+    "scenario": "normal",
+    "turns": 72,
+    "population": 1020,
+    "births": 60,
+    "natural_deaths": 40,
+    "shortage_deaths": 0,
+    "money": 4000
+  },
+  {
+    "scenario": "shortage",
+    "turns": 4,
+    "population": 935,
+    "births": 3,
+    "natural_deaths": 2,
+    "shortage_deaths": 66,
+    "money": 4000
+  },
+  {
+    "scenario": "input_shortage",
+    "turns": 4,
+    "population": 1001,
+    "births": 3,
+    "natural_deaths": 2,
+    "shortage_deaths": 0,
+    "money": 4000
+  }
+]

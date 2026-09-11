@@ -1,0 +1,8 @@
+{
+  "ok": true,
+  "authored_files_checked": 9,
+  "external_https_urls_checked": 12,
+  "local_links_checked": 2,
+  "note": "External links are checked for HTTPS syntax; source immutability and commit paths are checked by verify_repository.py.",
+  "errors": []
+}

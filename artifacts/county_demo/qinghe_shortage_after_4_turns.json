@@ -1,0 +1,5392 @@
+{
+  "save_version": 3,
+  "config": {
+    "edicts_per_turn": 3,
+    "health_ap_thresholds": [
+      [
+        0,
+        10
+      ],
+      [
+        40,
+        20
+      ],
+      [
+        80,
+        30
+      ]
+    ],
+    "initial_health": 100,
+    "initial_year": 1500,
+    "initial_month": 1,
+    "initial_xun": 1,
+    "tax_cooldown_turns": 3,
+    "seed": 1500,
+    "turn_rules_version": 3
+  },
+  "state": {
+    "year": 1500,
+    "month": 2,
+    "xun": 2,
+    "turn_index": 4,
+    "scenario_profile": {
+      "scenario_name": "清河县 · 县级经济演示",
+      "emperor_name": "朱祐樘",
+      "era_name": "弘治",
+      "era_start_year": 1488
+    },
+    "emperor": {
+      "attributes": {
+        "logic": 50,
+        "emotional_intelligence": 50,
+        "memory": 50,
+        "insight": 50,
+        "creativity": 50,
+        "strength": 50,
+        "constitution": 50,
+        "agility": 50,
+        "perception": 50,
+        "appearance": 50,
+        "self_discipline": 50,
+        "emotional_resilience": 50,
+        "courage": 50
+      },
+      "skills": {
+        "administration": 0,
+        "military_strategy": 0,
+        "people_reading": 0,
+        "rhetoric": 0,
+        "calligraphy": 0,
+        "scholarship": 0
+      },
+      "traits": [],
+      "pressure": 0,
+      "body_conditions": [],
+      "modifiers": [],
+      "personality": {
+        "benevolence": 50,
+        "trust": 50,
+        "tradition": 50,
+        "luxury": 50,
+        "control": 50,
+        "humility": 50,
+        "partiality": 50,
+        "integrity": 50,
+        "sociability": 50
+      },
+      "objectives": []
+    },
+    "phase": "planning",
+    "health": 100,
+    "ap_capacity": 30,
+    "work_budget": 5,
+    "activity_cursor": 0,
+    "turn_stage": "court",
+    "stage_initial_work_budget": 5,
+    "stage_transfers": [],
+    "emergency_timing": {},
+    "activities": [
+      {
+        "id": "activity-245",
+        "kind": "court",
+        "status": "pending",
+        "cost": 5,
+        "spent_ap": 0,
+        "stage": "planned",
+        "scene": {},
+        "summary": "",
+        "appointment_id": null,
+        "parameters": {}
+      }
+    ],
+    "completion_records": [
+      {
+        "id": "completion-32",
+        "turn": 0,
+        "activity_id": "activity-2",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-33",
+        "turn": 0,
+        "activity_id": "activity-3",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-34",
+        "turn": 0,
+        "activity_id": "activity-4",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-35",
+        "turn": 0,
+        "activity_id": "activity-5",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-36",
+        "turn": 0,
+        "activity_id": "activity-6",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-37",
+        "turn": 0,
+        "activity_id": "activity-7",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-38",
+        "turn": 0,
+        "activity_id": "activity-8",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-39",
+        "turn": 0,
+        "activity_id": "activity-9",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-40",
+        "turn": 0,
+        "activity_id": "activity-10",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-41",
+        "turn": 0,
+        "activity_id": "activity-11",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-42",
+        "turn": 0,
+        "activity_id": "activity-12",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-43",
+        "turn": 0,
+        "activity_id": "activity-13",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-44",
+        "turn": 0,
+        "activity_id": "activity-14",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-45",
+        "turn": 0,
+        "activity_id": "activity-15",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-46",
+        "turn": 0,
+        "activity_id": "activity-16",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-47",
+        "turn": 0,
+        "activity_id": "activity-17",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-48",
+        "turn": 0,
+        "activity_id": "activity-18",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-49",
+        "turn": 0,
+        "activity_id": "activity-19",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-50",
+        "turn": 0,
+        "activity_id": "activity-20",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-51",
+        "turn": 0,
+        "activity_id": "activity-21",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-52",
+        "turn": 0,
+        "activity_id": "activity-22",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-53",
+        "turn": 0,
+        "activity_id": "activity-23",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-54",
+        "turn": 0,
+        "activity_id": "activity-24",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-55",
+        "turn": 0,
+        "activity_id": "activity-25",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-56",
+        "turn": 0,
+        "activity_id": "activity-26",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-57",
+        "turn": 0,
+        "activity_id": "activity-27",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-58",
+        "turn": 0,
+        "activity_id": "activity-28",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-59",
+        "turn": 0,
+        "activity_id": "activity-29",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-60",
+        "turn": 0,
+        "activity_id": "activity-30",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-61",
+        "turn": 0,
+        "activity_id": "activity-31",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-93",
+        "turn": 1,
+        "activity_id": "activity-63",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-94",
+        "turn": 1,
+        "activity_id": "activity-64",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-95",
+        "turn": 1,
+        "activity_id": "activity-65",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-96",
+        "turn": 1,
+        "activity_id": "activity-66",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-97",
+        "turn": 1,
+        "activity_id": "activity-67",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-98",
+        "turn": 1,
+        "activity_id": "activity-68",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-99",
+        "turn": 1,
+        "activity_id": "activity-69",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-100",
+        "turn": 1,
+        "activity_id": "activity-70",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-101",
+        "turn": 1,
+        "activity_id": "activity-71",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-102",
+        "turn": 1,
+        "activity_id": "activity-72",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-103",
+        "turn": 1,
+        "activity_id": "activity-73",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-104",
+        "turn": 1,
+        "activity_id": "activity-74",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-105",
+        "turn": 1,
+        "activity_id": "activity-75",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-106",
+        "turn": 1,
+        "activity_id": "activity-76",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-107",
+        "turn": 1,
+        "activity_id": "activity-77",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-108",
+        "turn": 1,
+        "activity_id": "activity-78",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-109",
+        "turn": 1,
+        "activity_id": "activity-79",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-110",
+        "turn": 1,
+        "activity_id": "activity-80",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-111",
+        "turn": 1,
+        "activity_id": "activity-81",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-112",
+        "turn": 1,
+        "activity_id": "activity-82",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-113",
+        "turn": 1,
+        "activity_id": "activity-83",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-114",
+        "turn": 1,
+        "activity_id": "activity-84",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-115",
+        "turn": 1,
+        "activity_id": "activity-85",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-116",
+        "turn": 1,
+        "activity_id": "activity-86",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-117",
+        "turn": 1,
+        "activity_id": "activity-87",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-118",
+        "turn": 1,
+        "activity_id": "activity-88",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-119",
+        "turn": 1,
+        "activity_id": "activity-89",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-120",
+        "turn": 1,
+        "activity_id": "activity-90",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-121",
+        "turn": 1,
+        "activity_id": "activity-91",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-122",
+        "turn": 1,
+        "activity_id": "activity-92",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-154",
+        "turn": 2,
+        "activity_id": "activity-124",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-155",
+        "turn": 2,
+        "activity_id": "activity-125",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-156",
+        "turn": 2,
+        "activity_id": "activity-126",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-157",
+        "turn": 2,
+        "activity_id": "activity-127",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-158",
+        "turn": 2,
+        "activity_id": "activity-128",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-159",
+        "turn": 2,
+        "activity_id": "activity-129",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-160",
+        "turn": 2,
+        "activity_id": "activity-130",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-161",
+        "turn": 2,
+        "activity_id": "activity-131",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-162",
+        "turn": 2,
+        "activity_id": "activity-132",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-163",
+        "turn": 2,
+        "activity_id": "activity-133",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-164",
+        "turn": 2,
+        "activity_id": "activity-134",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-165",
+        "turn": 2,
+        "activity_id": "activity-135",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-166",
+        "turn": 2,
+        "activity_id": "activity-136",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-167",
+        "turn": 2,
+        "activity_id": "activity-137",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-168",
+        "turn": 2,
+        "activity_id": "activity-138",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-169",
+        "turn": 2,
+        "activity_id": "activity-139",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-170",
+        "turn": 2,
+        "activity_id": "activity-140",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-171",
+        "turn": 2,
+        "activity_id": "activity-141",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-172",
+        "turn": 2,
+        "activity_id": "activity-142",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-173",
+        "turn": 2,
+        "activity_id": "activity-143",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-174",
+        "turn": 2,
+        "activity_id": "activity-144",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-175",
+        "turn": 2,
+        "activity_id": "activity-145",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-176",
+        "turn": 2,
+        "activity_id": "activity-146",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-177",
+        "turn": 2,
+        "activity_id": "activity-147",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-178",
+        "turn": 2,
+        "activity_id": "activity-148",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-179",
+        "turn": 2,
+        "activity_id": "activity-149",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-180",
+        "turn": 2,
+        "activity_id": "activity-150",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-181",
+        "turn": 2,
+        "activity_id": "activity-151",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-182",
+        "turn": 2,
+        "activity_id": "activity-152",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-183",
+        "turn": 2,
+        "activity_id": "activity-153",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-215",
+        "turn": 3,
+        "activity_id": "activity-185",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-216",
+        "turn": 3,
+        "activity_id": "activity-186",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-217",
+        "turn": 3,
+        "activity_id": "activity-187",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-218",
+        "turn": 3,
+        "activity_id": "activity-188",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-219",
+        "turn": 3,
+        "activity_id": "activity-189",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-220",
+        "turn": 3,
+        "activity_id": "activity-190",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-221",
+        "turn": 3,
+        "activity_id": "activity-191",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-222",
+        "turn": 3,
+        "activity_id": "activity-192",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-223",
+        "turn": 3,
+        "activity_id": "activity-193",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-224",
+        "turn": 3,
+        "activity_id": "activity-194",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-225",
+        "turn": 3,
+        "activity_id": "activity-195",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-226",
+        "turn": 3,
+        "activity_id": "activity-196",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-227",
+        "turn": 3,
+        "activity_id": "activity-197",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-228",
+        "turn": 3,
+        "activity_id": "activity-198",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-229",
+        "turn": 3,
+        "activity_id": "activity-199",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-230",
+        "turn": 3,
+        "activity_id": "activity-200",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-231",
+        "turn": 3,
+        "activity_id": "activity-201",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-232",
+        "turn": 3,
+        "activity_id": "activity-202",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-233",
+        "turn": 3,
+        "activity_id": "activity-203",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-234",
+        "turn": 3,
+        "activity_id": "activity-204",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-235",
+        "turn": 3,
+        "activity_id": "activity-205",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-236",
+        "turn": 3,
+        "activity_id": "activity-206",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-237",
+        "turn": 3,
+        "activity_id": "activity-207",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-238",
+        "turn": 3,
+        "activity_id": "activity-208",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-239",
+        "turn": 3,
+        "activity_id": "activity-209",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-240",
+        "turn": 3,
+        "activity_id": "activity-210",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-241",
+        "turn": 3,
+        "activity_id": "activity-211",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-242",
+        "turn": 3,
+        "activity_id": "activity-212",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-243",
+        "turn": 3,
+        "activity_id": "activity-213",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      },
+      {
+        "id": "completion-244",
+        "turn": 3,
+        "activity_id": "activity-214",
+        "activity_kind": "rest",
+        "summary": "已按计划完成休息的常规过程。",
+        "spent_ap": 1,
+        "settled": true
+      }
+    ],
+    "objective_record_starts": {},
+    "work_items": [
+      {
+        "id": "work-demo-1",
+        "title": "核阅地方仓储奏报",
+        "kind": "paperwork",
+        "complexity": 4,
+        "progress": 0,
+        "status": "pending"
+      },
+      {
+        "id": "work-demo-2",
+        "title": "会核河工勘报",
+        "kind": "paperwork",
+        "complexity": 7,
+        "progress": 0,
+        "status": "pending"
+      },
+      {
+        "id": "work-demo-3",
+        "title": "听取吏部用人陈述",
+        "kind": "audience",
+        "complexity": 5,
+        "progress": 0,
+        "status": "pending"
+      },
+      {
+        "id": "work-demo-4",
+        "title": "审阅宫苑修葺清册",
+        "kind": "palace",
+        "complexity": 4,
+        "progress": 0,
+        "status": "pending"
+      }
+    ],
+    "appointments": [],
+    "appointment_consequences": [],
+    "court_open": false,
+    "edict_limit": 3,
+    "edict_available": 3,
+    "edict_debt": 0,
+    "edicts_spent_this_turn": 0,
+    "month_plan": [],
+    "emergencies": [],
+    "active_emergency_id": null,
+    "pending_command": null,
+    "cooldowns": {},
+    "command_ledger": [],
+    "policy_settings": {},
+    "pending_effects": [
+      {
+        "turn": 0,
+        "kind": "activity_effect",
+        "activity_id": "activity-2",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 0,
+        "kind": "activity_effect",
+        "activity_id": "activity-3",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 0,
+        "kind": "activity_effect",
+        "activity_id": "activity-4",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 0,
+        "kind": "activity_effect",
+        "activity_id": "activity-5",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 0,
+        "kind": "activity_effect",
+        "activity_id": "activity-6",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 0,
+        "kind": "activity_effect",
+        "activity_id": "activity-7",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 0,
+        "kind": "activity_effect",
+        "activity_id": "activity-8",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 0,
+        "kind": "activity_effect",
+        "activity_id": "activity-9",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 0,
+        "kind": "activity_effect",
+        "activity_id": "activity-10",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 0,
+        "kind": "activity_effect",
+        "activity_id": "activity-11",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 0,
+        "kind": "activity_effect",
+        "activity_id": "activity-12",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 0,
+        "kind": "activity_effect",
+        "activity_id": "activity-13",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 0,
+        "kind": "activity_effect",
+        "activity_id": "activity-14",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 0,
+        "kind": "activity_effect",
+        "activity_id": "activity-15",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 0,
+        "kind": "activity_effect",
+        "activity_id": "activity-16",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 0,
+        "kind": "activity_effect",
+        "activity_id": "activity-17",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 0,
+        "kind": "activity_effect",
+        "activity_id": "activity-18",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 0,
+        "kind": "activity_effect",
+        "activity_id": "activity-19",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 0,
+        "kind": "activity_effect",
+        "activity_id": "activity-20",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 0,
+        "kind": "activity_effect",
+        "activity_id": "activity-21",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 0,
+        "kind": "activity_effect",
+        "activity_id": "activity-22",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 0,
+        "kind": "activity_effect",
+        "activity_id": "activity-23",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 0,
+        "kind": "activity_effect",
+        "activity_id": "activity-24",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 0,
+        "kind": "activity_effect",
+        "activity_id": "activity-25",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 0,
+        "kind": "activity_effect",
+        "activity_id": "activity-26",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 0,
+        "kind": "activity_effect",
+        "activity_id": "activity-27",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 0,
+        "kind": "activity_effect",
+        "activity_id": "activity-28",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 0,
+        "kind": "activity_effect",
+        "activity_id": "activity-29",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 0,
+        "kind": "activity_effect",
+        "activity_id": "activity-30",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 0,
+        "kind": "activity_effect",
+        "activity_id": "activity-31",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 1,
+        "kind": "activity_effect",
+        "activity_id": "activity-63",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 1,
+        "kind": "activity_effect",
+        "activity_id": "activity-64",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 1,
+        "kind": "activity_effect",
+        "activity_id": "activity-65",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 1,
+        "kind": "activity_effect",
+        "activity_id": "activity-66",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 1,
+        "kind": "activity_effect",
+        "activity_id": "activity-67",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 1,
+        "kind": "activity_effect",
+        "activity_id": "activity-68",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 1,
+        "kind": "activity_effect",
+        "activity_id": "activity-69",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 1,
+        "kind": "activity_effect",
+        "activity_id": "activity-70",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 1,
+        "kind": "activity_effect",
+        "activity_id": "activity-71",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 1,
+        "kind": "activity_effect",
+        "activity_id": "activity-72",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 1,
+        "kind": "activity_effect",
+        "activity_id": "activity-73",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 1,
+        "kind": "activity_effect",
+        "activity_id": "activity-74",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 1,
+        "kind": "activity_effect",
+        "activity_id": "activity-75",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 1,
+        "kind": "activity_effect",
+        "activity_id": "activity-76",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 1,
+        "kind": "activity_effect",
+        "activity_id": "activity-77",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 1,
+        "kind": "activity_effect",
+        "activity_id": "activity-78",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 1,
+        "kind": "activity_effect",
+        "activity_id": "activity-79",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 1,
+        "kind": "activity_effect",
+        "activity_id": "activity-80",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 1,
+        "kind": "activity_effect",
+        "activity_id": "activity-81",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 1,
+        "kind": "activity_effect",
+        "activity_id": "activity-82",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 1,
+        "kind": "activity_effect",
+        "activity_id": "activity-83",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 1,
+        "kind": "activity_effect",
+        "activity_id": "activity-84",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 1,
+        "kind": "activity_effect",
+        "activity_id": "activity-85",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 1,
+        "kind": "activity_effect",
+        "activity_id": "activity-86",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 1,
+        "kind": "activity_effect",
+        "activity_id": "activity-87",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 1,
+        "kind": "activity_effect",
+        "activity_id": "activity-88",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 1,
+        "kind": "activity_effect",
+        "activity_id": "activity-89",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 1,
+        "kind": "activity_effect",
+        "activity_id": "activity-90",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 1,
+        "kind": "activity_effect",
+        "activity_id": "activity-91",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 1,
+        "kind": "activity_effect",
+        "activity_id": "activity-92",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 2,
+        "kind": "activity_effect",
+        "activity_id": "activity-124",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 2,
+        "kind": "activity_effect",
+        "activity_id": "activity-125",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 2,
+        "kind": "activity_effect",
+        "activity_id": "activity-126",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 2,
+        "kind": "activity_effect",
+        "activity_id": "activity-127",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 2,
+        "kind": "activity_effect",
+        "activity_id": "activity-128",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 2,
+        "kind": "activity_effect",
+        "activity_id": "activity-129",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 2,
+        "kind": "activity_effect",
+        "activity_id": "activity-130",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 2,
+        "kind": "activity_effect",
+        "activity_id": "activity-131",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 2,
+        "kind": "activity_effect",
+        "activity_id": "activity-132",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 2,
+        "kind": "activity_effect",
+        "activity_id": "activity-133",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 2,
+        "kind": "activity_effect",
+        "activity_id": "activity-134",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 2,
+        "kind": "activity_effect",
+        "activity_id": "activity-135",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 2,
+        "kind": "activity_effect",
+        "activity_id": "activity-136",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 2,
+        "kind": "activity_effect",
+        "activity_id": "activity-137",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 2,
+        "kind": "activity_effect",
+        "activity_id": "activity-138",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 2,
+        "kind": "activity_effect",
+        "activity_id": "activity-139",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 2,
+        "kind": "activity_effect",
+        "activity_id": "activity-140",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 2,
+        "kind": "activity_effect",
+        "activity_id": "activity-141",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 2,
+        "kind": "activity_effect",
+        "activity_id": "activity-142",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 2,
+        "kind": "activity_effect",
+        "activity_id": "activity-143",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 2,
+        "kind": "activity_effect",
+        "activity_id": "activity-144",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 2,
+        "kind": "activity_effect",
+        "activity_id": "activity-145",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 2,
+        "kind": "activity_effect",
+        "activity_id": "activity-146",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 2,
+        "kind": "activity_effect",
+        "activity_id": "activity-147",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 2,
+        "kind": "activity_effect",
+        "activity_id": "activity-148",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 2,
+        "kind": "activity_effect",
+        "activity_id": "activity-149",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 2,
+        "kind": "activity_effect",
+        "activity_id": "activity-150",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 2,
+        "kind": "activity_effect",
+        "activity_id": "activity-151",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 2,
+        "kind": "activity_effect",
+        "activity_id": "activity-152",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 2,
+        "kind": "activity_effect",
+        "activity_id": "activity-153",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 3,
+        "kind": "activity_effect",
+        "activity_id": "activity-185",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 3,
+        "kind": "activity_effect",
+        "activity_id": "activity-186",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 3,
+        "kind": "activity_effect",
+        "activity_id": "activity-187",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 3,
+        "kind": "activity_effect",
+        "activity_id": "activity-188",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 3,
+        "kind": "activity_effect",
+        "activity_id": "activity-189",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 3,
+        "kind": "activity_effect",
+        "activity_id": "activity-190",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 3,
+        "kind": "activity_effect",
+        "activity_id": "activity-191",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 3,
+        "kind": "activity_effect",
+        "activity_id": "activity-192",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 3,
+        "kind": "activity_effect",
+        "activity_id": "activity-193",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 3,
+        "kind": "activity_effect",
+        "activity_id": "activity-194",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 3,
+        "kind": "activity_effect",
+        "activity_id": "activity-195",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 3,
+        "kind": "activity_effect",
+        "activity_id": "activity-196",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 3,
+        "kind": "activity_effect",
+        "activity_id": "activity-197",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 3,
+        "kind": "activity_effect",
+        "activity_id": "activity-198",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 3,
+        "kind": "activity_effect",
+        "activity_id": "activity-199",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 3,
+        "kind": "activity_effect",
+        "activity_id": "activity-200",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 3,
+        "kind": "activity_effect",
+        "activity_id": "activity-201",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 3,
+        "kind": "activity_effect",
+        "activity_id": "activity-202",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 3,
+        "kind": "activity_effect",
+        "activity_id": "activity-203",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 3,
+        "kind": "activity_effect",
+        "activity_id": "activity-204",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 3,
+        "kind": "activity_effect",
+        "activity_id": "activity-205",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 3,
+        "kind": "activity_effect",
+        "activity_id": "activity-206",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 3,
+        "kind": "activity_effect",
+        "activity_id": "activity-207",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 3,
+        "kind": "activity_effect",
+        "activity_id": "activity-208",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 3,
+        "kind": "activity_effect",
+        "activity_id": "activity-209",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 3,
+        "kind": "activity_effect",
+        "activity_id": "activity-210",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 3,
+        "kind": "activity_effect",
+        "activity_id": "activity-211",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 3,
+        "kind": "activity_effect",
+        "activity_id": "activity-212",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 3,
+        "kind": "activity_effect",
+        "activity_id": "activity-213",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      },
+      {
+        "turn": 3,
+        "kind": "activity_effect",
+        "activity_id": "activity-214",
+        "activity_kind": "rest",
+        "status": "not_simulated"
+      }
+    ],
+    "logs": [
+      {
+        "turn": 0,
+        "label": "开局",
+        "message": "建立县级经济演示；数值为可调整的游戏样例，不代表历史县情。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 0,
+        "label": "旬开始",
+        "message": "按早朝、工作、私生活依次推进；未预排的时间进入相应阶段后再决定。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 0,
+        "label": "活动开始",
+        "message": "第1项：休息，预留1 AP。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 0,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 0,
+        "label": "活动开始",
+        "message": "第2项：休息，预留1 AP。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 0,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 0,
+        "label": "活动开始",
+        "message": "第3项：休息，预留1 AP。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 0,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 0,
+        "label": "活动开始",
+        "message": "第4项：休息，预留1 AP。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 0,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 0,
+        "label": "活动开始",
+        "message": "第5项：休息，预留1 AP。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 0,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 0,
+        "label": "活动开始",
+        "message": "第6项：休息，预留1 AP。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 0,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 0,
+        "label": "活动开始",
+        "message": "第7项：休息，预留1 AP。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 0,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 0,
+        "label": "活动开始",
+        "message": "第8项：休息，预留1 AP。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 0,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 0,
+        "label": "活动开始",
+        "message": "第9项：休息，预留1 AP。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 0,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 0,
+        "label": "活动开始",
+        "message": "第10项：休息，预留1 AP。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 0,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 0,
+        "label": "活动开始",
+        "message": "第11项：休息，预留1 AP。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 0,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 0,
+        "label": "活动开始",
+        "message": "第12项：休息，预留1 AP。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 0,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 0,
+        "label": "活动开始",
+        "message": "第13项：休息，预留1 AP。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 0,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 0,
+        "label": "活动开始",
+        "message": "第14项：休息，预留1 AP。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 0,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 0,
+        "label": "活动开始",
+        "message": "第15项：休息，预留1 AP。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 0,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 0,
+        "label": "活动开始",
+        "message": "第16项：休息，预留1 AP。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 0,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 0,
+        "label": "活动开始",
+        "message": "第17项：休息，预留1 AP。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 0,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 0,
+        "label": "活动开始",
+        "message": "第18项：休息，预留1 AP。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 0,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 0,
+        "label": "活动开始",
+        "message": "第19项：休息，预留1 AP。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 0,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 0,
+        "label": "活动开始",
+        "message": "第20项：休息，预留1 AP。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 0,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 0,
+        "label": "活动开始",
+        "message": "第21项：休息，预留1 AP。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 0,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 0,
+        "label": "活动开始",
+        "message": "第22项：休息，预留1 AP。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 0,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 0,
+        "label": "活动开始",
+        "message": "第23项：休息，预留1 AP。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 0,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 0,
+        "label": "活动开始",
+        "message": "第24项：休息，预留1 AP。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 0,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 0,
+        "label": "活动开始",
+        "message": "第25项：休息，预留1 AP。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 0,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 0,
+        "label": "活动开始",
+        "message": "第26项：休息，预留1 AP。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 0,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 0,
+        "label": "活动开始",
+        "message": "第27项：休息，预留1 AP。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 0,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 0,
+        "label": "活动开始",
+        "message": "第28项：休息，预留1 AP。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 0,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 0,
+        "label": "活动开始",
+        "message": "第29项：休息，预留1 AP。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 0,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 0,
+        "label": "活动开始",
+        "message": "第30项：休息，预留1 AP。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 0,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 0,
+        "label": "县情旬报",
+        "message": "清河县：本旬产粮0.0，口粮满足0%；出生0人，自然死亡0人，缺粮额外死亡11人；向下转层14人，期末人口989人。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 0,
+        "label": "旬结算",
+        "message": "本旬实际投入30 AP，完成记录已汇总；县经济已结算。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 1,
+        "label": "旬开始",
+        "message": "按早朝、工作、私生活依次推进；未预排的时间进入相应阶段后再决定。",
+        "date": "1500年1月中旬"
+      },
+      {
+        "turn": 1,
+        "label": "活动开始",
+        "message": "第1项：休息，预留1 AP。",
+        "date": "1500年1月中旬"
+      },
+      {
+        "turn": 1,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月中旬"
+      },
+      {
+        "turn": 1,
+        "label": "活动开始",
+        "message": "第2项：休息，预留1 AP。",
+        "date": "1500年1月中旬"
+      },
+      {
+        "turn": 1,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月中旬"
+      },
+      {
+        "turn": 1,
+        "label": "活动开始",
+        "message": "第3项：休息，预留1 AP。",
+        "date": "1500年1月中旬"
+      },
+      {
+        "turn": 1,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月中旬"
+      },
+      {
+        "turn": 1,
+        "label": "活动开始",
+        "message": "第4项：休息，预留1 AP。",
+        "date": "1500年1月中旬"
+      },
+      {
+        "turn": 1,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月中旬"
+      },
+      {
+        "turn": 1,
+        "label": "活动开始",
+        "message": "第5项：休息，预留1 AP。",
+        "date": "1500年1月中旬"
+      },
+      {
+        "turn": 1,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月中旬"
+      },
+      {
+        "turn": 1,
+        "label": "活动开始",
+        "message": "第6项：休息，预留1 AP。",
+        "date": "1500年1月中旬"
+      },
+      {
+        "turn": 1,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月中旬"
+      },
+      {
+        "turn": 1,
+        "label": "活动开始",
+        "message": "第7项：休息，预留1 AP。",
+        "date": "1500年1月中旬"
+      },
+      {
+        "turn": 1,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月中旬"
+      },
+      {
+        "turn": 1,
+        "label": "活动开始",
+        "message": "第8项：休息，预留1 AP。",
+        "date": "1500年1月中旬"
+      },
+      {
+        "turn": 1,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月中旬"
+      },
+      {
+        "turn": 1,
+        "label": "活动开始",
+        "message": "第9项：休息，预留1 AP。",
+        "date": "1500年1月中旬"
+      },
+      {
+        "turn": 1,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月中旬"
+      },
+      {
+        "turn": 1,
+        "label": "活动开始",
+        "message": "第10项：休息，预留1 AP。",
+        "date": "1500年1月中旬"
+      },
+      {
+        "turn": 1,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月中旬"
+      },
+      {
+        "turn": 1,
+        "label": "活动开始",
+        "message": "第11项：休息，预留1 AP。",
+        "date": "1500年1月中旬"
+      },
+      {
+        "turn": 1,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月中旬"
+      },
+      {
+        "turn": 1,
+        "label": "活动开始",
+        "message": "第12项：休息，预留1 AP。",
+        "date": "1500年1月中旬"
+      },
+      {
+        "turn": 1,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月中旬"
+      },
+      {
+        "turn": 1,
+        "label": "活动开始",
+        "message": "第13项：休息，预留1 AP。",
+        "date": "1500年1月中旬"
+      },
+      {
+        "turn": 1,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月中旬"
+      },
+      {
+        "turn": 1,
+        "label": "活动开始",
+        "message": "第14项：休息，预留1 AP。",
+        "date": "1500年1月中旬"
+      },
+      {
+        "turn": 1,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月中旬"
+      },
+      {
+        "turn": 1,
+        "label": "活动开始",
+        "message": "第15项：休息，预留1 AP。",
+        "date": "1500年1月中旬"
+      },
+      {
+        "turn": 1,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月中旬"
+      },
+      {
+        "turn": 1,
+        "label": "活动开始",
+        "message": "第16项：休息，预留1 AP。",
+        "date": "1500年1月中旬"
+      },
+      {
+        "turn": 1,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月中旬"
+      },
+      {
+        "turn": 1,
+        "label": "活动开始",
+        "message": "第17项：休息，预留1 AP。",
+        "date": "1500年1月中旬"
+      },
+      {
+        "turn": 1,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月中旬"
+      },
+      {
+        "turn": 1,
+        "label": "活动开始",
+        "message": "第18项：休息，预留1 AP。",
+        "date": "1500年1月中旬"
+      },
+      {
+        "turn": 1,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月中旬"
+      },
+      {
+        "turn": 1,
+        "label": "活动开始",
+        "message": "第19项：休息，预留1 AP。",
+        "date": "1500年1月中旬"
+      },
+      {
+        "turn": 1,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月中旬"
+      },
+      {
+        "turn": 1,
+        "label": "活动开始",
+        "message": "第20项：休息，预留1 AP。",
+        "date": "1500年1月中旬"
+      },
+      {
+        "turn": 1,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月中旬"
+      },
+      {
+        "turn": 1,
+        "label": "活动开始",
+        "message": "第21项：休息，预留1 AP。",
+        "date": "1500年1月中旬"
+      },
+      {
+        "turn": 1,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月中旬"
+      },
+      {
+        "turn": 1,
+        "label": "活动开始",
+        "message": "第22项：休息，预留1 AP。",
+        "date": "1500年1月中旬"
+      },
+      {
+        "turn": 1,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月中旬"
+      },
+      {
+        "turn": 1,
+        "label": "活动开始",
+        "message": "第23项：休息，预留1 AP。",
+        "date": "1500年1月中旬"
+      },
+      {
+        "turn": 1,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月中旬"
+      },
+      {
+        "turn": 1,
+        "label": "活动开始",
+        "message": "第24项：休息，预留1 AP。",
+        "date": "1500年1月中旬"
+      },
+      {
+        "turn": 1,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月中旬"
+      },
+      {
+        "turn": 1,
+        "label": "活动开始",
+        "message": "第25项：休息，预留1 AP。",
+        "date": "1500年1月中旬"
+      },
+      {
+        "turn": 1,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月中旬"
+      },
+      {
+        "turn": 1,
+        "label": "活动开始",
+        "message": "第26项：休息，预留1 AP。",
+        "date": "1500年1月中旬"
+      },
+      {
+        "turn": 1,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月中旬"
+      },
+      {
+        "turn": 1,
+        "label": "活动开始",
+        "message": "第27项：休息，预留1 AP。",
+        "date": "1500年1月中旬"
+      },
+      {
+        "turn": 1,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月中旬"
+      },
+      {
+        "turn": 1,
+        "label": "活动开始",
+        "message": "第28项：休息，预留1 AP。",
+        "date": "1500年1月中旬"
+      },
+      {
+        "turn": 1,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月中旬"
+      },
+      {
+        "turn": 1,
+        "label": "活动开始",
+        "message": "第29项：休息，预留1 AP。",
+        "date": "1500年1月中旬"
+      },
+      {
+        "turn": 1,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月中旬"
+      },
+      {
+        "turn": 1,
+        "label": "活动开始",
+        "message": "第30项：休息，预留1 AP。",
+        "date": "1500年1月中旬"
+      },
+      {
+        "turn": 1,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月中旬"
+      },
+      {
+        "turn": 1,
+        "label": "县情旬报",
+        "message": "清河县：本旬产粮0.0，口粮满足0%；出生1人，自然死亡1人，缺粮额外死亡17人；向下转层16人，期末人口972人。",
+        "date": "1500年1月中旬"
+      },
+      {
+        "turn": 1,
+        "label": "旬结算",
+        "message": "本旬实际投入30 AP，完成记录已汇总；县经济已结算。",
+        "date": "1500年1月中旬"
+      },
+      {
+        "turn": 2,
+        "label": "旬开始",
+        "message": "按早朝、工作、私生活依次推进；未预排的时间进入相应阶段后再决定。",
+        "date": "1500年1月下旬"
+      },
+      {
+        "turn": 2,
+        "label": "活动开始",
+        "message": "第1项：休息，预留1 AP。",
+        "date": "1500年1月下旬"
+      },
+      {
+        "turn": 2,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月下旬"
+      },
+      {
+        "turn": 2,
+        "label": "活动开始",
+        "message": "第2项：休息，预留1 AP。",
+        "date": "1500年1月下旬"
+      },
+      {
+        "turn": 2,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月下旬"
+      },
+      {
+        "turn": 2,
+        "label": "活动开始",
+        "message": "第3项：休息，预留1 AP。",
+        "date": "1500年1月下旬"
+      },
+      {
+        "turn": 2,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月下旬"
+      },
+      {
+        "turn": 2,
+        "label": "活动开始",
+        "message": "第4项：休息，预留1 AP。",
+        "date": "1500年1月下旬"
+      },
+      {
+        "turn": 2,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月下旬"
+      },
+      {
+        "turn": 2,
+        "label": "活动开始",
+        "message": "第5项：休息，预留1 AP。",
+        "date": "1500年1月下旬"
+      },
+      {
+        "turn": 2,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月下旬"
+      },
+      {
+        "turn": 2,
+        "label": "活动开始",
+        "message": "第6项：休息，预留1 AP。",
+        "date": "1500年1月下旬"
+      },
+      {
+        "turn": 2,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月下旬"
+      },
+      {
+        "turn": 2,
+        "label": "活动开始",
+        "message": "第7项：休息，预留1 AP。",
+        "date": "1500年1月下旬"
+      },
+      {
+        "turn": 2,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月下旬"
+      },
+      {
+        "turn": 2,
+        "label": "活动开始",
+        "message": "第8项：休息，预留1 AP。",
+        "date": "1500年1月下旬"
+      },
+      {
+        "turn": 2,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月下旬"
+      },
+      {
+        "turn": 2,
+        "label": "活动开始",
+        "message": "第9项：休息，预留1 AP。",
+        "date": "1500年1月下旬"
+      },
+      {
+        "turn": 2,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月下旬"
+      },
+      {
+        "turn": 2,
+        "label": "活动开始",
+        "message": "第10项：休息，预留1 AP。",
+        "date": "1500年1月下旬"
+      },
+      {
+        "turn": 2,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月下旬"
+      },
+      {
+        "turn": 2,
+        "label": "活动开始",
+        "message": "第11项：休息，预留1 AP。",
+        "date": "1500年1月下旬"
+      },
+      {
+        "turn": 2,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月下旬"
+      },
+      {
+        "turn": 2,
+        "label": "活动开始",
+        "message": "第12项：休息，预留1 AP。",
+        "date": "1500年1月下旬"
+      },
+      {
+        "turn": 2,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月下旬"
+      },
+      {
+        "turn": 2,
+        "label": "活动开始",
+        "message": "第13项：休息，预留1 AP。",
+        "date": "1500年1月下旬"
+      },
+      {
+        "turn": 2,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月下旬"
+      },
+      {
+        "turn": 2,
+        "label": "活动开始",
+        "message": "第14项：休息，预留1 AP。",
+        "date": "1500年1月下旬"
+      },
+      {
+        "turn": 2,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月下旬"
+      },
+      {
+        "turn": 2,
+        "label": "活动开始",
+        "message": "第15项：休息，预留1 AP。",
+        "date": "1500年1月下旬"
+      },
+      {
+        "turn": 2,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月下旬"
+      },
+      {
+        "turn": 2,
+        "label": "活动开始",
+        "message": "第16项：休息，预留1 AP。",
+        "date": "1500年1月下旬"
+      },
+      {
+        "turn": 2,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月下旬"
+      },
+      {
+        "turn": 2,
+        "label": "活动开始",
+        "message": "第17项：休息，预留1 AP。",
+        "date": "1500年1月下旬"
+      },
+      {
+        "turn": 2,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月下旬"
+      },
+      {
+        "turn": 2,
+        "label": "活动开始",
+        "message": "第18项：休息，预留1 AP。",
+        "date": "1500年1月下旬"
+      },
+      {
+        "turn": 2,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月下旬"
+      },
+      {
+        "turn": 2,
+        "label": "活动开始",
+        "message": "第19项：休息，预留1 AP。",
+        "date": "1500年1月下旬"
+      },
+      {
+        "turn": 2,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月下旬"
+      },
+      {
+        "turn": 2,
+        "label": "活动开始",
+        "message": "第20项：休息，预留1 AP。",
+        "date": "1500年1月下旬"
+      },
+      {
+        "turn": 2,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月下旬"
+      },
+      {
+        "turn": 2,
+        "label": "活动开始",
+        "message": "第21项：休息，预留1 AP。",
+        "date": "1500年1月下旬"
+      },
+      {
+        "turn": 2,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月下旬"
+      },
+      {
+        "turn": 2,
+        "label": "活动开始",
+        "message": "第22项：休息，预留1 AP。",
+        "date": "1500年1月下旬"
+      },
+      {
+        "turn": 2,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月下旬"
+      },
+      {
+        "turn": 2,
+        "label": "活动开始",
+        "message": "第23项：休息，预留1 AP。",
+        "date": "1500年1月下旬"
+      },
+      {
+        "turn": 2,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月下旬"
+      },
+      {
+        "turn": 2,
+        "label": "活动开始",
+        "message": "第24项：休息，预留1 AP。",
+        "date": "1500年1月下旬"
+      },
+      {
+        "turn": 2,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月下旬"
+      },
+      {
+        "turn": 2,
+        "label": "活动开始",
+        "message": "第25项：休息，预留1 AP。",
+        "date": "1500年1月下旬"
+      },
+      {
+        "turn": 2,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月下旬"
+      },
+      {
+        "turn": 2,
+        "label": "活动开始",
+        "message": "第26项：休息，预留1 AP。",
+        "date": "1500年1月下旬"
+      },
+      {
+        "turn": 2,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月下旬"
+      },
+      {
+        "turn": 2,
+        "label": "活动开始",
+        "message": "第27项：休息，预留1 AP。",
+        "date": "1500年1月下旬"
+      },
+      {
+        "turn": 2,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月下旬"
+      },
+      {
+        "turn": 2,
+        "label": "活动开始",
+        "message": "第28项：休息，预留1 AP。",
+        "date": "1500年1月下旬"
+      },
+      {
+        "turn": 2,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月下旬"
+      },
+      {
+        "turn": 2,
+        "label": "活动开始",
+        "message": "第29项：休息，预留1 AP。",
+        "date": "1500年1月下旬"
+      },
+      {
+        "turn": 2,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月下旬"
+      },
+      {
+        "turn": 2,
+        "label": "活动开始",
+        "message": "第30项：休息，预留1 AP。",
+        "date": "1500年1月下旬"
+      },
+      {
+        "turn": 2,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年1月下旬"
+      },
+      {
+        "turn": 2,
+        "label": "县情旬报",
+        "message": "清河县：本旬产粮0.0，口粮满足0%；出生1人，自然死亡0人，缺粮额外死亡20人；向下转层14人，期末人口953人。",
+        "date": "1500年1月下旬"
+      },
+      {
+        "turn": 2,
+        "label": "旬结算",
+        "message": "本旬实际投入30 AP，完成记录已汇总；县经济已结算。",
+        "date": "1500年1月下旬"
+      },
+      {
+        "turn": 3,
+        "label": "旬开始",
+        "message": "按早朝、工作、私生活依次推进；未预排的时间进入相应阶段后再决定。",
+        "date": "1500年2月上旬"
+      },
+      {
+        "turn": 3,
+        "label": "活动开始",
+        "message": "第1项：休息，预留1 AP。",
+        "date": "1500年2月上旬"
+      },
+      {
+        "turn": 3,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年2月上旬"
+      },
+      {
+        "turn": 3,
+        "label": "活动开始",
+        "message": "第2项：休息，预留1 AP。",
+        "date": "1500年2月上旬"
+      },
+      {
+        "turn": 3,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年2月上旬"
+      },
+      {
+        "turn": 3,
+        "label": "活动开始",
+        "message": "第3项：休息，预留1 AP。",
+        "date": "1500年2月上旬"
+      },
+      {
+        "turn": 3,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年2月上旬"
+      },
+      {
+        "turn": 3,
+        "label": "活动开始",
+        "message": "第4项：休息，预留1 AP。",
+        "date": "1500年2月上旬"
+      },
+      {
+        "turn": 3,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年2月上旬"
+      },
+      {
+        "turn": 3,
+        "label": "活动开始",
+        "message": "第5项：休息，预留1 AP。",
+        "date": "1500年2月上旬"
+      },
+      {
+        "turn": 3,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年2月上旬"
+      },
+      {
+        "turn": 3,
+        "label": "活动开始",
+        "message": "第6项：休息，预留1 AP。",
+        "date": "1500年2月上旬"
+      },
+      {
+        "turn": 3,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年2月上旬"
+      },
+      {
+        "turn": 3,
+        "label": "活动开始",
+        "message": "第7项：休息，预留1 AP。",
+        "date": "1500年2月上旬"
+      },
+      {
+        "turn": 3,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年2月上旬"
+      },
+      {
+        "turn": 3,
+        "label": "活动开始",
+        "message": "第8项：休息，预留1 AP。",
+        "date": "1500年2月上旬"
+      },
+      {
+        "turn": 3,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年2月上旬"
+      },
+      {
+        "turn": 3,
+        "label": "活动开始",
+        "message": "第9项：休息，预留1 AP。",
+        "date": "1500年2月上旬"
+      },
+      {
+        "turn": 3,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年2月上旬"
+      },
+      {
+        "turn": 3,
+        "label": "活动开始",
+        "message": "第10项：休息，预留1 AP。",
+        "date": "1500年2月上旬"
+      },
+      {
+        "turn": 3,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年2月上旬"
+      },
+      {
+        "turn": 3,
+        "label": "活动开始",
+        "message": "第11项：休息，预留1 AP。",
+        "date": "1500年2月上旬"
+      },
+      {
+        "turn": 3,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年2月上旬"
+      },
+      {
+        "turn": 3,
+        "label": "活动开始",
+        "message": "第12项：休息，预留1 AP。",
+        "date": "1500年2月上旬"
+      },
+      {
+        "turn": 3,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年2月上旬"
+      },
+      {
+        "turn": 3,
+        "label": "活动开始",
+        "message": "第13项：休息，预留1 AP。",
+        "date": "1500年2月上旬"
+      },
+      {
+        "turn": 3,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年2月上旬"
+      },
+      {
+        "turn": 3,
+        "label": "活动开始",
+        "message": "第14项：休息，预留1 AP。",
+        "date": "1500年2月上旬"
+      },
+      {
+        "turn": 3,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年2月上旬"
+      },
+      {
+        "turn": 3,
+        "label": "活动开始",
+        "message": "第15项：休息，预留1 AP。",
+        "date": "1500年2月上旬"
+      },
+      {
+        "turn": 3,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年2月上旬"
+      },
+      {
+        "turn": 3,
+        "label": "活动开始",
+        "message": "第16项：休息，预留1 AP。",
+        "date": "1500年2月上旬"
+      },
+      {
+        "turn": 3,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年2月上旬"
+      },
+      {
+        "turn": 3,
+        "label": "活动开始",
+        "message": "第17项：休息，预留1 AP。",
+        "date": "1500年2月上旬"
+      },
+      {
+        "turn": 3,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年2月上旬"
+      },
+      {
+        "turn": 3,
+        "label": "活动开始",
+        "message": "第18项：休息，预留1 AP。",
+        "date": "1500年2月上旬"
+      },
+      {
+        "turn": 3,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年2月上旬"
+      },
+      {
+        "turn": 3,
+        "label": "活动开始",
+        "message": "第19项：休息，预留1 AP。",
+        "date": "1500年2月上旬"
+      },
+      {
+        "turn": 3,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年2月上旬"
+      },
+      {
+        "turn": 3,
+        "label": "活动开始",
+        "message": "第20项：休息，预留1 AP。",
+        "date": "1500年2月上旬"
+      },
+      {
+        "turn": 3,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年2月上旬"
+      },
+      {
+        "turn": 3,
+        "label": "活动开始",
+        "message": "第21项：休息，预留1 AP。",
+        "date": "1500年2月上旬"
+      },
+      {
+        "turn": 3,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年2月上旬"
+      },
+      {
+        "turn": 3,
+        "label": "活动开始",
+        "message": "第22项：休息，预留1 AP。",
+        "date": "1500年2月上旬"
+      },
+      {
+        "turn": 3,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年2月上旬"
+      },
+      {
+        "turn": 3,
+        "label": "活动开始",
+        "message": "第23项：休息，预留1 AP。",
+        "date": "1500年2月上旬"
+      },
+      {
+        "turn": 3,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年2月上旬"
+      },
+      {
+        "turn": 3,
+        "label": "活动开始",
+        "message": "第24项：休息，预留1 AP。",
+        "date": "1500年2月上旬"
+      },
+      {
+        "turn": 3,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年2月上旬"
+      },
+      {
+        "turn": 3,
+        "label": "活动开始",
+        "message": "第25项：休息，预留1 AP。",
+        "date": "1500年2月上旬"
+      },
+      {
+        "turn": 3,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年2月上旬"
+      },
+      {
+        "turn": 3,
+        "label": "活动开始",
+        "message": "第26项：休息，预留1 AP。",
+        "date": "1500年2月上旬"
+      },
+      {
+        "turn": 3,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年2月上旬"
+      },
+      {
+        "turn": 3,
+        "label": "活动开始",
+        "message": "第27项：休息，预留1 AP。",
+        "date": "1500年2月上旬"
+      },
+      {
+        "turn": 3,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年2月上旬"
+      },
+      {
+        "turn": 3,
+        "label": "活动开始",
+        "message": "第28项：休息，预留1 AP。",
+        "date": "1500年2月上旬"
+      },
+      {
+        "turn": 3,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年2月上旬"
+      },
+      {
+        "turn": 3,
+        "label": "活动开始",
+        "message": "第29项：休息，预留1 AP。",
+        "date": "1500年2月上旬"
+      },
+      {
+        "turn": 3,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年2月上旬"
+      },
+      {
+        "turn": 3,
+        "label": "活动开始",
+        "message": "第30项：休息，预留1 AP。",
+        "date": "1500年2月上旬"
+      },
+      {
+        "turn": 3,
+        "label": "活动完成",
+        "message": "已按计划完成休息的常规过程。",
+        "date": "1500年2月上旬"
+      },
+      {
+        "turn": 3,
+        "label": "县情旬报",
+        "message": "清河县：本旬产粮0.0，口粮满足0%；出生1人，自然死亡1人，缺粮额外死亡18人；向下转层15人，期末人口935人。",
+        "date": "1500年2月上旬"
+      },
+      {
+        "turn": 3,
+        "label": "旬结算",
+        "message": "本旬实际投入30 AP，完成记录已汇总；县经济已结算。",
+        "date": "1500年2月上旬"
+      }
+    ],
+    "world_snapshot": {
+      "scenario": "county_economy_demo",
+      "simulation_enabled": true,
+      "simulation_scope": "one_demo_county",
+      "reference_year": 1500,
+      "regions": [],
+      "metrics": {},
+      "notes": "虚构演示县；各项数据不是历史复原。"
+    },
+    "economy": {
+      "schema_version": 2,
+      "rules_version": 2,
+      "demo": true,
+      "scenario": "shortage",
+      "scenario_label": "口粮短缺",
+      "scenario_description": "民间池起始粮食为零；官府和皇家粮食不会自动补入，可观察贫困群体更重的后果及向下转层。",
+      "last_settled_turn": 3,
+      "county": {
+        "id": "demo_qinghe",
+        "name": "清河县",
+        "description": "独立虚构演示县：观察产权产出、有限生产投入、共同资源池及财富分层消费后果。",
+        "parent_id": "demo_parent_unassigned",
+        "pool_ids": {
+          "private": "qinghe_private",
+          "public": "qinghe_public",
+          "royal": "qinghe_royal"
+        },
+        "population": {
+          "cohorts": [
+            {
+              "id": "artisan_ordinary_displaced",
+              "occupation": "artisan",
+              "wealth": "ordinary",
+              "resident_status": "displaced",
+              "count": 0,
+              "income_per_capita": 2.0,
+              "health": 84.0,
+              "satisfaction": 55.0,
+              "labor_factor": 0.9199999999999999,
+              "death_remainder": 0.0,
+              "descent_remainder": 0.0
+            },
+            {
+              "id": "artisan_ordinary_settled",
+              "occupation": "artisan",
+              "wealth": "ordinary",
+              "resident_status": "settled",
+              "count": 86,
+              "income_per_capita": 2.0,
+              "health": 84.0,
+              "satisfaction": 55.0,
+              "labor_factor": 0.9199999999999999,
+              "death_remainder": 0.48850874734676386,
+              "descent_remainder": 0.5100000000000011
+            },
+            {
+              "id": "artisan_poor_displaced",
+              "occupation": "artisan",
+              "wealth": "poor",
+              "resident_status": "displaced",
+              "count": 0,
+              "income_per_capita": 0.64,
+              "health": 76.0,
+              "satisfaction": 45.0,
+              "labor_factor": 0.8799999999999999,
+              "death_remainder": 0.0,
+              "descent_remainder": 0.0
+            },
+            {
+              "id": "artisan_poor_settled",
+              "occupation": "artisan",
+              "wealth": "poor",
+              "resident_status": "settled",
+              "count": 40,
+              "income_per_capita": 0.7521531100478468,
+              "health": 77.55450558213715,
+              "satisfaction": 46.94313197767144,
+              "labor_factor": 0.8877725279106856,
+              "death_remainder": 0.5449912526532353,
+              "descent_remainder": 0.0
+            },
+            {
+              "id": "artisan_wealthy_displaced",
+              "occupation": "artisan",
+              "wealth": "wealthy",
+              "resident_status": "displaced",
+              "count": 0,
+              "income_per_capita": 4.9,
+              "health": 92.0,
+              "satisfaction": 65.0,
+              "labor_factor": 0.96,
+              "death_remainder": 0.0,
+              "descent_remainder": 0.0
+            },
+            {
+              "id": "artisan_wealthy_settled",
+              "occupation": "artisan",
+              "wealth": "wealthy",
+              "resident_status": "settled",
+              "count": 5,
+              "income_per_capita": 4.9,
+              "health": 92.0,
+              "satisfaction": 65.0,
+              "labor_factor": 0.96,
+              "death_remainder": 0.16799999999999998,
+              "descent_remainder": 0.35000000000000003
+            },
+            {
+              "id": "farmer_ordinary_displaced",
+              "occupation": "farmer",
+              "wealth": "ordinary",
+              "resident_status": "displaced",
+              "count": 0,
+              "income_per_capita": 1.8,
+              "health": 84.0,
+              "satisfaction": 55.0,
+              "labor_factor": 0.9199999999999999,
+              "death_remainder": 0.0,
+              "descent_remainder": 0.0
+            },
+            {
+              "id": "farmer_ordinary_settled",
+              "occupation": "farmer",
+              "wealth": "ordinary",
+              "resident_status": "settled",
+              "count": 144,
+              "income_per_capita": 1.8,
+              "health": 84.0,
+              "satisfaction": 55.0,
+              "labor_factor": 0.9199999999999999,
+              "death_remainder": 0.858904445648417,
+              "descent_remainder": 0.5050000000000017
+            },
+            {
+              "id": "farmer_poor_displaced",
+              "occupation": "farmer",
+              "wealth": "poor",
+              "resident_status": "displaced",
+              "count": 19,
+              "income_per_capita": 0.6,
+              "health": 76.0,
+              "satisfaction": 45.0,
+              "labor_factor": 0.8799999999999999,
+              "death_remainder": 0.9880999999999999,
+              "descent_remainder": 0.0
+            },
+            {
+              "id": "farmer_poor_settled",
+              "occupation": "farmer",
+              "wealth": "poor",
+              "resident_status": "settled",
+              "count": 248,
+              "income_per_capita": 0.6341189226769565,
+              "health": 76.42425376612478,
+              "satisfaction": 45.53031720765596,
+              "labor_factor": 0.8821212688306237,
+              "death_remainder": 0.2604955543515819,
+              "descent_remainder": 0.0
+            },
+            {
+              "id": "farmer_wealthy_displaced",
+              "occupation": "farmer",
+              "wealth": "wealthy",
+              "resident_status": "displaced",
+              "count": 0,
+              "income_per_capita": 4.5,
+              "health": 92.0,
+              "satisfaction": 65.0,
+              "labor_factor": 0.96,
+              "death_remainder": 0.0,
+              "descent_remainder": 0.0
+            },
+            {
+              "id": "farmer_wealthy_settled",
+              "occupation": "farmer",
+              "wealth": "wealthy",
+              "resident_status": "settled",
+              "count": 5,
+              "income_per_capita": 4.5,
+              "health": 92.0,
+              "satisfaction": 65.0,
+              "labor_factor": 0.96,
+              "death_remainder": 0.16799999999999998,
+              "descent_remainder": 0.35000000000000003
+            },
+            {
+              "id": "laborer_ordinary_displaced",
+              "occupation": "laborer",
+              "wealth": "ordinary",
+              "resident_status": "displaced",
+              "count": 0,
+              "income_per_capita": 1.9000000000000001,
+              "health": 84.0,
+              "satisfaction": 55.0,
+              "labor_factor": 0.9199999999999999,
+              "death_remainder": 0.0,
+              "descent_remainder": 0.0
+            },
+            {
+              "id": "laborer_ordinary_settled",
+              "occupation": "laborer",
+              "wealth": "ordinary",
+              "resident_status": "settled",
+              "count": 50,
+              "income_per_capita": 1.9000000000000001,
+              "health": 84.0,
+              "satisfaction": 55.0,
+              "labor_factor": 0.9199999999999999,
+              "death_remainder": 0.6830026365771978,
+              "descent_remainder": 0.8050000000000006
+            },
+            {
+              "id": "laborer_poor_displaced",
+              "occupation": "laborer",
+              "wealth": "poor",
+              "resident_status": "displaced",
+              "count": 0,
+              "income_per_capita": 0.62,
+              "health": 76.0,
+              "satisfaction": 45.0,
+              "labor_factor": 0.8799999999999999,
+              "death_remainder": 0.0,
+              "descent_remainder": 0.0
+            },
+            {
+              "id": "laborer_poor_settled",
+              "occupation": "laborer",
+              "wealth": "poor",
+              "resident_status": "settled",
+              "count": 133,
+              "income_per_capita": 0.6391390650074833,
+              "health": 76.2484797124706,
+              "satisfaction": 45.3105996405883,
+              "labor_factor": 0.881242398562353,
+              "death_remainder": 0.9674973634228018,
+              "descent_remainder": 0.0
+            },
+            {
+              "id": "laborer_wealthy_displaced",
+              "occupation": "laborer",
+              "wealth": "wealthy",
+              "resident_status": "displaced",
+              "count": 0,
+              "income_per_capita": 4.7,
+              "health": 92.0,
+              "satisfaction": 65.0,
+              "labor_factor": 0.96,
+              "death_remainder": 0.0,
+              "descent_remainder": 0.0
+            },
+            {
+              "id": "laborer_wealthy_settled",
+              "occupation": "laborer",
+              "wealth": "wealthy",
+              "resident_status": "settled",
+              "count": 0,
+              "income_per_capita": 4.7,
+              "health": 92.0,
+              "satisfaction": 65.0,
+              "labor_factor": 0.96,
+              "death_remainder": 0.0,
+              "descent_remainder": 0.0
+            },
+            {
+              "id": "landowner_ordinary_displaced",
+              "occupation": "landowner",
+              "wealth": "ordinary",
+              "resident_status": "displaced",
+              "count": 0,
+              "income_per_capita": 2.2,
+              "health": 84.0,
+              "satisfaction": 55.0,
+              "labor_factor": 0.9199999999999999,
+              "death_remainder": 0.0,
+              "descent_remainder": 0.0
+            },
+            {
+              "id": "landowner_ordinary_settled",
+              "occupation": "landowner",
+              "wealth": "ordinary",
+              "resident_status": "settled",
+              "count": 28,
+              "income_per_capita": 2.2551724137931037,
+              "health": 84.41871921182268,
+              "satisfaction": 55.52339901477832,
+              "labor_factor": 0.9220935960591133,
+              "death_remainder": 0.9160437192118225,
+              "descent_remainder": 0.9900000000000004
+            },
+            {
+              "id": "landowner_poor_displaced",
+              "occupation": "landowner",
+              "wealth": "poor",
+              "resident_status": "displaced",
+              "count": 0,
+              "income_per_capita": 0.6799999999999999,
+              "health": 76.0,
+              "satisfaction": 45.0,
+              "labor_factor": 0.8799999999999999,
+              "death_remainder": 0.0,
+              "descent_remainder": 0.0
+            },
+            {
+              "id": "landowner_poor_settled",
+              "occupation": "landowner",
+              "wealth": "poor",
+              "resident_status": "settled",
+              "count": 3,
+              "income_per_capita": 0.9999999999999998,
+              "health": 80.04597701149424,
+              "satisfaction": 50.05747126436781,
+              "labor_factor": 0.9002298850574711,
+              "death_remainder": 0.22047352216748767,
+              "descent_remainder": 0.0
+            },
+            {
+              "id": "landowner_wealthy_displaced",
+              "occupation": "landowner",
+              "wealth": "wealthy",
+              "resident_status": "displaced",
+              "count": 0,
+              "income_per_capita": 5.3,
+              "health": 92.0,
+              "satisfaction": 65.0,
+              "labor_factor": 0.96,
+              "death_remainder": 0.0,
+              "descent_remainder": 0.0
+            },
+            {
+              "id": "landowner_wealthy_settled",
+              "occupation": "landowner",
+              "wealth": "wealthy",
+              "resident_status": "settled",
+              "count": 27,
+              "income_per_capita": 5.3,
+              "health": 92.0,
+              "satisfaction": 65.0,
+              "labor_factor": 0.96,
+              "death_remainder": 0.9141827586206897,
+              "descent_remainder": 0.012500000000000178
+            },
+            {
+              "id": "merchant_ordinary_displaced",
+              "occupation": "merchant",
+              "wealth": "ordinary",
+              "resident_status": "displaced",
+              "count": 0,
+              "income_per_capita": 2.1,
+              "health": 84.0,
+              "satisfaction": 55.0,
+              "labor_factor": 0.9199999999999999,
+              "death_remainder": 0.0,
+              "descent_remainder": 0.0
+            },
+            {
+              "id": "merchant_ordinary_settled",
+              "occupation": "merchant",
+              "wealth": "ordinary",
+              "resident_status": "settled",
+              "count": 52,
+              "income_per_capita": 2.1163636363636362,
+              "health": 84.10909090909091,
+              "satisfaction": 55.13636363636364,
+              "labor_factor": 0.9205454545454544,
+              "death_remainder": 0.7432367145573121,
+              "descent_remainder": 0.8750000000000004
+            },
+            {
+              "id": "merchant_poor_displaced",
+              "occupation": "merchant",
+              "wealth": "poor",
+              "resident_status": "displaced",
+              "count": 0,
+              "income_per_capita": 0.6599999999999999,
+              "health": 76.0,
+              "satisfaction": 45.0,
+              "labor_factor": 0.8799999999999999,
+              "death_remainder": 0.0,
+              "descent_remainder": 0.0
+            },
+            {
+              "id": "merchant_poor_settled",
+              "occupation": "merchant",
+              "wealth": "poor",
+              "resident_status": "settled",
+              "count": 16,
+              "income_per_capita": 0.8016666666666665,
+              "health": 78.06363636363636,
+              "satisfaction": 47.57954545454545,
+              "labor_factor": 0.8903181818181816,
+              "death_remainder": 0.40116328544268753,
+              "descent_remainder": 0.0
+            },
+            {
+              "id": "merchant_wealthy_displaced",
+              "occupation": "merchant",
+              "wealth": "wealthy",
+              "resident_status": "displaced",
+              "count": 0,
+              "income_per_capita": 5.1,
+              "health": 92.0,
+              "satisfaction": 65.0,
+              "labor_factor": 0.96,
+              "death_remainder": 0.0,
+              "descent_remainder": 0.0
+            },
+            {
+              "id": "merchant_wealthy_settled",
+              "occupation": "merchant",
+              "wealth": "wealthy",
+              "resident_status": "settled",
+              "count": 19,
+              "income_per_capita": 5.1,
+              "health": 92.0,
+              "satisfaction": 65.0,
+              "labor_factor": 0.96,
+              "death_remainder": 0.6384,
+              "descent_remainder": 0.38250000000000006
+            },
+            {
+              "id": "noble_ordinary_displaced",
+              "occupation": "noble",
+              "wealth": "ordinary",
+              "resident_status": "displaced",
+              "count": 0,
+              "income_per_capita": 2.3,
+              "health": 84.0,
+              "satisfaction": 55.0,
+              "labor_factor": 0.9199999999999999,
+              "death_remainder": 0.0,
+              "descent_remainder": 0.0
+            },
+            {
+              "id": "noble_ordinary_settled",
+              "occupation": "noble",
+              "wealth": "ordinary",
+              "resident_status": "settled",
+              "count": 6,
+              "income_per_capita": 2.4166666666666665,
+              "health": 85.33333333333333,
+              "satisfaction": 56.66666666666667,
+              "labor_factor": 0.9266666666666665,
+              "death_remainder": 0.3696,
+              "descent_remainder": 0.7000000000000001
+            },
+            {
+              "id": "noble_poor_displaced",
+              "occupation": "noble",
+              "wealth": "poor",
+              "resident_status": "displaced",
+              "count": 0,
+              "income_per_capita": 0.7,
+              "health": 76.0,
+              "satisfaction": 45.0,
+              "labor_factor": 0.8799999999999999,
+              "death_remainder": 0.0,
+              "descent_remainder": 0.0
+            },
+            {
+              "id": "noble_poor_settled",
+              "occupation": "noble",
+              "wealth": "poor",
+              "resident_status": "settled",
+              "count": 0,
+              "income_per_capita": 0.7,
+              "health": 76.0,
+              "satisfaction": 45.0,
+              "labor_factor": 0.8799999999999999,
+              "death_remainder": 0.0,
+              "descent_remainder": 0.0
+            },
+            {
+              "id": "noble_wealthy_displaced",
+              "occupation": "noble",
+              "wealth": "wealthy",
+              "resident_status": "displaced",
+              "count": 0,
+              "income_per_capita": 5.5,
+              "health": 92.0,
+              "satisfaction": 65.0,
+              "labor_factor": 0.96,
+              "death_remainder": 0.0,
+              "descent_remainder": 0.0
+            },
+            {
+              "id": "noble_wealthy_settled",
+              "occupation": "noble",
+              "wealth": "wealthy",
+              "resident_status": "settled",
+              "count": 14,
+              "income_per_capita": 5.5,
+              "health": 92.0,
+              "satisfaction": 65.0,
+              "labor_factor": 0.96,
+              "death_remainder": 0.4704,
+              "descent_remainder": 0.050000000000000044
+            },
+            {
+              "id": "official_ordinary_displaced",
+              "occupation": "official",
+              "wealth": "ordinary",
+              "resident_status": "displaced",
+              "count": 0,
+              "income_per_capita": 2.4000000000000004,
+              "health": 84.0,
+              "satisfaction": 55.0,
+              "labor_factor": 0.9199999999999999,
+              "death_remainder": 0.0,
+              "descent_remainder": 0.0
+            },
+            {
+              "id": "official_ordinary_settled",
+              "occupation": "official",
+              "wealth": "ordinary",
+              "resident_status": "settled",
+              "count": 14,
+              "income_per_capita": 2.4400000000000004,
+              "health": 84.4,
+              "satisfaction": 55.5,
+              "labor_factor": 0.9219999999999999,
+              "death_remainder": 0.9181199999999998,
+              "descent_remainder": 0.06499999999999995
+            },
+            {
+              "id": "official_poor_displaced",
+              "occupation": "official",
+              "wealth": "poor",
+              "resident_status": "displaced",
+              "count": 0,
+              "income_per_capita": 0.72,
+              "health": 76.0,
+              "satisfaction": 45.0,
+              "labor_factor": 0.8799999999999999,
+              "death_remainder": 0.0,
+              "descent_remainder": 0.0
+            },
+            {
+              "id": "official_poor_settled",
+              "occupation": "official",
+              "wealth": "poor",
+              "resident_status": "settled",
+              "count": 2,
+              "income_per_capita": 0.9999999999999999,
+              "health": 82.2,
+              "satisfaction": 52.75,
+              "labor_factor": 0.9109999999999999,
+              "death_remainder": 0.15077999999999997,
+              "descent_remainder": 0.0
+            },
+            {
+              "id": "official_wealthy_displaced",
+              "occupation": "official",
+              "wealth": "wealthy",
+              "resident_status": "displaced",
+              "count": 0,
+              "income_per_capita": 5.7,
+              "health": 92.0,
+              "satisfaction": 65.0,
+              "labor_factor": 0.96,
+              "death_remainder": 0.0,
+              "descent_remainder": 0.0
+            },
+            {
+              "id": "official_wealthy_settled",
+              "occupation": "official",
+              "wealth": "wealthy",
+              "resident_status": "settled",
+              "count": 24,
+              "income_per_capita": 5.7,
+              "health": 92.0,
+              "satisfaction": 65.0,
+              "labor_factor": 0.96,
+              "death_remainder": 0.8063999999999999,
+              "descent_remainder": 0.7325000000000003
+            }
+          ],
+          "shortage_turns": 4,
+          "birth_remainder": 0.26166666666666627,
+          "natural_death_remainder": 0.17444444444444462
+        },
+        "land": {
+          "total_area": 2000,
+          "parcels": [
+            {
+              "id": "private_fields",
+              "label": "民田",
+              "area": 1000,
+              "use": "farmland",
+              "owner": "private",
+              "fertility": 1,
+              "irrigation": 1,
+              "reclaimable": 0
+            },
+            {
+              "id": "public_fields",
+              "label": "官田",
+              "area": 200,
+              "use": "farmland",
+              "owner": "public",
+              "fertility": 1,
+              "irrigation": 1,
+              "reclaimable": 0
+            },
+            {
+              "id": "royal_fields",
+              "label": "皇庄田",
+              "area": 100,
+              "use": "farmland",
+              "owner": "royal",
+              "fertility": 1,
+              "irrigation": 1,
+              "reclaimable": 0
+            },
+            {
+              "id": "private_forest",
+              "label": "民有林地",
+              "area": 150,
+              "use": "forest",
+              "owner": "private",
+              "fertility": 1,
+              "irrigation": 1,
+              "reclaimable": 0
+            },
+            {
+              "id": "private_mine",
+              "label": "民有矿地",
+              "area": 50,
+              "use": "mine",
+              "owner": "private",
+              "fertility": 1,
+              "irrigation": 1,
+              "reclaimable": 0
+            },
+            {
+              "id": "public_settlement",
+              "label": "聚落用地",
+              "area": 100,
+              "use": "settlement",
+              "owner": "public",
+              "fertility": 1,
+              "irrigation": 1,
+              "reclaimable": 0
+            },
+            {
+              "id": "public_unused",
+              "label": "未利用地",
+              "area": 400,
+              "use": "unused",
+              "owner": "public",
+              "fertility": 1,
+              "irrigation": 1,
+              "reclaimable": 180
+            }
+          ]
+        },
+        "facilities": [
+          {
+            "id": "daily_workshop",
+            "label": "日用品作坊",
+            "owner": "private",
+            "kind": "workshop",
+            "condition": 1,
+            "description": "原料每投入一个完整工作旬，产出一批日用品。"
+          },
+          {
+            "id": "luxury_workshop",
+            "label": "细工作坊",
+            "owner": "private",
+            "kind": "workshop",
+            "condition": 1,
+            "description": "加工演示享受品；商品交易与价格尚未接入。"
+          }
+        ],
+        "industries": [
+          {
+            "id": "agri_private",
+            "label": "民田粮作",
+            "category": "agriculture",
+            "asset_id": "private_fields",
+            "scale": 1000,
+            "workers_needed": 220,
+            "technology": 1,
+            "inputs": {
+              "grain": 400
+            },
+            "outputs": {
+              "grain": 37000
+            },
+            "cycle_turns": 24,
+            "sow_month": 2,
+            "sow_xun": 1,
+            "harvest_month": 9,
+            "harvest_xun": 3,
+            "progress": 0,
+            "active": false,
+            "sown_ratio": 0,
+            "state": "投入不足",
+            "last_output": {},
+            "last_input_ratio": 0.0,
+            "last_labor_ratio": 0.8732682986067442
+          },
+          {
+            "id": "agri_public",
+            "label": "官田粮作",
+            "category": "agriculture",
+            "asset_id": "public_fields",
+            "scale": 200,
+            "workers_needed": 44,
+            "technology": 1,
+            "inputs": {
+              "grain": 60
+            },
+            "outputs": {
+              "grain": 7000
+            },
+            "cycle_turns": 24,
+            "sow_month": 2,
+            "sow_xun": 1,
+            "harvest_month": 9,
+            "harvest_xun": 3,
+            "progress": 0.8732682986067442,
+            "active": true,
+            "sown_ratio": 1.0,
+            "state": "生长中（劳力不足）",
+            "last_output": {},
+            "last_input_ratio": 1.0,
+            "last_labor_ratio": 0.8732682986067442
+          },
+          {
+            "id": "agri_royal",
+            "label": "皇庄粮作",
+            "category": "agriculture",
+            "asset_id": "royal_fields",
+            "scale": 100,
+            "workers_needed": 22,
+            "technology": 1,
+            "inputs": {
+              "grain": 30
+            },
+            "outputs": {
+              "grain": 3500
+            },
+            "cycle_turns": 24,
+            "sow_month": 2,
+            "sow_xun": 1,
+            "harvest_month": 9,
+            "harvest_xun": 3,
+            "progress": 0.8732682986067442,
+            "active": true,
+            "sown_ratio": 1.0,
+            "state": "生长中（劳力不足）",
+            "last_output": {},
+            "last_input_ratio": 1.0,
+            "last_labor_ratio": 0.8732682986067442
+          },
+          {
+            "id": "craft_daily",
+            "label": "日用品加工",
+            "category": "craft",
+            "asset_id": "daily_workshop",
+            "scale": 1,
+            "workers_needed": 70,
+            "technology": 1,
+            "inputs": {
+              "raw_material": 20
+            },
+            "outputs": {
+              "daily_goods": 50
+            },
+            "cycle_turns": 1,
+            "sow_month": 2,
+            "sow_xun": 1,
+            "harvest_month": 9,
+            "harvest_xun": 3,
+            "progress": 0.8732682986067442,
+            "active": true,
+            "sown_ratio": 0,
+            "state": "生产中（劳力不足）",
+            "last_output": {},
+            "last_input_ratio": 1.0,
+            "last_labor_ratio": 0.8732682986067442
+          },
+          {
+            "id": "craft_luxury",
+            "label": "细工加工",
+            "category": "craft",
+            "asset_id": "luxury_workshop",
+            "scale": 1,
+            "workers_needed": 25,
+            "technology": 1,
+            "inputs": {
+              "raw_material": 5
+            },
+            "outputs": {
+              "luxury_goods": 8
+            },
+            "cycle_turns": 1,
+            "sow_month": 2,
+            "sow_xun": 1,
+            "harvest_month": 9,
+            "harvest_xun": 3,
+            "progress": 0.8732682986067442,
+            "active": true,
+            "sown_ratio": 0,
+            "state": "生产中（劳力不足）",
+            "last_output": {},
+            "last_input_ratio": 1.0,
+            "last_labor_ratio": 0.8732682986067442
+          },
+          {
+            "id": "forest_material",
+            "label": "林业经营",
+            "category": "husbandry",
+            "asset_id": "private_forest",
+            "scale": 150,
+            "workers_needed": 35,
+            "technology": 1,
+            "inputs": {},
+            "outputs": {
+              "raw_material": 75
+            },
+            "cycle_turns": 3,
+            "sow_month": 2,
+            "sow_xun": 1,
+            "harvest_month": 9,
+            "harvest_xun": 3,
+            "progress": 0.8732682986067442,
+            "active": true,
+            "sown_ratio": 0,
+            "state": "生产中（劳力不足）",
+            "last_output": {},
+            "last_input_ratio": 1.0,
+            "last_labor_ratio": 0.8732682986067442
+          },
+          {
+            "id": "mine_material",
+            "label": "原料采掘",
+            "category": "extraction",
+            "asset_id": "private_mine",
+            "scale": 50,
+            "workers_needed": 20,
+            "technology": 1,
+            "inputs": {},
+            "outputs": {
+              "raw_material": 12
+            },
+            "cycle_turns": 6,
+            "sow_month": 2,
+            "sow_xun": 1,
+            "harvest_month": 9,
+            "harvest_xun": 3,
+            "progress": 3.873268298606744,
+            "active": true,
+            "sown_ratio": 0,
+            "state": "生产中（劳力不足）",
+            "last_output": {},
+            "last_input_ratio": 1.0,
+            "last_labor_ratio": 0.8732682986067442
+          }
+        ],
+        "specialties": [
+          {
+            "name": "清河竹器（虚构）",
+            "description": "展示当地加工方向，产量已经进入日用品加工配方，不再额外叠加特产收益。"
+          }
+        ],
+        "modifiers": [
+          {
+            "name": "正常生产条件",
+            "description": "演示修正倍率为1；地力与灌溉已分别作用，不重复加成。",
+            "target": "all",
+            "multiplier": 1
+          }
+        ],
+        "notices": [
+          "土地单位、粮物单位及产业规模均为演示量表，不能用于史实比较。",
+          "人口按七种职业、收入财富档及居住身份交叉记录；不划分年龄。默认50%基础劳力，健康和劳力状态再影响可用劳力。",
+          "四类产业已运行生产周期；完整畜牧渔业、矿藏耗竭、设施建设升级仍待扩展。",
+          "民间、官府、皇家池按产权归属；官府和皇家池尚未接入国库内帑划拨、年度供给、税收和公共消费。",
+          "消费直接扣池；没有库存预留、逐户钱包、市场采购、跨县运输或官员AI。",
+          "生产投入按同一旬开始的资源条件分配，全部投入扣除后再入库产出；当旬收获可用于当旬消费。",
+          "年出生率3%、年自然死亡率2%，按年率除以36折算每旬；以全县小数余量和按人数加权轮转分配实际事件。",
+          "新生人口按家庭生计计入同职业，作为无年龄细分的抽象；财富变化不自动改变职业。",
+          "人均旬收入为独立演示收入水平，用于相对基本生活成本分档，不会直接给资源池增钱；缺粮降档会持久降低该部分人口收入。"
+        ]
+      },
+      "pools": {
+        "qinghe_private": {
+          "id": "qinghe_private",
+          "owner": "private",
+          "label": "民间池",
+          "balances": {
+            "money": 4000,
+            "grain": 0,
+            "raw_material": 178.16829253483138,
+            "daily_goods": 225.08,
+            "luxury_goods": 54.696000000000005
+          }
+        },
+        "qinghe_public": {
+          "id": "qinghe_public",
+          "owner": "public",
+          "label": "官府池",
+          "balances": {
+            "money": 1500,
+            "grain": 1940.0,
+            "raw_material": 30,
+            "daily_goods": 20,
+            "luxury_goods": 10
+          }
+        },
+        "qinghe_royal": {
+          "id": "qinghe_royal",
+          "owner": "royal",
+          "label": "皇家池",
+          "balances": {
+            "money": 1000,
+            "grain": 970.0,
+            "raw_material": 20,
+            "daily_goods": 20,
+            "luxury_goods": 10
+          }
+        }
+      },
+      "rules": {
+        "history_limit": 120,
+        "household_size": 4,
+        "needs": {
+          "poor": {
+            "grain": 1,
+            "daily_goods": 0.03,
+            "luxury_goods": 0
+          },
+          "ordinary": {
+            "grain": 1,
+            "daily_goods": 0.05,
+            "luxury_goods": 0.008
+          },
+          "wealthy": {
+            "grain": 1,
+            "daily_goods": 0.09,
+            "luxury_goods": 0.04
+          }
+        },
+        "wealth_effects": {
+          "poor": 1.5,
+          "ordinary": 1,
+          "wealthy": 0.5
+        },
+        "grain_death_rate": 0.015,
+        "grain_health_penalty": 4,
+        "grain_satisfaction_penalty": 5,
+        "daily_satisfaction_penalty": 1.8,
+        "luxury_satisfaction_penalty": 1.2,
+        "grain_labor_penalty": 0.02,
+        "health_recovery": 0.5,
+        "satisfaction_recovery": 0.8,
+        "labor_recovery": 0.02,
+        "streak_increment": 0.08,
+        "streak_cap": 6,
+        "descent_grain_rate": 0.035,
+        "descent_goods_rate": 0.008,
+        "settlement_order": "production_then_consumption",
+        "rounding": "carry_fraction",
+        "labor_ratio": 0.5,
+        "annual_birth_rate": 0.03,
+        "annual_death_rate": 0.02,
+        "turns_per_year": 36,
+        "basic_living_cost": 1,
+        "wealthy_income_multiplier": 3
+      },
+      "history": [
+        {
+          "turn_index": 0,
+          "month": 1,
+          "xun": 1,
+          "summary": "清河县：本旬产粮0.0，口粮满足0%；出生0人，自然死亡0人，缺粮额外死亡11人；向下转层14人，期末人口989人。",
+          "production": [
+            {
+              "id": "agri_private",
+              "label": "民田粮作",
+              "owner": "private",
+              "inputs": {},
+              "outputs": {},
+              "labor_used": 0.0,
+              "labor_ratio": 1,
+              "input_ratio": 1.0,
+              "progress": 0,
+              "state": "未到农时"
+            },
+            {
+              "id": "agri_public",
+              "label": "官田粮作",
+              "owner": "public",
+              "inputs": {},
+              "outputs": {},
+              "labor_used": 0.0,
+              "labor_ratio": 1,
+              "input_ratio": 1.0,
+              "progress": 0,
+              "state": "未到农时"
+            },
+            {
+              "id": "agri_royal",
+              "label": "皇庄粮作",
+              "owner": "royal",
+              "inputs": {},
+              "outputs": {},
+              "labor_used": 0.0,
+              "labor_ratio": 1,
+              "input_ratio": 1.0,
+              "progress": 0,
+              "state": "未到农时"
+            },
+            {
+              "id": "craft_daily",
+              "label": "日用品加工",
+              "owner": "private",
+              "inputs": {
+                "raw_material": 20.0
+              },
+              "outputs": {
+                "daily_goods": 50
+              },
+              "labor_used": 70.0,
+              "labor_ratio": 1,
+              "input_ratio": 1.0,
+              "progress": 0,
+              "state": "本旬完工"
+            },
+            {
+              "id": "craft_luxury",
+              "label": "细工加工",
+              "owner": "private",
+              "inputs": {
+                "raw_material": 5.0
+              },
+              "outputs": {
+                "luxury_goods": 8
+              },
+              "labor_used": 25.0,
+              "labor_ratio": 1,
+              "input_ratio": 1.0,
+              "progress": 0,
+              "state": "本旬完工"
+            },
+            {
+              "id": "forest_material",
+              "label": "林业经营",
+              "owner": "private",
+              "inputs": {},
+              "outputs": {},
+              "labor_used": 35.0,
+              "labor_ratio": 1,
+              "input_ratio": 1.0,
+              "progress": 1.0,
+              "state": "生产中"
+            },
+            {
+              "id": "mine_material",
+              "label": "原料采掘",
+              "owner": "private",
+              "inputs": {},
+              "outputs": {},
+              "labor_used": 20.0,
+              "labor_ratio": 1,
+              "input_ratio": 1.0,
+              "progress": 1.0,
+              "state": "生产中"
+            }
+          ],
+          "consumption": [
+            {
+              "resource": "grain",
+              "label": "粮食",
+              "demand": 1000,
+              "consumed": 0,
+              "shortage": 1000,
+              "fulfillment": 0.0
+            },
+            {
+              "resource": "daily_goods",
+              "label": "日用品",
+              "demand": 45.0,
+              "consumed": 45.0,
+              "shortage": 0,
+              "fulfillment": 1
+            },
+            {
+              "resource": "luxury_goods",
+              "label": "享受品",
+              "demand": 7.6,
+              "consumed": 7.6,
+              "shortage": 0,
+              "fulfillment": 1
+            }
+          ],
+          "groups": [
+            {
+              "id": "poor",
+              "label": "贫困",
+              "population_before": 450,
+              "deaths": 8,
+              "natural_deaths": 0,
+              "shortage_deaths": 8,
+              "births": 0,
+              "moved_down": 0,
+              "mortality_risk": 0.0225,
+              "health_penalty": 6.0,
+              "satisfaction_penalty": 7.5,
+              "labor_penalty": 0.03
+            },
+            {
+              "id": "ordinary",
+              "label": "普通",
+              "population_before": 450,
+              "deaths": 3,
+              "natural_deaths": 0,
+              "shortage_deaths": 3,
+              "births": 0,
+              "moved_down": 14,
+              "mortality_risk": 0.015,
+              "health_penalty": 4.0,
+              "satisfaction_penalty": 5.0,
+              "labor_penalty": 0.02
+            },
+            {
+              "id": "wealthy",
+              "label": "富裕",
+              "population_before": 100,
+              "deaths": 0,
+              "natural_deaths": 0,
+              "shortage_deaths": 0,
+              "births": 0,
+              "moved_down": 0,
+              "mortality_risk": 0.0075,
+              "health_penalty": 2.0,
+              "satisfaction_penalty": 2.5,
+              "labor_penalty": 0.01
+            }
+          ],
+          "deaths": 11,
+          "births": 0,
+          "natural_deaths": 0,
+          "shortage_deaths": 11,
+          "moved_down": 14,
+          "population_before": 1000,
+          "population_after": 989,
+          "grain_shortage_ratio": 1.0,
+          "pool_changes": {
+            "qinghe_private": {
+              "money": 0,
+              "grain": 0,
+              "raw_material": -25.0,
+              "daily_goods": 5.0,
+              "luxury_goods": 0.3999999999999986
+            },
+            "qinghe_public": {
+              "money": 0,
+              "grain": 0,
+              "raw_material": 0,
+              "daily_goods": 0,
+              "luxury_goods": 0
+            },
+            "qinghe_royal": {
+              "money": 0,
+              "grain": 0,
+              "raw_material": 0,
+              "daily_goods": 0,
+              "luxury_goods": 0
+            }
+          }
+        },
+        {
+          "turn_index": 1,
+          "month": 1,
+          "xun": 2,
+          "summary": "清河县：本旬产粮0.0，口粮满足0%；出生1人，自然死亡1人，缺粮额外死亡17人；向下转层16人，期末人口972人。",
+          "production": [
+            {
+              "id": "agri_private",
+              "label": "民田粮作",
+              "owner": "private",
+              "inputs": {},
+              "outputs": {},
+              "labor_used": 0.0,
+              "labor_ratio": 1,
+              "input_ratio": 1.0,
+              "progress": 0,
+              "state": "未到农时"
+            },
+            {
+              "id": "agri_public",
+              "label": "官田粮作",
+              "owner": "public",
+              "inputs": {},
+              "outputs": {},
+              "labor_used": 0.0,
+              "labor_ratio": 1,
+              "input_ratio": 1.0,
+              "progress": 0,
+              "state": "未到农时"
+            },
+            {
+              "id": "agri_royal",
+              "label": "皇庄粮作",
+              "owner": "royal",
+              "inputs": {},
+              "outputs": {},
+              "labor_used": 0.0,
+              "labor_ratio": 1,
+              "input_ratio": 1.0,
+              "progress": 0,
+              "state": "未到农时"
+            },
+            {
+              "id": "craft_daily",
+              "label": "日用品加工",
+              "owner": "private",
+              "inputs": {
+                "raw_material": 20.0
+              },
+              "outputs": {
+                "daily_goods": 50
+              },
+              "labor_used": 70.0,
+              "labor_ratio": 1,
+              "input_ratio": 1.0,
+              "progress": 0,
+              "state": "本旬完工"
+            },
+            {
+              "id": "craft_luxury",
+              "label": "细工加工",
+              "owner": "private",
+              "inputs": {
+                "raw_material": 5.0
+              },
+              "outputs": {
+                "luxury_goods": 8
+              },
+              "labor_used": 25.0,
+              "labor_ratio": 1,
+              "input_ratio": 1.0,
+              "progress": 0,
+              "state": "本旬完工"
+            },
+            {
+              "id": "forest_material",
+              "label": "林业经营",
+              "owner": "private",
+              "inputs": {},
+              "outputs": {},
+              "labor_used": 35.0,
+              "labor_ratio": 1,
+              "input_ratio": 1.0,
+              "progress": 2.0,
+              "state": "生产中"
+            },
+            {
+              "id": "mine_material",
+              "label": "原料采掘",
+              "owner": "private",
+              "inputs": {},
+              "outputs": {},
+              "labor_used": 20.0,
+              "labor_ratio": 1,
+              "input_ratio": 1.0,
+              "progress": 2.0,
+              "state": "生产中"
+            }
+          ],
+          "consumption": [
+            {
+              "resource": "grain",
+              "label": "粮食",
+              "demand": 989,
+              "consumed": 0,
+              "shortage": 989,
+              "fulfillment": 0.0
+            },
+            {
+              "resource": "daily_goods",
+              "label": "日用品",
+              "demand": 44.33,
+              "consumed": 44.33,
+              "shortage": 0,
+              "fulfillment": 1
+            },
+            {
+              "resource": "luxury_goods",
+              "label": "享受品",
+              "demand": 7.464,
+              "consumed": 7.464,
+              "shortage": 0,
+              "fulfillment": 1
+            }
+          ],
+          "groups": [
+            {
+              "id": "poor",
+              "label": "贫困",
+              "population_before": 456,
+              "deaths": 10,
+              "natural_deaths": 0,
+              "shortage_deaths": 10,
+              "births": 0,
+              "moved_down": 0,
+              "mortality_risk": 0.024300000000000002,
+              "health_penalty": 6.0,
+              "satisfaction_penalty": 7.5,
+              "labor_penalty": 0.03
+            },
+            {
+              "id": "ordinary",
+              "label": "普通",
+              "population_before": 433,
+              "deaths": 7,
+              "natural_deaths": 0,
+              "shortage_deaths": 7,
+              "births": 1,
+              "moved_down": 15,
+              "mortality_risk": 0.0162,
+              "health_penalty": 4.0,
+              "satisfaction_penalty": 5.0,
+              "labor_penalty": 0.02
+            },
+            {
+              "id": "wealthy",
+              "label": "富裕",
+              "population_before": 100,
+              "deaths": 1,
+              "natural_deaths": 1,
+              "shortage_deaths": 0,
+              "births": 0,
+              "moved_down": 1,
+              "mortality_risk": 0.0081,
+              "health_penalty": 2.0,
+              "satisfaction_penalty": 2.5,
+              "labor_penalty": 0.01
+            }
+          ],
+          "deaths": 18,
+          "births": 1,
+          "natural_deaths": 1,
+          "shortage_deaths": 17,
+          "moved_down": 16,
+          "population_before": 989,
+          "population_after": 972,
+          "grain_shortage_ratio": 1.0,
+          "pool_changes": {
+            "qinghe_private": {
+              "money": 0,
+              "grain": 0,
+              "raw_material": -25.0,
+              "daily_goods": 5.670000000000016,
+              "luxury_goods": 0.5360000000000085
+            },
+            "qinghe_public": {
+              "money": 0,
+              "grain": 0,
+              "raw_material": 0,
+              "daily_goods": 0,
+              "luxury_goods": 0
+            },
+            "qinghe_royal": {
+              "money": 0,
+              "grain": 0,
+              "raw_material": 0,
+              "daily_goods": 0,
+              "luxury_goods": 0
+            }
+          }
+        },
+        {
+          "turn_index": 2,
+          "month": 1,
+          "xun": 3,
+          "summary": "清河县：本旬产粮0.0，口粮满足0%；出生1人，自然死亡0人，缺粮额外死亡20人；向下转层14人，期末人口953人。",
+          "production": [
+            {
+              "id": "agri_private",
+              "label": "民田粮作",
+              "owner": "private",
+              "inputs": {},
+              "outputs": {},
+              "labor_used": 0.0,
+              "labor_ratio": 1,
+              "input_ratio": 1.0,
+              "progress": 0,
+              "state": "未到农时"
+            },
+            {
+              "id": "agri_public",
+              "label": "官田粮作",
+              "owner": "public",
+              "inputs": {},
+              "outputs": {},
+              "labor_used": 0.0,
+              "labor_ratio": 1,
+              "input_ratio": 1.0,
+              "progress": 0,
+              "state": "未到农时"
+            },
+            {
+              "id": "agri_royal",
+              "label": "皇庄粮作",
+              "owner": "royal",
+              "inputs": {},
+              "outputs": {},
+              "labor_used": 0.0,
+              "labor_ratio": 1,
+              "input_ratio": 1.0,
+              "progress": 0,
+              "state": "未到农时"
+            },
+            {
+              "id": "craft_daily",
+              "label": "日用品加工",
+              "owner": "private",
+              "inputs": {
+                "raw_material": 20.0
+              },
+              "outputs": {
+                "daily_goods": 50
+              },
+              "labor_used": 70.0,
+              "labor_ratio": 1,
+              "input_ratio": 1.0,
+              "progress": 0,
+              "state": "本旬完工"
+            },
+            {
+              "id": "craft_luxury",
+              "label": "细工加工",
+              "owner": "private",
+              "inputs": {
+                "raw_material": 5.0
+              },
+              "outputs": {
+                "luxury_goods": 8
+              },
+              "labor_used": 25.0,
+              "labor_ratio": 1,
+              "input_ratio": 1.0,
+              "progress": 0,
+              "state": "本旬完工"
+            },
+            {
+              "id": "forest_material",
+              "label": "林业经营",
+              "owner": "private",
+              "inputs": {},
+              "outputs": {
+                "raw_material": 75
+              },
+              "labor_used": 35.0,
+              "labor_ratio": 1,
+              "input_ratio": 1.0,
+              "progress": 0,
+              "state": "本旬完工"
+            },
+            {
+              "id": "mine_material",
+              "label": "原料采掘",
+              "owner": "private",
+              "inputs": {},
+              "outputs": {},
+              "labor_used": 20.0,
+              "labor_ratio": 1,
+              "input_ratio": 1.0,
+              "progress": 3.0,
+              "state": "生产中"
+            }
+          ],
+          "consumption": [
+            {
+              "resource": "grain",
+              "label": "粮食",
+              "demand": 972,
+              "consumed": 0,
+              "shortage": 972,
+              "fulfillment": 0.0
+            },
+            {
+              "resource": "daily_goods",
+              "label": "日用品",
+              "demand": 43.3,
+              "consumed": 43.3,
+              "shortage": 0,
+              "fulfillment": 1
+            },
+            {
+              "resource": "luxury_goods",
+              "label": "享受品",
+              "demand": 7.224,
+              "consumed": 7.224,
+              "shortage": 0,
+              "fulfillment": 1
+            }
+          ],
+          "groups": [
+            {
+              "id": "poor",
+              "label": "贫困",
+              "population_before": 461,
+              "deaths": 13,
+              "natural_deaths": 0,
+              "shortage_deaths": 13,
+              "births": 0,
+              "moved_down": 0,
+              "mortality_risk": 0.026099999999999998,
+              "health_penalty": 6.0,
+              "satisfaction_penalty": 7.5,
+              "labor_penalty": 0.03
+            },
+            {
+              "id": "ordinary",
+              "label": "普通",
+              "population_before": 413,
+              "deaths": 7,
+              "natural_deaths": 0,
+              "shortage_deaths": 7,
+              "births": 1,
+              "moved_down": 12,
+              "mortality_risk": 0.0174,
+              "health_penalty": 4.0,
+              "satisfaction_penalty": 5.0,
+              "labor_penalty": 0.02
+            },
+            {
+              "id": "wealthy",
+              "label": "富裕",
+              "population_before": 98,
+              "deaths": 0,
+              "natural_deaths": 0,
+              "shortage_deaths": 0,
+              "births": 0,
+              "moved_down": 2,
+              "mortality_risk": 0.0087,
+              "health_penalty": 2.0,
+              "satisfaction_penalty": 2.5,
+              "labor_penalty": 0.01
+            }
+          ],
+          "deaths": 20,
+          "births": 1,
+          "natural_deaths": 0,
+          "shortage_deaths": 20,
+          "moved_down": 14,
+          "population_before": 972,
+          "population_after": 953,
+          "grain_shortage_ratio": 1.0,
+          "pool_changes": {
+            "qinghe_private": {
+              "money": 0,
+              "grain": 0,
+              "raw_material": 50.0,
+              "daily_goods": 6.699999999999989,
+              "luxury_goods": 0.7759999999999962
+            },
+            "qinghe_public": {
+              "money": 0,
+              "grain": 0,
+              "raw_material": 0,
+              "daily_goods": 0,
+              "luxury_goods": 0
+            },
+            "qinghe_royal": {
+              "money": 0,
+              "grain": 0,
+              "raw_material": 0,
+              "daily_goods": 0,
+              "luxury_goods": 0
+            }
+          }
+        },
+        {
+          "turn_index": 3,
+          "month": 2,
+          "xun": 1,
+          "summary": "清河县：本旬产粮0.0，口粮满足0%；出生1人，自然死亡1人，缺粮额外死亡18人；向下转层15人，期末人口935人。",
+          "production": [
+            {
+              "id": "agri_private",
+              "label": "民田粮作",
+              "owner": "private",
+              "inputs": {},
+              "outputs": {},
+              "labor_used": 0.0,
+              "labor_ratio": 0.8732682986067442,
+              "input_ratio": 0.0,
+              "progress": 0,
+              "state": "投入不足"
+            },
+            {
+              "id": "agri_public",
+              "label": "官田粮作",
+              "owner": "public",
+              "inputs": {
+                "grain": 60.0
+              },
+              "outputs": {},
+              "labor_used": 38.42380513869674,
+              "labor_ratio": 0.8732682986067442,
+              "input_ratio": 1.0,
+              "progress": 0.8732682986067442,
+              "state": "生长中（劳力不足）"
+            },
+            {
+              "id": "agri_royal",
+              "label": "皇庄粮作",
+              "owner": "royal",
+              "inputs": {
+                "grain": 30.0
+              },
+              "outputs": {},
+              "labor_used": 19.21190256934837,
+              "labor_ratio": 0.8732682986067442,
+              "input_ratio": 1.0,
+              "progress": 0.8732682986067442,
+              "state": "生长中（劳力不足）"
+            },
+            {
+              "id": "craft_daily",
+              "label": "日用品加工",
+              "owner": "private",
+              "inputs": {
+                "raw_material": 17.465365972134883
+              },
+              "outputs": {},
+              "labor_used": 61.12878090247209,
+              "labor_ratio": 0.8732682986067442,
+              "input_ratio": 1.0,
+              "progress": 0.8732682986067442,
+              "state": "生产中（劳力不足）"
+            },
+            {
+              "id": "craft_luxury",
+              "label": "细工加工",
+              "owner": "private",
+              "inputs": {
+                "raw_material": 4.366341493033721
+              },
+              "outputs": {},
+              "labor_used": 21.831707465168606,
+              "labor_ratio": 0.8732682986067442,
+              "input_ratio": 1.0,
+              "progress": 0.8732682986067442,
+              "state": "生产中（劳力不足）"
+            },
+            {
+              "id": "forest_material",
+              "label": "林业经营",
+              "owner": "private",
+              "inputs": {},
+              "outputs": {},
+              "labor_used": 30.564390451236044,
+              "labor_ratio": 0.8732682986067442,
+              "input_ratio": 1.0,
+              "progress": 0.8732682986067442,
+              "state": "生产中（劳力不足）"
+            },
+            {
+              "id": "mine_material",
+              "label": "原料采掘",
+              "owner": "private",
+              "inputs": {},
+              "outputs": {},
+              "labor_used": 17.465365972134883,
+              "labor_ratio": 0.8732682986067442,
+              "input_ratio": 1.0,
+              "progress": 3.873268298606744,
+              "state": "生产中（劳力不足）"
+            }
+          ],
+          "consumption": [
+            {
+              "resource": "grain",
+              "label": "粮食",
+              "demand": 953,
+              "consumed": 0,
+              "shortage": 953,
+              "fulfillment": 0.0
+            },
+            {
+              "resource": "daily_goods",
+              "label": "日用品",
+              "demand": 42.29,
+              "consumed": 42.29,
+              "shortage": 0,
+              "fulfillment": 1
+            },
+            {
+              "resource": "luxury_goods",
+              "label": "享受品",
+              "demand": 7.016,
+              "consumed": 7.016,
+              "shortage": 0,
+              "fulfillment": 1
+            }
+          ],
+          "groups": [
+            {
+              "id": "poor",
+              "label": "贫困",
+              "population_before": 460,
+              "deaths": 13,
+              "natural_deaths": 1,
+              "shortage_deaths": 12,
+              "births": 1,
+              "moved_down": 0,
+              "mortality_risk": 0.027899999999999998,
+              "health_penalty": 6.0,
+              "satisfaction_penalty": 7.5,
+              "labor_penalty": 0.03
+            },
+            {
+              "id": "ordinary",
+              "label": "普通",
+              "population_before": 397,
+              "deaths": 6,
+              "natural_deaths": 0,
+              "shortage_deaths": 6,
+              "births": 0,
+              "moved_down": 13,
+              "mortality_risk": 0.0186,
+              "health_penalty": 4.0,
+              "satisfaction_penalty": 5.0,
+              "labor_penalty": 0.02
+            },
+            {
+              "id": "wealthy",
+              "label": "富裕",
+              "population_before": 96,
+              "deaths": 0,
+              "natural_deaths": 0,
+              "shortage_deaths": 0,
+              "births": 0,
+              "moved_down": 2,
+              "mortality_risk": 0.0093,
+              "health_penalty": 2.0,
+              "satisfaction_penalty": 2.5,
+              "labor_penalty": 0.01
+            }
+          ],
+          "deaths": 19,
+          "births": 1,
+          "natural_deaths": 1,
+          "shortage_deaths": 18,
+          "moved_down": 15,
+          "population_before": 953,
+          "population_after": 935,
+          "grain_shortage_ratio": 1.0,
+          "pool_changes": {
+            "qinghe_private": {
+              "money": 0,
+              "grain": 0,
+              "raw_material": -21.83170746516862,
+              "daily_goods": -42.28999999999999,
+              "luxury_goods": -7.015999999999998
+            },
+            "qinghe_public": {
+              "money": 0,
+              "grain": -60.0,
+              "raw_material": 0,
+              "daily_goods": 0,
+              "luxury_goods": 0
+            },
+            "qinghe_royal": {
+              "money": 0,
+              "grain": -30.0,
+              "raw_material": 0,
+              "daily_goods": 0,
+              "luxury_goods": 0
+            }
+          }
+        }
+      ]
+    },
+    "reports": [],
+    "random_state": {
+      "seed": 1500,
+      "draws": 0
+    },
+    "next_id": 246,
+    "notes": [
+      "健康→行动力阈值为0→10、40→20、80→30，属于可配置演示值。",
+      "每旬3份诏书、改税CD为3旬，属于可配置演示值。",
+      "按早朝、工作、私生活依次推进；活动可预排或进入阶段后选择，早朝每旬默认安排且可取消。",
+      "县级经济演示已启用：实际旬末结算生产、消费和人口；其他国家系统仍待开发。",
+      "急报仅手动注入演示，不运行自然事件与地方自主决策。",
+      "县档案展示演示真值；历史全国经济和正式奏报过滤尚未启用。",
+      "留空参数原样保留为委派意图，本版不运行官员补全与决策。",
+      "工作剩余时间可单向转为私生活；急报位置按工作中点或私生活非最后行动排定，并保存送达位置。"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+.venv/
+.runtime/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+build/
+dist/
+*.egg-info/
+user_data/
+artifacts/*.log
+
+# Local credentials and machine-specific settings
+.env
+.env.*
+!.env.example
+!.env.template
+.codex/
+*.pem
+*.key

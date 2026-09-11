@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "world_simulation_enabled": false,
+  "notes": "只用于框架演示，数值均待确认。改动影响新局，旧存档保留自身配置。",
+  "demo": {
+    "edicts_per_turn": 3,
+    "health_ap_thresholds": [[0, 10], [40, 20], [80, 30]],
+    "turn_rules_version": 3,
+    "initial_health": 100,
+    "initial_year": 1500,
+    "initial_month": 1,
+    "initial_xun": 1,
+    "tax_cooldown_turns": 3,
+    "seed": 1500
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "checked_at": "2026-09-07T15:34:24.088696+00:00",
+  "status": "passed",
+  "executable": "dist\\MingImperialDesk-M03Stages\\MingImperialDesk-M03Stages.exe",
+  "executable_sha256": "bd2c8d367ac9468e318ce3a886db37f6660e1ca10cff6733e4f31daca2dc80be",
+  "working_directory": "artifacts\\packaged-cwd",
+  "python_environment_overrides_removed": true,
+  "native_windows_platform_hidden_smoke_passed": true,
+  "bundled_content_files_checked": 137,
+  "runs": [
+    {
+      "page": "0",
+      "exit_code": 0,
+      "screenshot_created": true,
+      "passed": true,
+      "screenshot": "artifacts\\packaged-page-0.png"
+    },
+    {
+      "page": "1",
+      "exit_code": 0,
+      "screenshot_created": true,
+      "passed": true,
+      "screenshot": "artifacts\\packaged-page-1.png"
+    },
+    {
+      "page": "4",
+      "exit_code": 0,
+      "screenshot_created": true,
+      "passed": true,
+      "screenshot": "artifacts\\packaged-page-4.png"
+    },
+    {
+      "page": "5",
+      "exit_code": 0,
+      "screenshot_created": true,
+      "passed": true,
+      "screenshot": "artifacts\\packaged-page-5.png"
+    },
+    {
+      "screen": "menu",
+      "exit_code": 0,
+      "screenshot_created": true,
+      "passed": true,
+      "screenshot": "artifacts\\packaged-screen-menu.png"
+    },
+    {
+      "screen": "setup",
+      "exit_code": 0,
+      "screenshot_created": true,
+      "passed": true,
+      "screenshot": "artifacts\\packaged-screen-setup.png"
+    },
+    {
+      "screen": "load",
+      "exit_code": 0,
+      "screenshot_created": true,
+      "passed": true,
+      "screenshot": "artifacts\\packaged-screen-load.png"
+    },
+    {
+      "screen": "settings",
+      "exit_code": 0,
+      "screenshot_created": true,
+      "passed": true,
+      "screenshot": "artifacts\\packaged-screen-settings.png"
+    },
+    {
+      "m03": "demo",
+      "exit_code": 0,
+      "screenshot_created": true,
+      "passed": true,
+      "screenshot": "artifacts\\packaged-m03-demo.png"
+    },
+    {
+      "m03": "emergency",
+      "exit_code": 0,
+      "screenshot_created": true,
+      "passed": true,
+      "screenshot": "artifacts\\packaged-m03-emergency.png"
+    },
+    {
+      "m03": "office",
+      "exit_code": 0,
+      "screenshot_created": true,
+      "passed": true,
+      "screenshot": "artifacts\\packaged-m03-office.png"
+    },
+    {
+      "m03": "appointments",
+      "exit_code": 0,
+      "screenshot_created": true,
+      "passed": true,
+      "screenshot": "artifacts\\packaged-m03-appointments.png"
+    },
+    {
+      "stages": "planning",
+      "exit_code": 0,
+      "screenshot_created": true,
+      "passed": true,
+      "screenshot": "artifacts\\packaged-stages-planning.png"
+    },
+    {
+      "stages": "work-emergency",
+      "exit_code": 0,
+      "screenshot_created": true,
+      "passed": true,
+      "screenshot": "artifacts\\packaged-stages-work-emergency.png"
+    },
+    {
+      "stages": "private-choice",
+      "exit_code": 0,
+      "screenshot_created": true,
+      "passed": true,
+      "screenshot": "artifacts\\packaged-stages-private-choice.png"
+    },
+    {
+      "stages": "garden",
+      "exit_code": 0,
+      "screenshot_created": true,
+      "passed": true,
+      "screenshot": "artifacts\\packaged-stages-garden.png"
+    }
+  ],
+  "failures": []
+}

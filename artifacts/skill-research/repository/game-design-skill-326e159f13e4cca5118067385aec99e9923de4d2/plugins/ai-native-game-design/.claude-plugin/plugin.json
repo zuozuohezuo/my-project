@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "ai-native-game-design",
+  "version": "0.2.0",
+  "description": "Design and review runtime AI gameplay and AI NPC systems with source-aware methods.",
+  "author": {
+    "name": "JupiterTheWarlock"
+  },
+  "license": "MIT",
+  "keywords": [
+    "ai-native-gameplay",
+    "game-design",
+    "generative-ai",
+    "intelligent-npcs",
+    "ai-companions",
+    "multi-agent-societies",
+    "runtime-generation",
+    "playtesting"
+  ]
+}

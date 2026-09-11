@@ -1,0 +1,14 @@
+{
+  "platform": "codex",
+  "platform_version": "codex-cli 0.142.0",
+  "case": "cross-gdd-review",
+  "requested_model": "gpt-5.4",
+  "case_path": "verification/cases/cross-gdd-review.md",
+  "working_directory": "C:\\Users\\GJM258\\JtheWLToolBox\\game-design-skill",
+  "returncode": 124,
+  "timed_out": true,
+  "timeout_seconds": 420,
+  "elapsed_seconds": 462.74,
+  "stdout": "verification/results/codex-cross-gdd-review.stdout",
+  "stderr": "verification/results/codex-cross-gdd-review.stderr"
+}

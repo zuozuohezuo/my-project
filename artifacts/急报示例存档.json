@@ -1,0 +1,347 @@
+{
+  "save_version": 1,
+  "config": {
+    "edicts_per_turn": 3,
+    "health_ap_thresholds": [
+      [
+        0,
+        1
+      ],
+      [
+        40,
+        2
+      ],
+      [
+        80,
+        3
+      ]
+    ],
+    "initial_health": 100,
+    "initial_year": 1500,
+    "initial_month": 1,
+    "initial_xun": 1,
+    "tax_cooldown_turns": 3,
+    "seed": 1500
+  },
+  "state": {
+    "year": 1500,
+    "month": 1,
+    "xun": 1,
+    "turn_index": 0,
+    "scenario_profile": {
+      "scenario_name": "明朝·弘治十三年",
+      "emperor_name": "朱祐樘",
+      "era_name": "弘治",
+      "era_start_year": 1488
+    },
+    "emperor": {
+      "attributes": {
+        "logic": 50,
+        "emotional_intelligence": 50,
+        "memory": 50,
+        "insight": 50,
+        "creativity": 50,
+        "strength": 50,
+        "constitution": 50,
+        "agility": 50,
+        "perception": 50,
+        "appearance": 50,
+        "self_discipline": 50,
+        "emotional_resilience": 50,
+        "courage": 50
+      },
+      "skills": {
+        "administration": 0,
+        "military_strategy": 0,
+        "people_reading": 0,
+        "rhetoric": 0,
+        "calligraphy": 0,
+        "scholarship": 0
+      },
+      "traits": [],
+      "pressure": 0,
+      "body_conditions": [],
+      "modifiers": [],
+      "personality": {
+        "benevolence": 50,
+        "trust": 50,
+        "tradition": 50,
+        "luxury": 50,
+        "control": 50,
+        "humility": 50,
+        "partiality": 50,
+        "integrity": 50,
+        "sociability": 50
+      },
+      "objectives": []
+    },
+    "phase": "interrupted",
+    "health": 100,
+    "ap_capacity": 3,
+    "activities": [
+      {
+        "id": "activity-4",
+        "kind": "court",
+        "status": "in_progress",
+        "cost": 1
+      },
+      {
+        "id": "activity-5",
+        "kind": "private",
+        "status": "pending",
+        "cost": 1
+      },
+      {
+        "id": "activity-6",
+        "kind": "rest",
+        "status": "pending",
+        "cost": 1
+      }
+    ],
+    "court_open": true,
+    "edict_limit": 3,
+    "edict_available": 0,
+    "edict_debt": 0,
+    "edicts_spent_this_turn": 3,
+    "month_plan": [],
+    "emergencies": [
+      {
+        "id": "event-10",
+        "title": "演示急报 · 边关请示",
+        "description": "用于检验暂停、活动替代和诏书透支；不对应一条真实历史事件。",
+        "trigger_turn": 0,
+        "status": "active",
+        "allowed_commands": [
+          "emergency_response"
+        ],
+        "replacement_activity_id": null,
+        "demo": true
+      }
+    ],
+    "active_emergency_id": "event-10",
+    "pending_command": null,
+    "cooldowns": {},
+    "command_ledger": [
+      {
+        "id": "command-7",
+        "turn": 0,
+        "command_id": "build_canal",
+        "label": "修建水利",
+        "parameters": {
+          "target": "beizhili",
+          "budget": null
+        },
+        "cost": 1,
+        "borrowed": 0,
+        "emergency_event_id": null,
+        "insisted": false,
+        "planned_command_id": null
+      },
+      {
+        "id": "command-8",
+        "turn": 0,
+        "command_id": "build_canal",
+        "label": "修建水利",
+        "parameters": {
+          "target": "beizhili",
+          "budget": null
+        },
+        "cost": 1,
+        "borrowed": 0,
+        "emergency_event_id": null,
+        "insisted": false,
+        "planned_command_id": null
+      },
+      {
+        "id": "command-9",
+        "turn": 0,
+        "command_id": "build_canal",
+        "label": "修建水利",
+        "parameters": {
+          "target": "beizhili",
+          "budget": null
+        },
+        "cost": 1,
+        "borrowed": 0,
+        "emergency_event_id": null,
+        "insisted": false,
+        "planned_command_id": null
+      }
+    ],
+    "policy_settings": {
+      "build_canal:beizhili": {
+        "command_id": "build_canal",
+        "parameters": {
+          "target": "beizhili",
+          "budget": null
+        },
+        "record_id": "command-9",
+        "turn": 0
+      }
+    },
+    "pending_effects": [
+      {
+        "record_id": "command-7",
+        "turn": 0,
+        "kind": "command_effect",
+        "command_id": "build_canal",
+        "parameters": {
+          "target": "beizhili",
+          "budget": null
+        },
+        "status": "not_simulated"
+      },
+      {
+        "record_id": "command-8",
+        "turn": 0,
+        "kind": "command_effect",
+        "command_id": "build_canal",
+        "parameters": {
+          "target": "beizhili",
+          "budget": null
+        },
+        "status": "not_simulated"
+      },
+      {
+        "record_id": "command-9",
+        "turn": 0,
+        "kind": "command_effect",
+        "command_id": "build_canal",
+        "parameters": {
+          "target": "beizhili",
+          "budget": null
+        },
+        "status": "not_simulated"
+      }
+    ],
+    "logs": [
+      {
+        "turn": 0,
+        "label": "开局",
+        "message": "建立演示存档；世界数值模拟尚未启用。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 0,
+        "label": "旬开始",
+        "message": "开始1500年1月上旬；本旬3行动力。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 0,
+        "label": "政令登记",
+        "message": "修建水利：消耗1诏书，透支0；效果尚未模拟。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 0,
+        "label": "政令登记",
+        "message": "修建水利：消耗1诏书，透支0；效果尚未模拟。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 0,
+        "label": "政令登记",
+        "message": "修建水利：消耗1诏书，透支0；效果尚未模拟。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 0,
+        "label": "演示急报",
+        "message": "已手动登记：演示急报 · 边关请示，触发旬序号0。",
+        "date": "1500年1月上旬"
+      },
+      {
+        "turn": 0,
+        "label": "计划暂停",
+        "message": "演示急报 · 边关请示；本旬尚未完成，等待处置。",
+        "date": "1500年1月上旬"
+      }
+    ],
+    "world_snapshot": {
+      "scenario": "ming_1500_working_baseline",
+      "reference_year": 1500,
+      "simulation_enabled": false,
+      "regions": [
+        {
+          "id": "beizhili",
+          "name": "北直隶"
+        },
+        {
+          "id": "nanzhili",
+          "name": "南直隶"
+        },
+        {
+          "id": "shandong",
+          "name": "山东"
+        },
+        {
+          "id": "shanxi",
+          "name": "山西"
+        },
+        {
+          "id": "henan",
+          "name": "河南"
+        },
+        {
+          "id": "shaanxi",
+          "name": "陕西"
+        },
+        {
+          "id": "sichuan",
+          "name": "四川"
+        },
+        {
+          "id": "jiangxi",
+          "name": "江西"
+        },
+        {
+          "id": "huguang",
+          "name": "湖广"
+        },
+        {
+          "id": "zhejiang",
+          "name": "浙江"
+        },
+        {
+          "id": "fujian",
+          "name": "福建"
+        },
+        {
+          "id": "guangdong",
+          "name": "广东"
+        },
+        {
+          "id": "guangxi",
+          "name": "广西"
+        },
+        {
+          "id": "yunnan",
+          "name": "云南"
+        },
+        {
+          "id": "guizhou",
+          "name": "贵州"
+        }
+      ],
+      "metrics": {},
+      "notes": "人口、钱粮、民心尚未建模；历史资料独立于运行存档。"
+    },
+    "reports": [],
+    "random_state": {
+      "seed": 1500,
+      "draws": 0
+    },
+    "next_id": 11,
+    "notes": [
+      "健康→行动力阈值为0→1、40→2、80→3，属于可配置演示值。",
+      "每旬3份诏书、改税CD为3旬，属于可配置演示值。",
+      "未使用行动力不会自动补齐；须显式选择补足休息后推进。",
+      "诏书透支先扣下一旬额度；若债务超过单旬额度，演示暂按逐旬扣还。",
+      "急报仅手动注入演示，不运行自然事件与地方自主决策。",
+      "政令、活动、劝谏惩罚均只记录待模拟效果，不改变健康、钱粮、民心等世界指标。",
+      "留空参数原样保留为委派意图，本版不运行官员补全与决策。",
+      "存档记录种子及随机调用计数；本版没有随机抽取。"
+    ]
+  }
+}

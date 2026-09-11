@@ -1,0 +1,487 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-09-06T17:14:07+00:00",
+  "status": "passed_with_limitations",
+  "integrity_status": "passed",
+  "historical_accuracy_status": "limited",
+  "scope": "离线核验文件、哈希、原文锚点、目录关系、地图坐标来源及已知时点边界；不把资料结构完整等同历史事实全部准确。",
+  "source_count": 44,
+  "font_source_count": 2,
+  "verified_local_file_count": 83,
+  "record_counts": {
+    "regions": 15,
+    "prefectures": 654,
+    "counties": 1173,
+    "people": 13,
+    "offices": 54,
+    "laws": 13
+  },
+  "text_evidence_count": 99,
+  "check_counts": {
+    "source_manifests": 1,
+    "unique_ids": 1966,
+    "source_metadata": 176,
+    "source_paths": 166,
+    "source_hashes": 83,
+    "source_sizes": 46,
+    "font_metadata": 4,
+    "catalog_structure": 5772,
+    "source_references": 3952,
+    "geography_evidence": 3684,
+    "parent_references": 5275,
+    "historical_scope": 5522,
+    "hierarchy_cycles": 1827,
+    "map_regions": 32,
+    "map_geometry": 46,
+    "map_evidence": 15,
+    "simulation_separation": 16,
+    "text_evidence": 179,
+    "office_references": 13,
+    "chronology_regressions": 5
+  },
+  "failures": [],
+  "limited": [
+    {
+      "area": "geography",
+      "status": "limited",
+      "detail": "15点图为历史治所所在现代城市参考位置；1500年省界未复原，县制为跨明代原典索引。"
+    },
+    {
+      "area": "map_reference",
+      "status": "limited",
+      "detail": "下载SVG实际为约1580年，未地理配准，不作为1500精确疆界。"
+    },
+    {
+      "area": "transcription",
+      "status": "limited",
+      "detail": "原典转录存在异体字、OCR及未分类段落；见geography_extraction_review.json。"
+    },
+    {
+      "area": "chronology",
+      "status": "limited",
+      "detail": "1500农历正月为临时工作基准，具体开局待用户确认；未实现闰月换算。"
+    },
+    {
+      "area": "people_and_law",
+      "status": "limited",
+      "detail": "人物、官职与法令是已注明范围的基础资料，不是全国地方官与法律条款全集；需后续影印本校勘。"
+    }
+  ],
+  "verified_files": [
+    {
+      "path": "data/history/raw/geography/mingshi_40_api.json",
+      "sha256": "41c505ee8677160a7923f72bfab7289af10c2ce95504453db7a0af71d24f17b1",
+      "bytes": 165917
+    },
+    {
+      "path": "data/history/raw/geography/mingshi_40.wikitext",
+      "sha256": "e61ac9f59635ccd3f4c996cab9cf92e46ddf47c42be71b04a418dfa0d75d1a77",
+      "bytes": 84996
+    },
+    {
+      "path": "data/history/raw/geography/mingshi_41_api.json",
+      "sha256": "6f593d931e40e0d827dd55d6a3acd23306141100a48ea14b966633695b27e670",
+      "bytes": 120264
+    },
+    {
+      "path": "data/history/raw/geography/mingshi_41.wikitext",
+      "sha256": "fb393294adfd89a4e562a0b7ecf11454e9fc160c54fac1e13c6adddff5bb2ec4",
+      "bytes": 61702
+    },
+    {
+      "path": "data/history/raw/geography/mingshi_42_api.json",
+      "sha256": "98cf16fd8c9990d4e42fda91d2aa74f5fa89ba65e37a72b9d0fcf22dbb1f1a38",
+      "bytes": 132078
+    },
+    {
+      "path": "data/history/raw/geography/mingshi_42.wikitext",
+      "sha256": "cb9f3d13ffe090364358c9da774f09749d352017e3dece04eaee9a5c59ef7c88",
+      "bytes": 67858
+    },
+    {
+      "path": "data/history/raw/geography/mingshi_43_api.json",
+      "sha256": "babf1a1c1517b370bdd9c429712c847a5a4706052b65212e1ae416ac86a170e7",
+      "bytes": 150449
+    },
+    {
+      "path": "data/history/raw/geography/mingshi_43.wikitext",
+      "sha256": "8610d6baecb61218b7f574f54d51674b9d5a07415c04427d1cc09af520a15f6f",
+      "bytes": 76905
+    },
+    {
+      "path": "data/history/raw/geography/mingshi_44_api.json",
+      "sha256": "796644c3cf4d8fa6cd650ae320b866922960e9e66aa55ce2d6339b7b2a2e78c7",
+      "bytes": 152656
+    },
+    {
+      "path": "data/history/raw/geography/mingshi_44.wikitext",
+      "sha256": "62bb54ce180ef2f07ce425b59f746471cdd5355ae091c339fa8f0d9a70df66f8",
+      "bytes": 77900
+    },
+    {
+      "path": "data/history/raw/geography/mingshi_45_api.json",
+      "sha256": "f43de88b28b9a4ca361b2cbab93ce5c272f8ff605533e826984315bd9ed5f628",
+      "bytes": 153207
+    },
+    {
+      "path": "data/history/raw/geography/mingshi_45.wikitext",
+      "sha256": "db8a4968d494214f3be7f91e5a4c14066017ff8196b745a6045975e5870f9f99",
+      "bytes": 78578
+    },
+    {
+      "path": "data/history/raw/geography/mingshi_46_api.json",
+      "sha256": "af92bff6577f6f6c844922fd3864b12fef816188300edc693fd9b0e2d2237ebf",
+      "bytes": 148098
+    },
+    {
+      "path": "data/history/raw/geography/mingshi_46.wikitext",
+      "sha256": "3031006c10a212941fbfd5e6c0d7218aeb29272e89c2d404fe62645581964d4c",
+      "bytes": 76540
+    },
+    {
+      "path": "data/history/raw/geography/mingshi_siku_40_api.json",
+      "sha256": "2b2e178198d7ef12ee2c47fb876b1923acff4456b35f2976e641635cb36f47ba",
+      "bytes": 145668
+    },
+    {
+      "path": "data/history/raw/geography/mingshi_siku_40.wikitext",
+      "sha256": "f714395dcb963198cdee38857b689a77f25f5fac510f57eb1b005ecefa3f8458",
+      "bytes": 77364
+    },
+    {
+      "path": "data/history/raw/geography/mingshi_siku_41_api.json",
+      "sha256": "a8243cfa7d4e7930931ea4790c136b29d1a1512a80453b1215adc8d32439dac9",
+      "bytes": 104436
+    },
+    {
+      "path": "data/history/raw/geography/mingshi_siku_41.wikitext",
+      "sha256": "32ff21b065d7f03ac107f97a4a7287e596f414acae6772b844c2f35505087d67",
+      "bytes": 55476
+    },
+    {
+      "path": "data/history/raw/geography/mingshi_siku_42_api.json",
+      "sha256": "8640f8bda99e987570bd966206d66b0bbd748e2b7df84e606fbb6bbe5e3aa13e",
+      "bytes": 114517
+    },
+    {
+      "path": "data/history/raw/geography/mingshi_siku_42.wikitext",
+      "sha256": "f7e49a5bd0c3a0485913b44538b86ca18754fa9278f4978785cf038b7f873d80",
+      "bytes": 60853
+    },
+    {
+      "path": "data/history/raw/geography/mingshi_siku_43_api.json",
+      "sha256": "60741e7005168042071a8b340a837871a6013b3dbc2653c42f6cf0553ea6a6c9",
+      "bytes": 130584
+    },
+    {
+      "path": "data/history/raw/geography/mingshi_siku_43.wikitext",
+      "sha256": "f821c4c6c366455075d843d905edc5201f50efe35eda321c155561753e61c527",
+      "bytes": 68886
+    },
+    {
+      "path": "data/history/raw/geography/mingshi_siku_44_api.json",
+      "sha256": "0b7fbfab7dc453a4ba298f4ecd64163348df34259d2052f7f01a75dae72c5409",
+      "bytes": 131970
+    },
+    {
+      "path": "data/history/raw/geography/mingshi_siku_44.wikitext",
+      "sha256": "8fedf6e5e1a91eefc7eeb232fa68ed867994730346e92ccff71a169a05448391",
+      "bytes": 69204
+    },
+    {
+      "path": "data/history/raw/geography/mingshi_siku_45_api.json",
+      "sha256": "507c0dfc50d1b6077a49dd10479a07545839674469a01d1a15f6dd5401fc2b5c",
+      "bytes": 132634
+    },
+    {
+      "path": "data/history/raw/geography/mingshi_siku_45.wikitext",
+      "sha256": "eafa988c3a326a6a68114e8aec6f42af77e8bf4e35976026c704cbd8c45eb2ca",
+      "bytes": 70090
+    },
+    {
+      "path": "data/history/raw/geography/mingshi_siku_46_api.json",
+      "sha256": "3d67a9555ccb955b9a217c2e0f92f07e659ffdbbd3e445296aff1b0af3a58365",
+      "bytes": 130673
+    },
+    {
+      "path": "data/history/raw/geography/mingshi_siku_46.wikitext",
+      "sha256": "55c78459b42edb0234dc23e982e6212737f4c085b6dc6cb3631f4be08732d349",
+      "bytes": 69563
+    },
+    {
+      "path": "data/history/raw/geography/siku_character_392_api.json",
+      "sha256": "09f732cf9f6174a75b8bf17e01acf4e56a4fcfad1f152c0533b92a2a2d03b82a",
+      "bytes": 1053
+    },
+    {
+      "path": "data/history/raw/geography/ne_10m_populated_places_simple.geojson",
+      "sha256": "fd3fa867a320cbd5c5b6bb5bc550afeec2939fb2cef688e508007282a55ac42f",
+      "bytes": 4932147
+    },
+    {
+      "path": "data/history/raw/geography/ne_110m_land.geojson",
+      "sha256": "9e0729ee253ca7d7a5c4ae9395fb1902264c5377c52e224d13dd85010e2835d9",
+      "bytes": 138160
+    },
+    {
+      "path": "data/history/raw/geography/natural_earth_terms.html",
+      "sha256": "cc10f52a9d805615504dc21eb4edcb968b6cc1df2aca3c80e892eae61e03a905",
+      "bytes": 38013
+    },
+    {
+      "path": "data/history/raw/geography/commons_ming_map_api.json",
+      "sha256": "d45f5e31998ae3f39e914ed71c5875ca54f00fc0beec039a349a6f228c8f7fbf",
+      "bytes": 4527
+    },
+    {
+      "path": "data/history/raw/geography/ming_empire_1580_reference.svg",
+      "sha256": "103d0758f0230404b43e0f1f7fc30595b76bc0aa8f9452d88b99e5f87f74074e",
+      "bytes": 2335092
+    },
+    {
+      "path": "data/history/raw/geography/chgis_v6_license.html",
+      "sha256": "9301888f6e3266141a0365071106bc49d6bfe0c3c8535f7e5a56ea65d41cc2a7",
+      "bytes": 6463
+    },
+    {
+      "path": "data/history/raw/mingshi_015.html",
+      "sha256": "ec52fb24dc296c21940a9dd97edf76c1dab60201206225880485a4c36ec2f372",
+      "bytes": 111677
+    },
+    {
+      "path": "data/history/raw/mingshi_015.txt",
+      "sha256": "db51da3bb443ba17ebb66c9b9cb5d2f87c766162a0e88a6db50c0771419df9ea",
+      "bytes": 19016
+    },
+    {
+      "path": "data/history/raw/mingshi_072.html",
+      "sha256": "badaa68a0985fce54ff5666cba866af5d127abfc36fdec7267be626da84ee317",
+      "bytes": 158915
+    },
+    {
+      "path": "data/history/raw/mingshi_072.txt",
+      "sha256": "5ed8cfde1612e11d0a149620e5073c54cc1f9559b7039b47f634d4b0874cf419",
+      "bytes": 59425
+    },
+    {
+      "path": "data/history/raw/mingshi_073.html",
+      "sha256": "0b4fb7d5a519c74b1354105f95ba8b53885a91aecf540d8d782be70a1c77d34d",
+      "bytes": 177994
+    },
+    {
+      "path": "data/history/raw/mingshi_073.txt",
+      "sha256": "5aee81c3fb127559e1cc8e9165ca9a660ed37f02ab31555af9c646ff4b49bc66",
+      "bytes": 42322
+    },
+    {
+      "path": "data/history/raw/mingshi_074.html",
+      "sha256": "538bf009bedd2f5a7b0fde5bd528066f17d71bf65712fd3e27fa3d5c5b68a9a7",
+      "bytes": 172695
+    },
+    {
+      "path": "data/history/raw/mingshi_074.txt",
+      "sha256": "1ebe55d9639e1bfa73486c1df869c28627057f21426b20e0d7bb597f36f8a419",
+      "bytes": 63059
+    },
+    {
+      "path": "data/history/raw/mingshi_075.html",
+      "sha256": "4960b6c417f171e2a8ca4d699962201bc80a6949eeef84adee83a1f625667ff8",
+      "bytes": 167965
+    },
+    {
+      "path": "data/history/raw/mingshi_075.txt",
+      "sha256": "d63c6e7cbaec6fd29a0c57793271fbca6b23f4fb022430cfb70fdc7bc7cc845c",
+      "bytes": 38080
+    },
+    {
+      "path": "data/history/raw/mingshi_076.html",
+      "sha256": "f8476cbb6358b06e93bda6e87554df67e92b9a451d429d3661b41a25b9b1f451",
+      "bytes": 142210
+    },
+    {
+      "path": "data/history/raw/mingshi_076.txt",
+      "sha256": "2d80aafcfa05eaeb34427185a6e06d6e5c8d4d31546ddacb92b9954d573a2ae9",
+      "bytes": 35105
+    },
+    {
+      "path": "data/history/raw/mingshi_093.html",
+      "sha256": "daf2879e8fecfc2749022a1fbf93ede37cc8bcf641e087d46831847498cd0bb3",
+      "bytes": 116803
+    },
+    {
+      "path": "data/history/raw/mingshi_093.txt",
+      "sha256": "5b5f808605a0169ba8d9996e0afe837c0e50311232b133fd713c98087645c263",
+      "bytes": 40232
+    },
+    {
+      "path": "data/history/raw/mingshi_109.html",
+      "sha256": "d107b10dbef231e097d66f4ee705e246cf8c480541a55d9860bc120d2724b510",
+      "bytes": 97880
+    },
+    {
+      "path": "data/history/raw/mingshi_109.txt",
+      "sha256": "470977d9aeba84c0d51606dc1168c99fedb9d673d6f0e58a10d6844dfc874826",
+      "bytes": 19858
+    },
+    {
+      "path": "data/history/raw/mingshi_111.html",
+      "sha256": "41cfef078ec8c646ef6db11082784fc115d255a4ab7551e2544b07657c1325c8",
+      "bytes": 122403
+    },
+    {
+      "path": "data/history/raw/mingshi_111.txt",
+      "sha256": "c8d03e49f9b2f7e92315225cbb75438159c15255b57a8351e4b8f4ac8851b313",
+      "bytes": 35669
+    },
+    {
+      "path": "data/history/raw/mingshi_181.html",
+      "sha256": "cbfd6cb7bf6d303084407ad1056eabc16e53a9a66c082a325c3f7667c67fcd31",
+      "bytes": 114208
+    },
+    {
+      "path": "data/history/raw/mingshi_181.txt",
+      "sha256": "e2bab92563d95063f0dacbf560770d7d041c24ea9089455faabfb8054147fcca",
+      "bytes": 37084
+    },
+    {
+      "path": "data/history/raw/mingshi_182.html",
+      "sha256": "a1184d68891b161c1fc0aa16c6a62275a57dedbb0b3d954fc7a477dc62ea248e",
+      "bytes": 102241
+    },
+    {
+      "path": "data/history/raw/mingshi_182.txt",
+      "sha256": "eb7b22e46e468aa04a6eb6f4cc0fd793fca9b9a49db7b550c07fad952950400d",
+      "bytes": 30299
+    },
+    {
+      "path": "data/history/raw/mingshi_183.html",
+      "sha256": "17a0eb2e4d0a39508a0a60ffcda2b37897f60047d094f3fc91f02a02f9700a0a",
+      "bytes": 107027
+    },
+    {
+      "path": "data/history/raw/mingshi_183.txt",
+      "sha256": "f5a3f7fc3e9ae94bc040ddcb6cfd5beb6628ec58b00ad3e7c92d9b96792c5341",
+      "bytes": 30185
+    },
+    {
+      "path": "data/history/raw/mingshi_184.html",
+      "sha256": "273f156216f3beb21844b4151933a951bb9a30ea8bb76be4ad27955dae1a1968",
+      "bytes": 97016
+    },
+    {
+      "path": "data/history/raw/mingshi_184.txt",
+      "sha256": "934b29d4694f1d1d75facb0bb806dbe39842917dade2368e5db3fd71a670dab4",
+      "bytes": 26072
+    },
+    {
+      "path": "data/history/raw/mingshi_185.html",
+      "sha256": "63cad1fa16b9f40c2c1098167e72f9b9817df5cb25aa3eb844dad3219c2d12bf",
+      "bytes": 115594
+    },
+    {
+      "path": "data/history/raw/mingshi_185.txt",
+      "sha256": "f2cb2deb108dd5cb2efc86dc69031eeb743bc7fb6c976f87dacf73e3857b5002",
+      "bytes": 27813
+    },
+    {
+      "path": "data/history/raw/daminglv_02.html",
+      "sha256": "7cb4cdf85608d51d8bb314187bdc138b1dfba236bae3ebafea2cdad6d1281428",
+      "bytes": 120677
+    },
+    {
+      "path": "data/history/raw/daminglv_02.txt",
+      "sha256": "1f1dd64cbcf70f06865fc9a7e43101767a0e79d1e036a7c0698afc9d9da7fc2e",
+      "bytes": 37403
+    },
+    {
+      "path": "data/history/raw/daminglv_03.html",
+      "sha256": "b33c5887d3a9b86070ff1e6f492d98e23a3a0c4907188752a98ad24e6334349e",
+      "bytes": 94174
+    },
+    {
+      "path": "data/history/raw/daminglv_03.txt",
+      "sha256": "b7d4aa3abaec4fec5545fe548464b2ae644c1cd7f5b497e58cf652966d24f3f9",
+      "bytes": 22329
+    },
+    {
+      "path": "data/history/raw/daminglv_04.html",
+      "sha256": "17ccb51410606973a4a4911714f828fcdc129c06642ca34c696898e12bf3d743",
+      "bytes": 115733
+    },
+    {
+      "path": "data/history/raw/daminglv_04.txt",
+      "sha256": "4421f85a5ee21cca7228efd0309fd39b45d1f1229cebebb0cf76c12670c452f0",
+      "bytes": 29398
+    },
+    {
+      "path": "data/history/raw/daminglv_05.html",
+      "sha256": "0c967f74ffc8ada5ff31c5b3d03bac45913cc56b97d50800a10b8734a803db53",
+      "bytes": 83722
+    },
+    {
+      "path": "data/history/raw/daminglv_05.txt",
+      "sha256": "4d8aad8f0d0926a197f16e5396b8028e28712ac94763701b0d6a82cb03be0522",
+      "bytes": 18311
+    },
+    {
+      "path": "data/history/raw/daminglv_07.html",
+      "sha256": "caa8b428c8a2e20f2bfd8a38d9dd1956ca915af6a688a821ba8e7d3dc29e5b1c",
+      "bytes": 116731
+    },
+    {
+      "path": "data/history/raw/daminglv_07.txt",
+      "sha256": "a2f58ad7092213e9c807493f03eb14d980f32e549f07819c7f31de7c415c600d",
+      "bytes": 38175
+    },
+    {
+      "path": "data/history/raw/daminglv_23.html",
+      "sha256": "986095142137a3e69e16c719739b23a61f3cf0309ecb4870e4f41657b31570fa",
+      "bytes": 85993
+    },
+    {
+      "path": "data/history/raw/daminglv_23.txt",
+      "sha256": "c1576e4d69ec4c2cbf59ab0d629cc6d256f928972fac703e16a566fffa2bf376",
+      "bytes": 20082
+    },
+    {
+      "path": "data/history/raw/daminglv_30.html",
+      "sha256": "5c8e8df17bc08e0672a7aaafa6b629b5062151e168822a0e55007c56a0dd3d00",
+      "bytes": 60795
+    },
+    {
+      "path": "data/history/raw/daminglv_30.txt",
+      "sha256": "42ffa44b6e2a853e49de42e75b21983e6f141a06eb2336dc625525615701fdfa",
+      "bytes": 3660
+    },
+    {
+      "path": "data/history/raw/mingtongjian_043.html",
+      "sha256": "e12994e1182c1d7bcf6385ed54000e5e6ea59324a2ccf248210e91a094e33c9a",
+      "bytes": 100078
+    },
+    {
+      "path": "data/history/raw/mingtongjian_043.txt",
+      "sha256": "c0200a0a2cb08434d196cf1ae00cd2141c035625243a82266038ec3b51718479",
+      "bytes": 50043
+    },
+    {
+      "path": "data/history/raw/daminghuidian_prefaces.html",
+      "sha256": "05080cfcd3bce024481f8795024cefcb3e88333c4c1c908862c622aee2819e4f",
+      "bytes": 70712
+    },
+    {
+      "path": "data/history/raw/daminghuidian_prefaces.txt",
+      "sha256": "59930838e391d323d019e6fa20454c0cd53786a8ec2d39387f0366a4f99babd0",
+      "bytes": 6204
+    },
+    {
+      "path": "assets/fonts/NotoSansSC.ttf",
+      "sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da",
+      "bytes": 17772300
+    },
+    {
+      "path": "assets/fonts/OFL.txt",
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+      "bytes": 4388
+    }
+  ]
+}

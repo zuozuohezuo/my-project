@@ -1,0 +1,411 @@
+{
+  "save_version": 2,
+  "config": {
+    "edicts_per_turn": 3,
+    "health_ap_thresholds": [
+      [
+        0,
+        10
+      ],
+      [
+        40,
+        20
+      ],
+      [
+        80,
+        30
+      ]
+    ],
+    "initial_health": 100,
+    "initial_year": 1500,
+    "initial_month": 1,
+    "initial_xun": 1,
+    "tax_cooldown_turns": 3,
+    "seed": 1500,
+    "turn_rules_version": 2
+  },
+  "state": {
+    "year": 1500,
+    "month": 1,
+    "xun": 1,
+    "turn_index": 0,
+    "scenario_profile": {
+      "scenario_name": "M03 · 起居日程试玩",
+      "emperor_name": "朱祐樘",
+      "era_name": "弘治",
+      "era_start_year": 1488
+    },
+    "emperor": {
+      "attributes": {
+        "logic": 50,
+        "emotional_intelligence": 50,
+        "memory": 50,
+        "insight": 50,
+        "creativity": 50,
+        "strength": 50,
+        "constitution": 50,
+        "agility": 50,
+        "perception": 50,
+        "appearance": 50,
+        "self_discipline": 50,
+        "emotional_resilience": 50,
+        "courage": 50
+      },
+      "skills": {
+        "administration": 0,
+        "military_strategy": 0,
+        "people_reading": 0,
+        "rhetoric": 0,
+        "calligraphy": 0,
+        "scholarship": 0
+      },
+      "traits": [],
+      "pressure": 0,
+      "body_conditions": [],
+      "modifiers": [],
+      "personality": {
+        "benevolence": 50,
+        "trust": 50,
+        "tradition": 50,
+        "luxury": 50,
+        "control": 50,
+        "humility": 50,
+        "partiality": 50,
+        "integrity": 50,
+        "sociability": 50
+      },
+      "objectives": []
+    },
+    "phase": "planning",
+    "health": 100,
+    "ap_capacity": 30,
+    "work_budget": 20,
+    "activity_cursor": 0,
+    "activities": [
+      {
+        "id": "activity-1",
+        "kind": "court",
+        "status": "pending",
+        "cost": 5,
+        "spent_ap": 0,
+        "stage": "planned",
+        "scene": {},
+        "summary": "",
+        "appointment_id": null,
+        "parameters": {}
+      },
+      {
+        "id": "activity-2",
+        "kind": "garden",
+        "status": "pending",
+        "cost": 1,
+        "spent_ap": 0,
+        "stage": "planned",
+        "scene": {},
+        "summary": "",
+        "appointment_id": null,
+        "parameters": {}
+      },
+      {
+        "id": "activity-3",
+        "kind": "lecture",
+        "status": "pending",
+        "cost": 1,
+        "spent_ap": 0,
+        "stage": "planned",
+        "scene": {},
+        "summary": "",
+        "appointment_id": null,
+        "parameters": {}
+      },
+      {
+        "id": "activity-4",
+        "kind": "paperwork",
+        "status": "pending",
+        "cost": 7,
+        "spent_ap": 0,
+        "stage": "planned",
+        "scene": {},
+        "summary": "",
+        "appointment_id": null,
+        "parameters": {}
+      },
+      {
+        "id": "activity-5",
+        "kind": "audience",
+        "status": "pending",
+        "cost": 4,
+        "spent_ap": 0,
+        "stage": "planned",
+        "scene": {},
+        "summary": "",
+        "appointment_id": null,
+        "parameters": {}
+      },
+      {
+        "id": "activity-6",
+        "kind": "palace",
+        "status": "pending",
+        "cost": 3,
+        "spent_ap": 0,
+        "stage": "planned",
+        "scene": {},
+        "summary": "",
+        "appointment_id": null,
+        "parameters": {}
+      },
+      {
+        "id": "activity-7",
+        "kind": "exercise",
+        "status": "pending",
+        "cost": 1,
+        "spent_ap": 0,
+        "stage": "planned",
+        "scene": {},
+        "summary": "",
+        "appointment_id": null,
+        "parameters": {}
+      },
+      {
+        "id": "activity-8",
+        "kind": "study",
+        "status": "pending",
+        "cost": 1,
+        "spent_ap": 0,
+        "stage": "planned",
+        "scene": {},
+        "summary": "",
+        "appointment_id": null,
+        "parameters": {}
+      },
+      {
+        "id": "activity-9",
+        "kind": "private",
+        "status": "pending",
+        "cost": 1,
+        "spent_ap": 0,
+        "stage": "planned",
+        "scene": {},
+        "summary": "",
+        "appointment_id": null,
+        "parameters": {}
+      },
+      {
+        "id": "activity-10",
+        "kind": "calligraphy",
+        "status": "pending",
+        "cost": 1,
+        "spent_ap": 0,
+        "stage": "planned",
+        "scene": {},
+        "summary": "",
+        "appointment_id": null,
+        "parameters": {}
+      },
+      {
+        "id": "activity-11",
+        "kind": "rest",
+        "status": "pending",
+        "cost": 1,
+        "spent_ap": 0,
+        "stage": "planned",
+        "scene": {},
+        "summary": "",
+        "appointment_id": null,
+        "parameters": {}
+      },
+      {
+        "id": "activity-12",
+        "kind": "garden",
+        "status": "pending",
+        "cost": 1,
+        "spent_ap": 0,
+        "stage": "planned",
+        "scene": {},
+        "summary": "",
+        "appointment_id": null,
+        "parameters": {}
+      },
+      {
+        "id": "activity-13",
+        "kind": "exercise",
+        "status": "pending",
+        "cost": 1,
+        "spent_ap": 0,
+        "stage": "planned",
+        "scene": {},
+        "summary": "",
+        "appointment_id": null,
+        "parameters": {}
+      },
+      {
+        "id": "activity-14",
+        "kind": "study",
+        "status": "pending",
+        "cost": 1,
+        "spent_ap": 0,
+        "stage": "planned",
+        "scene": {},
+        "summary": "",
+        "appointment_id": null,
+        "parameters": {}
+      },
+      {
+        "id": "activity-15",
+        "kind": "private",
+        "status": "pending",
+        "cost": 1,
+        "spent_ap": 0,
+        "stage": "planned",
+        "scene": {},
+        "summary": "",
+        "appointment_id": null,
+        "parameters": {}
+      }
+    ],
+    "completion_records": [],
+    "objective_record_starts": {},
+    "work_items": [
+      {
+        "id": "work-demo-1",
+        "title": "核阅地方仓储奏报",
+        "kind": "paperwork",
+        "complexity": 4,
+        "progress": 0,
+        "status": "pending"
+      },
+      {
+        "id": "work-demo-2",
+        "title": "会核河工勘报",
+        "kind": "paperwork",
+        "complexity": 7,
+        "progress": 0,
+        "status": "pending"
+      },
+      {
+        "id": "work-demo-3",
+        "title": "听取吏部用人陈述",
+        "kind": "audience",
+        "complexity": 5,
+        "progress": 0,
+        "status": "pending"
+      },
+      {
+        "id": "work-demo-4",
+        "title": "审阅宫苑修葺清册",
+        "kind": "palace",
+        "complexity": 4,
+        "progress": 0,
+        "status": "pending"
+      }
+    ],
+    "appointments": [],
+    "appointment_consequences": [],
+    "court_open": false,
+    "edict_limit": 3,
+    "edict_available": 3,
+    "edict_debt": 0,
+    "edicts_spent_this_turn": 0,
+    "month_plan": [],
+    "emergencies": [],
+    "active_emergency_id": null,
+    "pending_command": null,
+    "cooldowns": {},
+    "command_ledger": [],
+    "policy_settings": {},
+    "pending_effects": [],
+    "logs": [
+      {
+        "turn": 0,
+        "label": "开局",
+        "message": "建立演示存档；世界数值模拟尚未启用。",
+        "date": "1500年1月上旬"
+      }
+    ],
+    "world_snapshot": {
+      "scenario": "ming_1500_working_baseline",
+      "reference_year": 1500,
+      "simulation_enabled": false,
+      "regions": [
+        {
+          "id": "beizhili",
+          "name": "北直隶"
+        },
+        {
+          "id": "nanzhili",
+          "name": "南直隶"
+        },
+        {
+          "id": "shandong",
+          "name": "山东"
+        },
+        {
+          "id": "shanxi",
+          "name": "山西"
+        },
+        {
+          "id": "henan",
+          "name": "河南"
+        },
+        {
+          "id": "shaanxi",
+          "name": "陕西"
+        },
+        {
+          "id": "sichuan",
+          "name": "四川"
+        },
+        {
+          "id": "jiangxi",
+          "name": "江西"
+        },
+        {
+          "id": "huguang",
+          "name": "湖广"
+        },
+        {
+          "id": "zhejiang",
+          "name": "浙江"
+        },
+        {
+          "id": "fujian",
+          "name": "福建"
+        },
+        {
+          "id": "guangdong",
+          "name": "广东"
+        },
+        {
+          "id": "guangxi",
+          "name": "广西"
+        },
+        {
+          "id": "yunnan",
+          "name": "云南"
+        },
+        {
+          "id": "guizhou",
+          "name": "贵州"
+        }
+      ],
+      "metrics": {},
+      "notes": "人口、钱粮、民心尚未建模；历史资料独立于运行存档。"
+    },
+    "reports": [],
+    "random_state": {
+      "seed": 1500,
+      "draws": 0
+    },
+    "next_id": 16,
+    "notes": [
+      "健康→行动力阈值为0→10、40→20、80→30，属于可配置演示值。",
+      "每旬3份诏书、改税CD为3旬，属于可配置演示值。",
+      "未使用行动力不会自动补齐；须显式选择补足休息后推进。",
+      "诏书透支先扣下一旬额度；若债务超过单旬额度，演示暂按逐旬扣还。",
+      "急报仅手动注入演示，不运行自然事件与地方自主决策。",
+      "政令、活动、劝谏惩罚均只记录待模拟效果，不改变健康、钱粮、民心等世界指标。",
+      "留空参数原样保留为委派意图，本版不运行官员补全与决策。",
+      "存档记录种子及随机调用计数；本版没有随机抽取。"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "checked_at": "2026-09-06T17:00:21+00:00",
+  "status": "passed",
+  "source_count": 23,
+  "artifact_count": 46,
+  "record_counts": {
+    "people.json": 13,
+    "offices.json": 54,
+    "laws.json": 13
+  },
+  "evidence_anchor_count": 99,
+  "failures": [],
+  "scope": "本地文件校验和、来源引用、正文锚点、基础时间边界与缺省属性；不替代影印本校勘及史学审读。",
+  "known_pending": [
+    "1500精确开局旬与朝代基准由用户确认",
+    "佀钟姓名异体的影印本复校",
+    "各地官员名册与编额",
+    "洪武律与弘治问刑条例逐条版本校勘",
+    "官职名录中未逐项实现的制度差遣与实际权限"
+  ]
+}

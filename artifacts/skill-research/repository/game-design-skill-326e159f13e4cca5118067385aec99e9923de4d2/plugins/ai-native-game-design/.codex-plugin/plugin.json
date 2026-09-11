@@ -1,0 +1,41 @@
+{
+  "name": "ai-native-game-design",
+  "version": "0.2.0",
+  "description": "Design and review runtime AI gameplay and AI NPC systems with source-aware methods.",
+  "author": {
+    "name": "JupiterTheWarlock",
+    "url": "https://github.com/JupiterTheWarlock"
+  },
+  "homepage": "https://github.com/JupiterTheWarlock/game-design-skill",
+  "repository": "https://github.com/JupiterTheWarlock/game-design-skill",
+  "license": "MIT",
+  "keywords": [
+    "ai-native-gameplay",
+    "game-design",
+    "generative-ai",
+    "intelligent-npcs",
+    "ai-companions",
+    "multi-agent-societies",
+    "runtime-generation",
+    "playtesting"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "AI-Native Game Design",
+    "shortDescription": "Design and review runtime AI gameplay",
+    "longDescription": "Source-aware workflows for player-AI interfaces, runtime generation, AI companions and societies, layered memory, open narrative, adjudication, continuity, failure recovery, safety, prototypes, playtests, and AI-native design reviews.",
+    "developerName": "JupiterTheWarlock",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/JupiterTheWarlock/game-design-skill",
+    "defaultPrompt": [
+      "Review this AI-native gameplay concept",
+      "Design a bounded player-AI interaction loop",
+      "Design an AI companion memory policy",
+      "Plan tests for a multi-agent NPC society"
+    ]
+  }
+}

@@ -1,0 +1,3 @@
+* text=auto eol=lf
+verification/results/*.stdout -text -whitespace
+verification/results/*.stderr -text -whitespace

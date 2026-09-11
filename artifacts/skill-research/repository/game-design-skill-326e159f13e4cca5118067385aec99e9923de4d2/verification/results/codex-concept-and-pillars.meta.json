@@ -1,0 +1,12 @@
+{
+  "platform": "codex",
+  "platform_version": "codex-cli 0.142.0",
+  "case": "concept-and-pillars",
+  "requested_model": "gpt-5.4",
+  "case_path": "verification/cases/concept-and-pillars.md",
+  "working_directory": "C:\\Users\\GJM258\\JtheWLToolBox\\game-design-skill",
+  "returncode": 0,
+  "elapsed_seconds": 236.064,
+  "stdout": "verification/results/codex-concept-and-pillars.stdout",
+  "stderr": "verification/results/codex-concept-and-pillars.stderr"
+}

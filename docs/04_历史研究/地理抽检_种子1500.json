@@ -1,0 +1,308 @@
+{
+  "random_seed": 1500,
+  "sample_count": 30,
+  "records": [
+    {
+      "region": "北直隶",
+      "type": "县",
+      "id": "beizhili_county_cb504ae2ed",
+      "name": "河间县",
+      "parent": "河间府",
+      "source_excerpt": "河間倚。西南有滹沱河。西有滱水。西南有景和鎮巡檢司。",
+      "source_location": "明史/卷40，原始转录第 122 行",
+      "review_result": "reference_name_parent_region_consistent; not_a_1500_validity_check"
+    },
+    {
+      "region": "北直隶",
+      "type": "府州",
+      "id": "beizhili_unit_b74274486d",
+      "name": "通州",
+      "parent": "顺天府",
+      "source_excerpt": "通州 洪武初，以州治潞縣省入。西有通惠河，西南有渾河，即桑乾，至州東張家灣，俱合於白河。有張家灣巡檢司。西南有弘仁橋巡檢司。西距府四十里。領縣四：",
+      "source_location": "明史/卷40，原始转录第 36 行",
+      "review_result": "reference_name_parent_region_consistent; not_a_1500_validity_check"
+    },
+    {
+      "region": "南直隶",
+      "type": "县",
+      "id": "nanzhili_county_07d46f06a0",
+      "name": "丹阳县",
+      "parent": "镇江府",
+      "source_excerpt": "丹陽府東南。北濱大江，又有練湖。南有運河。又東有呂城鎮巡檢司，尋移鎮東。又有包港巡檢司，尋移顧巷。",
+      "source_location": "明史/卷40，原始转录第 558 行",
+      "review_result": "reference_name_parent_region_consistent; not_a_1500_validity_check"
+    },
+    {
+      "region": "南直隶",
+      "type": "府州",
+      "id": "nanzhili_unit_cf881f4026",
+      "name": "高邮州",
+      "parent": "扬州府",
+      "source_excerpt": "高郵州元高郵府，屬淮東道宣慰司。洪武元年閏七月降爲州，以州治高郵縣省入。西有運河。西北有樊梁、甓社、新開等湖。西南有白馬塘。北有張家溝、東北有時堡二巡檢司。又西有北阿鎮。東有三垛鎮。西南距府百二十里。領縣二：",
+      "source_location": "明史/卷40，原始转录第 498 行",
+      "review_result": "reference_name_parent_region_consistent; not_a_1500_validity_check"
+    },
+    {
+      "region": "山东",
+      "type": "县",
+      "id": "shandong_county_256ef3e30d",
+      "name": "长清县",
+      "parent": "济南府",
+      "source_excerpt": "長清府西南。元屬泰安州。洪武二年七月改屬府。東南有青崖山、隔馬山、方山。西南有大清河。又有沙河，自縣南流入焉，亦曰沙溝河。又東南有石都寨巡檢司。",
+      "source_location": "明史/卷41，原始转录第 34 行",
+      "review_result": "reference_name_parent_region_consistent; not_a_1500_validity_check"
+    },
+    {
+      "region": "山东",
+      "type": "府州",
+      "id": "shandong_unit_17c4aa0516",
+      "name": "东昌府",
+      "parent": "山东",
+      "source_excerpt": "東昌府元東昌路，直隸中書省。洪武初爲府。領州三，縣十五。東距布政司二百九十里。",
+      "source_location": "明史/卷41，原始转录第 137 行",
+      "review_result": "reference_name_parent_region_consistent; not_a_1500_validity_check"
+    },
+    {
+      "region": "山西",
+      "type": "县",
+      "id": "shanxi_county_3886ea53c0",
+      "name": "永和县",
+      "parent": "隰州",
+      "source_excerpt": "永和州西。西濱大河。西北有永和關，有巡檢司。又有興德關。西南有鐵羅關。三關俱與陝西濱河爲界。",
+      "source_location": "明史/卷41，原始转录第 448 行",
+      "review_result": "reference_name_parent_region_consistent; not_a_1500_validity_check"
+    },
+    {
+      "region": "山西",
+      "type": "府州",
+      "id": "shanxi_unit_9c6679609b",
+      "name": "霍州",
+      "parent": "平阳府",
+      "source_excerpt": "霍州洪武初，以州治霍邑縣省入。東南有霍山，亦曰霍太山。西有汾水，又有霍水、彘水，俱出霍山，下流俱入汾。南距府百四十五里。",
+      "source_location": "明史/卷41，原始转录第 436 行",
+      "review_result": "reference_name_parent_region_consistent; not_a_1500_validity_check"
+    },
+    {
+      "region": "河南",
+      "type": "县",
+      "id": "henan_county_b346414bf3",
+      "name": "安阳县",
+      "parent": "彰德府",
+      "source_excerpt": "安陽倚。永樂二年四月建趙王府。元末，縣廢。洪武元年九月復置。東北有韓陵山。西北有銅山，舊產銅。北有安陽河，本名洹水，自林縣流入，至北直內黃縣入衛河。又北有濁漳水。",
+      "source_location": "明史/卷42，原始转录第 232 行",
+      "review_result": "reference_name_parent_region_consistent; not_a_1500_validity_check"
+    },
+    {
+      "region": "河南",
+      "type": "府州",
+      "id": "henan_unit_78e0e35ea7",
+      "name": "归德府",
+      "parent": "河南",
+      "source_excerpt": "歸德府元直隸河南江北行省。洪武元年五月降爲州，屬開封府。嘉靖二十四年六月升爲府。領州一，縣八。西距布政司三百五十里。",
+      "source_location": "明史/卷42，原始转录第 114 行",
+      "review_result": "reference_name_parent_region_consistent; not_a_1500_validity_check"
+    },
+    {
+      "region": "陕西",
+      "type": "县",
+      "id": "shaanxi_county_9522cb863d",
+      "name": "镇安县",
+      "parent": "商州",
+      "source_excerpt": "鎮安州西南。景泰三年以咸寧縣野豬坪置，屬府。天順七年二月遷治謝家灣。成化十三年三月改屬州。西有泎水，合縣南洵水入洵陽縣界，注於漢江。北有舊縣、西有五郎壩二巡檢司。",
+      "source_location": "明史/卷42，原始转录第 308 行",
+      "review_result": "reference_name_parent_region_consistent; not_a_1500_validity_check"
+    },
+    {
+      "region": "陕西",
+      "type": "府州",
+      "id": "shaanxi_unit_d2de6476b9",
+      "name": "灵州",
+      "parent": "陕西",
+      "source_excerpt": "靈州元屬寧夏府路。洪武三年罷。弘治十三年九月復置，直隸布政司。大河在城北，洛浦河自南流入焉。南有小鹽池。距布政司九百九十三里。",
+      "source_location": "明史/卷42，原始转录第 525 行",
+      "review_result": "reference_name_parent_region_consistent; not_a_1500_validity_check"
+    },
+    {
+      "region": "四川",
+      "type": "县",
+      "id": "sichuan_county_12ee50f358",
+      "name": "灌县",
+      "parent": "成都府",
+      "source_excerpt": "灌府西少北。元灌州。洪武中，降爲縣。西北有灌口山。又有玉壘山，下有玉壘關，一名七盤關。又西南有青城山。又西有湔江，亦曰都江，亦曰湔堋江，古離堆也。岷江經此，正流引而南，支流分三道，繞成都境。有石渠水口。又有白沙水，下流入都江。又南有沱江，即郫江上源也。又西有蠶崖關巡檢司。西南有獠澤關。",
+      "source_location": "明史/卷43，原始转录第 29 行",
+      "review_result": "reference_name_parent_region_consistent; not_a_1500_validity_check"
+    },
+    {
+      "region": "四川",
+      "type": "府州",
+      "id": "sichuan_unit_9de99d2cd8",
+      "name": "龙安府",
+      "parent": "四川",
+      "source_excerpt": "龍安府元龍州，屬廣元路。明玉珍置龍州宣慰司。洪武六年十二月復置龍州。十四年正月改松潘等處安撫司。二十年正月仍改爲龍州。二十二年九月改龍州軍民千戶所。二十八年十月升龍州軍民指揮使司，後復曰龍州。宣德七年改龍州宣撫司，直隸布政司。嘉靖四十五年十二月改曰龍安府。領縣三。南距布政司四百八十里。",
+      "source_location": "明史/卷43，原始转录第 243 行",
+      "review_result": "reference_name_parent_region_consistent; not_a_1500_validity_check"
+    },
+    {
+      "region": "江西",
+      "type": "县",
+      "id": "jiangxi_county_95a8c802df",
+      "name": "安义县",
+      "parent": "南康府",
+      "source_excerpt": "安義府西南。正德十三年二月析建昌縣安義等五鄉置。東有東陽新逕水，南有龍江水，俱流合於修水。",
+      "source_location": "明史/卷43，原始转录第 477 行",
+      "review_result": "reference_name_parent_region_consistent; not_a_1500_validity_check"
+    },
+    {
+      "region": "江西",
+      "type": "府州",
+      "id": "jiangxi_unit_179c7caff3",
+      "name": "宁州",
+      "parent": "南昌府",
+      "source_excerpt": "寧州府西。元分寧縣，爲寧州治。洪武初，改縣爲寧縣，省州入焉。弘治十六年，升縣爲州。西有幕阜山，修水發源於此，下流入鄱陽湖。又東有鶴源水，源發九宮山，下流合修水。西有杉市巡檢司，後遷於崇鄉北村。南有定江、又有八疊嶺二巡檢司，廢。東南距府三百六十里。",
+      "source_location": "明史/卷43，原始转录第 447 行",
+      "review_result": "reference_name_parent_region_consistent; not_a_1500_validity_check"
+    },
+    {
+      "region": "湖广",
+      "type": "县",
+      "id": "huguang_county_2fc83f7144",
+      "name": "慈利县",
+      "parent": "澧州",
+      "source_excerpt": "慈利州西少南。元慈利州，洪武二年降爲縣。西南有天門山，有檳榔洞，與瑤分界。又西有崇山。又有歷山，澧水出焉，下流至華容縣入於洞庭湖。又西有漊水，源出四川巫山縣，東流合諸溪澗之水，至縣西匯於澧水，亦曰後江。西南有永定衛，洪武中置，二十三年八月徙於永順宣慰司之芋岸坪。西北有龍伏關，東南有後平關、黑崇關，謂之永定三關。所屬曰大庸守禦千戶所，本大庸衛，在衛西，洪武九年四月置，三十一年改爲所，曰茅岡長官司，在衛東北，正統中永定衛置。北有九溪衛，洪武二十三年六月置，有九淵、野牛、三江口、閘口四關。所屬曰守禦添平千戶所，在衛北，洪武二年置。曰守禦安福千戶所，在衛西北，洪武二十三年九月置。曰守禦麻寮千戶所，在衛北，洪武四年置。曰桑植安撫司，本桑植、荒溪等處宣撫司，在衛西北，太祖丙午年二月置，後廢，永樂四年十一月改置。",
+      "source_location": "明史/卷44，原始转录第 108 行",
+      "review_result": "reference_name_parent_region_consistent; not_a_1500_validity_check"
+    },
+    {
+      "region": "湖广",
+      "type": "府州",
+      "id": "huguang_unit_9787d80f07",
+      "name": "武昌府",
+      "parent": "湖广",
+      "source_excerpt": "武昌府元武昌路，屬湖廣行省。太祖甲辰年二月爲府。領州一，縣九：",
+      "source_location": "明史/卷44，原始转录第 8 行",
+      "review_result": "reference_name_parent_region_consistent; not_a_1500_validity_check"
+    },
+    {
+      "region": "浙江",
+      "type": "县",
+      "id": "zhejiang_county_6805fa509a",
+      "name": "建德县",
+      "parent": "严州府",
+      "source_excerpt": "建德倚。北有烏龍山。西有銅官山。又新安江自淳安縣流入，經城南，東陽江自西南來合焉。又東北有胥溪，來入江，謂之胥口，亦曰建德江。東有管界巡檢司。",
+      "source_location": "明史/卷44，原始转录第 417 行",
+      "review_result": "reference_name_parent_region_consistent; not_a_1500_validity_check"
+    },
+    {
+      "region": "浙江",
+      "type": "府州",
+      "id": "zhejiang_unit_fa2428dc46",
+      "name": "台州府",
+      "parent": "浙江",
+      "source_excerpt": "台州府元台州路，屬浙東道宣慰司。洪武初，爲府。領縣六。西北距布政司四百四十里。",
+      "source_location": "明史/卷44，原始转录第 496 行",
+      "review_result": "reference_name_parent_region_consistent; not_a_1500_validity_check"
+    },
+    {
+      "region": "福建",
+      "type": "县",
+      "id": "fujian_county_dcac9123b8",
+      "name": "建宁县",
+      "parent": "邵武府",
+      "source_excerpt": "建寧府西南。北有百丈嶺，藍溪出焉。南有綏江，源出金饒山，一名濉江，亦名寧溪，至綏城口，合藍溪流入泰寧縣界。西有西安巡檢司，本治裏心保，後遷丘坊隘，尋廢，後復置，後又遷新安保之黃泥鋪。",
+      "source_location": "明史/卷45，原始转录第 100 行",
+      "review_result": "reference_name_parent_region_consistent; not_a_1500_validity_check"
+    },
+    {
+      "region": "福建",
+      "type": "府州",
+      "id": "fujian_unit_34ed6bbdca",
+      "name": "汀州府",
+      "parent": "福建",
+      "source_excerpt": "汀州府元汀州路，屬福建道宣慰司。洪武元年爲府。領縣八。東距布政司九百七十五里。",
+      "source_location": "明史/卷45，原始转录第 72 行",
+      "review_result": "reference_name_parent_region_consistent; not_a_1500_validity_check"
+    },
+    {
+      "region": "广东",
+      "type": "县",
+      "id": "guangdong_county_3d8d3e9927",
+      "name": "翁源县",
+      "parent": "韶州府",
+      "source_excerpt": "翁源府東南。元屬英德州。洪武二年三月改屬。故城在西北，今治本長安鄉也，洪武初，遷於此。北有寶山。東有靈池山，滃溪出焉，即瀧頭水。東有桂丫山巡檢司，初治茶園鋪，後遷南浦。",
+      "source_location": "明史/卷45，原始转录第 229 行",
+      "review_result": "reference_name_parent_region_consistent; not_a_1500_validity_check"
+    },
+    {
+      "region": "广东",
+      "type": "府州",
+      "id": "guangdong_unit_1ed41188f1",
+      "name": "琼州府",
+      "parent": "广东",
+      "source_excerpt": "瓊州府元乾寧軍民安撫司。元統二年十月改爲乾寧安撫司，屬海北海南道宣慰司。洪武元年十月改爲瓊州府。二年降爲州。三年仍升爲府。領州三，縣十。東北距布政司千七百五十里。",
+      "source_location": "明史/卷45，原始转录第 324 行",
+      "review_result": "reference_name_parent_region_consistent; not_a_1500_validity_check"
+    },
+    {
+      "region": "广西",
+      "type": "县",
+      "id": "guangxi_county_47a0847f5f",
+      "name": "陀陵县",
+      "parent": "太平府",
+      "source_excerpt": "陀陵，府東北。東有淥空山，淥空江出焉，亦名綠甕江。又南有麗江。",
+      "source_location": "明史/卷45，原始转录第 550 行",
+      "review_result": "reference_name_parent_region_consistent; not_a_1500_validity_check"
+    },
+    {
+      "region": "广西",
+      "type": "府州",
+      "id": "guangxi_unit_43d06506d2",
+      "name": "凭祥州",
+      "parent": "广西",
+      "source_excerpt": "憑祥州本憑祥縣。永樂二年五月以思明府之憑祥鎮置，屬思明府。成化十八年升爲州，直隸布政司。西北有麗江，自交址廣源州流入。又南有鎮南關，一名大南關，即界首關也。距布政司二千四十里。",
+      "source_location": "明史/卷45，原始转录第 618 行",
+      "review_result": "reference_name_parent_region_consistent; not_a_1500_validity_check"
+    },
+    {
+      "region": "云南",
+      "type": "县",
+      "id": "yunnan_county_946cb18a24",
+      "name": "保山县",
+      "parent": "永昌军民府",
+      "source_excerpt": "保山倚。本金齒千戶所，洪武中置。永樂元年九月又置永昌府守禦千戶所，俱屬金齒軍民司。嘉靖三年三月改二所爲保山縣，東有哀牢山，本名安樂，夷語哀牢。西有九隆山。又東北有羅岷山，瀾滄江經其麓。又南有潞江，舊名怒江，一名喳裏江，自潞江司流入。又北有清水河，經縣東南峽口山下，伏流東出，入瀾滄江。又有潞江州，宣德八年六月置，直隸布政司，正統二年五月廢。又東北有沙木和、西北有清水關二巡檢司。又北有甸頭、南有水眼二土巡檢司。",
+      "source_location": "明史/卷46，原始转录第 225 行",
+      "review_result": "reference_name_parent_region_consistent; not_a_1500_validity_check"
+    },
+    {
+      "region": "云南",
+      "type": "府州",
+      "id": "yunnan_unit_da8d92f295",
+      "name": "弥勒州",
+      "parent": "广西府",
+      "source_excerpt": "彌勒州南有卜龍山。西有阿欲山。東南有盤江山，南盤江經其下。又東有八甸溪，南合南盤江。又西有十八寨山，嘉靖元年二月置十八寨守禦千戶所於此，直隸雲南都司。又南有捏招巡檢司。東北距府九十里。",
+      "source_location": "明史/卷46，原始转录第 116 行",
+      "review_result": "reference_name_parent_region_consistent; not_a_1500_validity_check"
+    },
+    {
+      "region": "贵州",
+      "type": "县",
+      "id": "guizhou_county_012be1ae0d",
+      "name": "龙泉县",
+      "parent": "石阡府",
+      "source_excerpt": "龍泉府西。本龍泉坪長官司，元爲思州安撫司治。洪武七年七月復置，屬思州宣慰司。永樂十二年三月來屬。萬曆二十九年四月改爲縣。北有騰雲洞。南有鄧坎等寨。",
+      "source_location": "明史/卷46，原始转录第 539 行",
+      "review_result": "reference_name_parent_region_consistent; not_a_1500_validity_check"
+    },
+    {
+      "region": "贵州",
+      "type": "府州",
+      "id": "guizhou_unit_66cc56add8",
+      "name": "平越军民府",
+      "parent": "贵州",
+      "source_excerpt": "平越軍民府元平月長官司。洪武十四年置平越守禦千戶所。十五年閏二月改爲平越衛。十七年二月升軍民指揮使司。領長官司五，屬四川布政司，尋屬貴州都司。萬曆二十九年四月置平越軍民府於衛城，以播州地益之，屬貴州布政司。東有峨黎山，又有七盤坡。東南有麻哈江，其上源即黃平州之兩岔江。南有馬場江，又有羊場河，俱東入於麻哈江。南有武勝關。西南有通津關。東南有羊場關。領衛二，州一，縣三，長官司二。西距布政司百八十里。",
+      "source_location": "明史/卷46，原始转录第 430 行",
+      "review_result": "reference_name_parent_region_consistent; not_a_1500_validity_check"
+    }
+  ],
+  "review_scope": "核对原书跨时期参考目录的名称、上级与区域，不验证1500年有效性",
+  "review_result": "30条抽样在修复后与原文名称、父级索引、大区自洽；凭祥州父级修复及同类检查见说明"
+}
